@@ -1,0 +1,22 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ADCY2	ADCY2	Biochemical Reaction	GNAI1	control	dopaminergic neuron	12472880	ADCY2,GNAI1			
+DOPA	dopamine	Biochemical Reaction	DDC	catalysis	dopaminergic neuron		DDC			
+Complex: DRD1/2/3_GNAI1_GNB1_GNG2(DRD1, DRD2, DRD3, GNAI1, GNB1, GNG2)	dopamine,Complex: DRD2/3/4(DRD2, DRD3, DRD4),GNAI1,Complex: GNG2_GNB1(GNB1, GNG2)	Biochemical Reaction			dopaminergic neuron		DRD1,DRD3,GNB1,GNAI1,DRD2,DRD4,GNG2			
+Complex: KCNK3_kcnk9(KCNK3, KCNK9)	Complex: KCNK3_kcnk9(KCNK3, KCNK9)	Biochemical Reaction	PRKACA	control	dopaminergic neuron	12882230,11875121	KCNK9,PRKACA,KCNK3			
+PPP1CA	PPP1CA	Biochemical Reaction	PPP1R1B	control	dopaminergic neuron		PPP1CA,PPP1R1B			
+PPP1R1B	PPP1R1B	Biochemical Reaction	PRKACA	catalysis	dopaminergic neuron		PPP1R1B,PRKACA			
+PPP1R1B	PPP1R1B	Biochemical Reaction	CDK5	catalysis	dopaminergic neuron		PPP1R1B,CDK5			
+PRKACA	PRKACA	Biochemical Reaction	cAMP,PPP1R1B	control	dopaminergic neuron	17194217,10433257,9232801,6087160	PPP1R1B,PRKACA			
+Complex: SNARE Complex(SEC22A, SEC22B, SNAP25, STX10, STX11, STX12, STX16, STX17, STX18, STX19, STX1A, STX1B, STX2, STX3, STX4, STX5, STX6, STX7, STX8, VAMP1, VAMP2, VAMP3, VAMP4, VAMP5, VAMP8, YKT6)	Complex: SNARE Complex(SEC22A, SEC22B, SNAP25, STX10, STX11, STX12, STX16, STX17, STX18, STX19, STX1A, STX1B, STX2, STX3, STX4, STX5, STX6, STX7, STX8, VAMP1, VAMP2, VAMP3, VAMP4, VAMP5, VAMP8, YKT6)	Biochemical Reaction	PPP1CA	control	dopaminergic neuron	14744247	STX8,STX7,STX12,STX19,STX18,STX17,STX16,SEC22A,SEC22B,STX11,STX10,SNAP25,STX6,STX5,STX1A,STX4,STX3,STX2,STX1B,PPP1CA,VAMP8,VAMP5,VAMP4,VAMP3,VAMP2,VAMP1,YKT6			
+dopamine	Complex: DRD1/2/3_GNAI1_GNB1_GNG2(DRD1, DRD2, DRD3, GNAI1, GNB1, GNG2)	Complex Assembly			dopaminergic neuron	7651368,8471125,1319557,1363862,2129115	DRD1,DRD3,GNB1,GNAI1,DRD2,GNG2			
+nicotine	Complex: CHRNA4_CHRNB2(CHRNA4, CHRNB2)	Complex Assembly			dopaminergic neuron	17597586	CHRNA4,CHRNB2	nicotine		
+nicotine	Complex: CHRNA4_CHRNB2_CHRNA5(CHRNA4, CHRNA5, CHRNB2)	Complex Assembly			dopaminergic neuron	15155845,12388584	CHRNA5,CHRNA4,CHRNB2	nicotine		
+nicotine	Complex: CHRNA4_CHRNB2_CHRNA6_CHRNA3(CHRNA3, CHRNA4, CHRNA6, CHRNB2)	Complex Assembly			dopaminergic neuron	17341654	CHRNA4,CHRNB2,CHRNA6,CHRNA3	nicotine		
+ATP	cAMP	conversion	ADCY2	catalysis	dopaminergic neuron		ADCY2			
+tyrosine	DOPA	conversion	TH	catalysis	dopaminergic neuron		TH			
+Ca++	Ca++	Transport	Complex: CHRNA4_CHRNB2_CHRNA5(CHRNA4, CHRNA5, CHRNB2),Complex: CHRNA4_CHRNB2_CHRNA6_CHRNA3(CHRNA3, CHRNA4, CHRNA6, CHRNB2)	catalysis	dopaminergic neuron		CHRNA5,CHRNA4,CHRNB2,CHRNA6,CHRNA3			
+dopamine	dopamine	Transport	SLC18A2	catalysis	dopaminergic neuron		SLC18A2			
+dopamine	dopamine	Transport	Complex: SNARE Complex(SEC22A, SEC22B, SNAP25, STX10, STX11, STX12, STX16, STX17, STX18, STX19, STX1A, STX1B, STX2, STX3, STX4, STX5, STX6, STX7, STX8, VAMP1, VAMP2, VAMP3, VAMP4, VAMP5, VAMP8, YKT6)	catalysis	dopaminergic neuron		STX8,STX7,STX12,STX19,STX18,STX17,STX16,SEC22A,SEC22B,STX11,STX10,SNAP25,STX6,STX5,STX1A,STX4,STX3,STX2,STX1B,VAMP8,VAMP5,VAMP4,VAMP3,VAMP2,VAMP1,YKT6			
+K+	K+	Transport	Complex: CHRNA4_CHRNB2(CHRNA4, CHRNB2)	catalysis	dopaminergic neuron	17597586	CHRNA4,CHRNB2			
+K+	K+	Transport	Complex: KCNK3_kcnk9(KCNK3, KCNK9)	catalysis	dopaminergic neuron		KCNK9,KCNK3			
+Na+	Na+	Transport	Complex: CHRNA4_CHRNB2(CHRNA4, CHRNB2)	catalysis	dopaminergic neuron	17597586	CHRNA4,CHRNB2			

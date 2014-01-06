@@ -1,0 +1,19 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ACTH	Glucocorticoids	Biochemical Reaction			peptide hormone secreting cell,cortical cell of adrenal gland					
+CRH	CRH	Biochemical Reaction	Glucocorticoids	control	cortical cell of adrenal gland,neuron		CRH			
+CRH	CRH	Biochemical Reaction	Glucocorticoids	control	neuroendocrine cell,cortical cell of adrenal gland		CRH			
+CRH	CRH	Biochemical Reaction			neuroendocrine cell,neuron		CRH			
+CRH	CRH	Biochemical Reaction			neuroendocrine cell,neuron		CRH			
+CRH	CRHR1	Biochemical Reaction			neuron	10393986	CRHR1,CRH			
+CRH	CRHR1	Biochemical Reaction			neuroendocrine cell,cell	9190925	CRHR1,CRH			
+CRH	CRHR1	Biochemical Reaction			peptide hormone secreting cell,neuroendocrine cell	10393986	CRHR1,CRH			
+CRHR1	POMC	Biochemical Reaction			peptide hormone secreting cell		CRHR1,POMC			
+POMC	ACTH	Biochemical Reaction			peptide hormone secreting cell	8882784	POMC			
+POMC	POMC	Biochemical Reaction	Glucocorticoids	control	peptide hormone secreting cell,cortical cell of adrenal gland		POMC			
+UCN	CRHR1	Biochemical Reaction			peptide hormone secreting cell		CRHR1,UCN			
+UCN	CRHR1	Biochemical Reaction			cell	11836334,9190925	CRHR1,UCN			
+UCN	CRHR1	Biochemical Reaction			peptide hormone secreting cell		CRHR1,UCN			
+UCN	CRHR2	Biochemical Reaction			cell	11836334	CRHR2,UCN			
+UCN	CRHR2	Biochemical Reaction			neuron		CRHR2,UCN			
+UCN2	CRHR2	Biochemical Reaction			cell	14736736	CRHR2,UCN2			
+UCN3	CRHR2	Biochemical Reaction			cell		CRHR2,UCN3			

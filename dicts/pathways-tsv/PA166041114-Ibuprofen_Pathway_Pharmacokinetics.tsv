@@ -1,0 +1,18 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+3-OH ibuprofen	carboxyibuprofen	Biochemical Reaction	CYP2C9	catalysis	hepatocyte	22226725	CYP2C9			
+ABCC2	ABCC2	Biochemical Reaction	ibuprofen	control	cell		ABCC2	ibuprofen		
+ABCC4	ABCC4	Biochemical Reaction	ibuprofen	control	cell		ABCC4	ibuprofen		
+ibuprofen	1-OH ibuprofen	Biochemical Reaction			hepatocyte	22226725		ibuprofen		
+ibuprofen	2-OH ibuprofen	Biochemical Reaction	CYP2C19,CYP2C8,CYP2C9,CYP3A4	catalysis	hepatocyte	22226725	CYP3A4,CYP2C19,CYP2C9,CYP2C8	ibuprofen		
+ibuprofen	3-OH ibuprofen	Biochemical Reaction	CYP2C19,CYP2C9	catalysis	hepatocyte	22226725	CYP2C19,CYP2C9	ibuprofen		
+ibuprofen	ibuprofen	Biochemical Reaction	AMACR	catalysis	hepatocyte	21614403	AMACR	ibuprofen		
+ibuprofen	ibuprofen	Biochemical Reaction			hepatocyte			ibuprofen		
+ibuprofen	ibuprofen-glucuronide	Biochemical Reaction	UGT1A10,UGT1A3,UGT1A9,UGT2B7	catalysis	hepatocyte	15047194	UGT1A10,UGT1A9,UGT1A3,UGT2B7	ibuprofen		
+SLC15A1	SLC15A1	Biochemical Reaction	ibuprofen	control	enterocyte		SLC15A1	ibuprofen		
+SLC22A6	SLC22A6	Biochemical Reaction	ibuprofen	control	cell		SLC22A6	ibuprofen		
+SLC22A8	SLC22A8	Biochemical Reaction	ibuprofen	control	cell		SLC22A8	ibuprofen		
+SLCO1B1	SLCO1B1	Biochemical Reaction	ibuprofen	control	hepatocyte		SLCO1B1	ibuprofen		
+SLCO1B3	SLCO1B3	Biochemical Reaction	ibuprofen	control	hepatocyte		SLCO1B3	ibuprofen		
+methotrexate	methotrexate	Transport	SLC22A6,SLC22A8	catalysis	cell		SLC22A8,SLC22A6	methotrexate		
+methotrexate	methotrexate	Transport	ABCC2,ABCC4	catalysis	cell		ABCC4,ABCC2	methotrexate		
+pravastatin	pravastatin	Transport	SLCO1B1,SLCO1B3	catalysis	hepatocyte		SLCO1B3,SLCO1B1	pravastatin		

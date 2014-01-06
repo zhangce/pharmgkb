@@ -1,0 +1,16 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+2-chloroethylamine	1,3-oxazolidin-2-one	Biochemical Reaction			cell	8699325				
+4-hydroxyifosfamide	4-ketoifosfamide	Biochemical Reaction	ADH1A,ADH1B,ADH1C,ADH4,ADH5,ADH6,ADH7	catalysis	cell	12136253,8699325	ADH4,ADH5,ADH1C,ADH6,ADH1B,ADH7,ADH1A			
+acrolein	acrylic acid	Biochemical Reaction	ALDH1A1,ALDH3A1	catalysis	cell		ALDH1A1,ALDH3A1			
+acrolein	thioether product	Biochemical Reaction	GSH	catalysis	cell	8887466				
+aldoifosfamide	4-hydroxyifosfamide	Biochemical Reaction			cell	9137530				
+aldoifosfamide	4-hydroxyifosfamide	Biochemical Reaction								
+aldoifosfamide	alcoifosfamide	Biochemical Reaction	AKR1A1,AKR1B1,AKR1B10	catalysis	cell		AKR1A1,AKR1B10,AKR1B1			
+aldoifosfamide	carboxyifosfamide	Biochemical Reaction	ALDH1A1	catalysis	cell	8699325	ALDH1A1			
+aldoifosfamide	acrolein,isophosphoramide mustard	Biochemical Reaction			cell	8699325,2295063,2754703				
+chloro-acetaldehyde	chloroacetic acid	Biochemical Reaction	ALDH2	catalysis	cell		ALDH2			
+isophosphoramide mustard	2-chloroethylamine	Biochemical Reaction			cell	8699325,6821629				
+isophosphoramide mustard	aziridine	Biochemical Reaction			cell	7783148				
+4-hydroxyifosfamide	4-hydroxyifosfamide	Transport			cell					
+aldoifosfamide	aldoifosfamide	Transport			cell					
+chloro-acetaldehyde	chloro-acetaldehyde	Transport			cell					

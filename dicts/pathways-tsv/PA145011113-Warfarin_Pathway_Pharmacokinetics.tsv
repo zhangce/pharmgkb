@@ -1,0 +1,10 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+warfarin	10-hydroxy R-warfarin	Biochemical Reaction	CYP3A4	catalysis	hepatocyte	16035367,11353757,9014207	CYP3A4	warfarin		
+warfarin	4-hydroxywarfarin	Biochemical Reaction	CYP2C18,CYP2C9	catalysis	hepatocyte	11353757,9014207,8873220	CYP2C9,CYP2C18	warfarin		
+warfarin	6-hydroxy R-warfarin	Biochemical Reaction	CYP1A1,CYP1A2,CYP2C19	catalysis	hepatocyte	9014207,8689941	CYP2C19,CYP1A1,CYP1A2	warfarin		
+warfarin	6-hydroxy S-warfarin	Biochemical Reaction	CYP2C9	catalysis	hepatocyte	15970795,12621390,11926893,11455026,10073515,9014207,1581537	CYP2C9	warfarin		
+warfarin	7-hydroxy R-warfarin	Biochemical Reaction	CYP1A1,CYP1A2,CYP2C8	catalysis	hepatocyte	9416970,9014207	CYP1A1,CYP2C8,CYP1A2	warfarin		
+warfarin	7-hydroxy S-warfarin	Biochemical Reaction	CYP2C9	catalysis	hepatocyte	15970795,12621390,11926893,11455026,9014207,1581537	CYP2C9	warfarin		
+warfarin	8-hydroxy R-warfarin	Biochemical Reaction	CYP1A1,CYP1A2,CYP2C19	catalysis	hepatocyte	9014207,8723744,8689941	CYP2C19,CYP1A1,CYP1A2	warfarin		
+warfarin	dehydrowarfarin	Biochemical Reaction			hepatocyte	9014207		warfarin		
+warfarin	warfarin	Transport	ABCB1	catalysis	hepatocyte	14676821	ABCB1	warfarin		

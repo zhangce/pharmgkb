@@ -1,0 +1,13 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+cyclosporine	AM1, AM9, AM4N, Other metabolites	Biochemical Reaction	CYP3A4,CYP3A5	catalysis	hepatocyte		CYP3A4,CYP3A5	cyclosporine		
+cyclosporine	AM1, AM9, AM4N, Other metabolites	Biochemical Reaction	CYP3A4,CYP3A5	catalysis	enterocyte		CYP3A4,CYP3A5	cyclosporine		
+tacrolimus	13-O-Demethyl-tacrolimus, 31-O-Demethyl-tacrolimus, Other metabolites	Biochemical Reaction	CYP3A4,CYP3A5	catalysis	enterocyte		CYP3A4,CYP3A5	tacrolimus		
+tacrolimus	13-O-Demethyl-tacrolimus, 31-O-Demethyl-tacrolimus, Other metabolites	Biochemical Reaction	CYP3A4,CYP3A5	catalysis	hepatocyte		CYP3A4,CYP3A5	tacrolimus		
+cyclosporine	cyclosporine	Transport			enterocyte	15041303,6129301		cyclosporine		
+cyclosporine	cyclosporine	Transport			lymphocyte,hepatocyte	6129301		cyclosporine		
+cyclosporine	cyclosporine	Transport	ABCB1	catalysis	enterocyte	18978522,9333100,7681059	ABCB1	cyclosporine		
+cyclosporine	cyclosporine	Transport			enterocyte,hepatocyte			cyclosporine		
+tacrolimus	tacrolimus	Transport			enterocyte	15041303,15244495		tacrolimus		
+tacrolimus	tacrolimus	Transport			enterocyte,hepatocyte			tacrolimus		
+tacrolimus	tacrolimus	Transport	ABCB1	catalysis	enterocyte	15919446,7681059	ABCB1	tacrolimus		
+tacrolimus	tacrolimus	Transport			lymphocyte,hepatocyte	15041303		tacrolimus		

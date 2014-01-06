@@ -1,0 +1,5 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+Platinum compounds		Transport			cell			Platinum compounds		
+Platinum compounds	Platinum compounds	Transport	ABCC2,ABCG2	catalysis	cell		ABCC2,ABCG2	Platinum compounds		
+Platinum compounds	Platinum compounds	Transport	SLC31A1	catalysis	cell		SLC31A1	Platinum compounds		
+Platinum compounds	Platinum compounds	Transport	ATP7A,ATP7B	catalysis	cell		ATP7A,ATP7B	Platinum compounds		

@@ -1,0 +1,12 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+DCK	DCK	Biochemical Reaction	dNTPs	control	cell		DCK			
+RRM1,RRM2,RRM2B	RRM1,RRM2,RRM2B	Biochemical Reaction	gemcitabine,gemcitabine	control	cell		RRM2,RRM1,RRM2B	gemcitabine		
+dNDPs	dNTPs	conversion			cell					
+gemcitabine	gemcitabine	conversion	DCK	catalysis	cell		DCK	gemcitabine		
+gemcitabine	gemcitabine	conversion	NT5C	catalysis	cell		NT5C	gemcitabine		
+gemcitabine	gemcitabine	conversion	CMPK1	catalysis	cell		CMPK1	gemcitabine		
+gemcitabine	gemcitabine	conversion			cell			gemcitabine		
+NDPs	dNDPs	conversion	RRM1,RRM2,RRM2B	catalysis	cell		RRM2,RRM1,RRM2B			
+dNTPs	dNTPs	Transport			cell					
+gemcitabine	gemcitabine	Transport	SLC28A1,SLC28A3,SLC29A1	catalysis	cell		SLC29A1,SLC28A1,SLC28A3	gemcitabine		
+gemcitabine	gemcitabine	Transport			cell			gemcitabine		

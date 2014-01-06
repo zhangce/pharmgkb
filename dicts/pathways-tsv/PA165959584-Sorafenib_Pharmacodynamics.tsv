@@ -1,0 +1,14 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+AKT1	AKT1	Biochemical Reaction	PIK3C2A,PIK3C2B,PIK3CA,PIK3CB,PIK3CD,PIK3CG,PIK3R1,PIK3R2,PIK3R3	control	endothelial cell		PIK3CG,AKT1,PIK3CB,PIK3C2A,PIK3C2B,PIK3CD,PIK3CA,PIK3R3,PIK3R1,PIK3R2			
+BRAF	BRAF	Biochemical Reaction	HRAS,KRAS,NRAS,sorafenib	control	endothelial cell	17016424,15466206	NRAS,HRAS,KRAS,BRAF	sorafenib		
+FGFR1	FGFR1	Biochemical Reaction	sorafenib	control	endothelial cell	17016424,15466206	FGFR1	sorafenib		
+FLT3	FLT3	Biochemical Reaction	sorafenib	control	endothelial cell	17016424,15466206	FLT3	sorafenib		
+KIT	KIT	Biochemical Reaction	sorafenib	control	endothelial cell	17016424,15466206	KIT	sorafenib		
+MAP2K1,MAP2K2	MAP2K1,MAP2K2	Biochemical Reaction	BRAF,RAF1	control	endothelial cell		BRAF,MAP2K1,MAP2K2,RAF1			
+MAPK1,MAPK3	MAPK1,MAPK3	Biochemical Reaction	MAP2K1,MAP2K2	control	endothelial cell		MAPK1,MAP2K1,MAP2K2,MAPK3			
+PDGFRB	PDGFRB	Biochemical Reaction	sorafenib	control	endothelial cell	17016424,15466206	PDGFRB	sorafenib		
+PIK3C2A,PIK3C2B,PIK3CA,PIK3CB,PIK3CD,PIK3CG,PIK3R1,PIK3R2,PIK3R3	PIK3C2A,PIK3C2B,PIK3CA,PIK3CB,PIK3CD,PIK3CG,PIK3R1,PIK3R2,PIK3R3	Biochemical Reaction	FLT1,FLT4,KDR	control	endothelial cell		PIK3CG,FLT1,PIK3CB,PIK3C2A,FLT4,PIK3C2B,PIK3CD,PIK3CA,PIK3R3,PIK3R1,KDR,PIK3R2			
+RAF1	RAF1	Biochemical Reaction	HRAS,KRAS,NRAS,sorafenib	control	endothelial cell	17016424,15466206	NRAS,HRAS,KRAS,RAF1	sorafenib		
+HRAS,KRAS,NRAS	HRAS,KRAS,NRAS	Biochemical Reaction	FGFR1,FLT3,KIT,PDGFRB,RET,FLT1,FLT4,KDR	control	endothelial cell		FGFR1,NRAS,RET,HRAS,FLT1,KRAS,FLT3,FLT4,PDGFRB,KIT,KDR			
+RET	RET	Biochemical Reaction	sorafenib	control	endothelial cell	16507829	RET	sorafenib		
+FLT1,FLT4,KDR	FLT1,FLT4,KDR	Biochemical Reaction	sorafenib	control	endothelial cell	17016424,15466206	FLT1,FLT4,KDR	sorafenib		

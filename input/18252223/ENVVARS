@@ -1,0 +1,11 @@
+chtcruntop = /scratch/czhang/journal_wrapper/ChtcRun
+cmdtorun = sh do.sh
+file = 18252223
+jobfolder = /scratch/czhang/journal_wrapper/ChtcRun/pharm/18252223/
+jobsubdag = /scratch/czhang/journal_wrapper/ChtcRun/RS_pharm.13/18252223/18252223_dag
+jobtemplateloc = /scratch/czhang/journal_wrapper/ChtcRun
+passtochtcwrapper = 
+runfolder = /scratch/czhang/journal_wrapper/ChtcRun/RS_pharm.13/18252223/
+sharedfolder = /scratch/czhang/journal_wrapper/ChtcRun/pharm/shared/
+submitfileloc = /scratch/czhang/journal_wrapper/ChtcRun/RS_pharm.13/18252223
+type = Other

@@ -1,0 +1,17 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+N,N,O-tridesmethyl-tramadol	N,N,O-tridesmethyl-tramadol conjugates	Biochemical Reaction			hepatocyte					
+N,N-didesmethyl-tramadol	N,N,O-tridesmethyl-tramadol	Biochemical Reaction			hepatocyte	11454734				
+N,O-didesmethyl-tramadol	N,N,O-tridesmethyl-tramadol	Biochemical Reaction			hepatocyte	11454734				
+N,O-didesmethyl-tramadol	N,O-didesmethyl-tramadol conjugates	Biochemical Reaction			hepatocyte	11454734				
+N-desmethyl-tramadol	N,N-didesmethyl-tramadol	Biochemical Reaction	CYP2B6,CYP3A4	catalysis	hepatocyte	11454734	CYP3A4,CYP2B6			
+N-desmethyl-tramadol	N,O-didesmethyl-tramadol	Biochemical Reaction	CYP2D6	catalysis	hepatocyte	11454734	CYP2D6			
+O-desmethyl-tramadol	N,O-didesmethyl-tramadol	Biochemical Reaction	CYP2D6	catalysis	hepatocyte	11454734	CYP2D6			
+O-desmethyl-tramadol	O-desmethyl-tramadol glucuronide	Biochemical Reaction	UGT1A8,UGT2B7	catalysis	hepatocyte	20797434	UGT1A8,UGT2B7			
+tramadol	N-desmethyl-tramadol	Biochemical Reaction	CYP2B6,CYP3A4	catalysis	hepatocyte	11454734	CYP3A4,CYP2B6	tramadol		
+tramadol	O-desmethyl-tramadol	Biochemical Reaction	CYP2D6	catalysis	hepatocyte	11454734	CYP2D6	tramadol		
+N,N,O-tridesmethyl-tramadol conjugates	N,N,O-tridesmethyl-tramadol conjugates	Transport			hepatocyte					
+N,O-didesmethyl-tramadol conjugates	N,O-didesmethyl-tramadol conjugates	Transport			hepatocyte					
+O-desmethyl-tramadol glucuronide	O-desmethyl-tramadol glucuronide	Transport	ABCC2	catalysis	hepatocyte		ABCC2			
+O-desmethyl-tramadol	O-desmethyl-tramadol	Transport			hepatocyte	21562485				
+O-desmethyl-tramadol	O-desmethyl-tramadol	Transport	SLC22A1	catalysis	hepatocyte	21562485	SLC22A1			
+tramadol	tramadol	Transport			hepatocyte			tramadol		

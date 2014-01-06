@@ -1,0 +1,20 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ADCY1,ADCY2,ADCY3,ADCY4,ADCY5,ADCY6,ADCY7,ADCY8,ADCY9	ADCY1,ADCY2,ADCY3,ADCY4,ADCY5,ADCY6,ADCY7,ADCY8,ADCY9	Biochemical Reaction	GNAS	control	parietal cell	17569740	ADCY3,ADCY4,ADCY1,ADCY2,ADCY9,ADCY7,ADCY8,ADCY5,ADCY6,GNAS			
+AKT3	AKT3	Biochemical Reaction	PIK3C2A,PIK3C2B,PIK3R5	control	parietal cell	17569740	PIK3C2A,PIK3C2B,PIK3R5,AKT3			
+ATP	cAMP	Biochemical Reaction	ADCY1,ADCY2,ADCY3,ADCY4,ADCY5,ADCY6,ADCY7,ADCY8,ADCY9	catalysis	parietal cell	9458779	ADCY3,ADCY4,ADCY1,ADCY2,ADCY9,ADCY7,ADCY8,ADCY5,ADCY6			
+Complex: ATP4A/B(ATP4A, ATP4B)	Complex: ATP4A/B(ATP4A, ATP4B)	Biochemical Reaction	Proton pump inhibitors - H+	control	parietal cell	10963283	ATP4A,ATP4B			
+cAMP	AMP	Biochemical Reaction	PDE3A	catalysis	parietal cell	7935318	PDE3A			
+CASR	CASR	Biochemical Reaction	calcium	control	parietal cell	17310098	CASR			
+CCKBR	CCKBR	Biochemical Reaction	Gastrin	control	parietal cell	1373504	CCKBR			
+CHRM3	CHRM3	Biochemical Reaction	Acetylcholine	control	parietal cell	15691866	CHRM3			
+GNAS	GNAS	Biochemical Reaction	HRH2	control	parietal cell	17569740	HRH2,GNAS			
+HRH2	HRH2	Biochemical Reaction	Histamine	control	parietal cell	6246807	HRH2			
+PIK3C2A,PIK3C2B,PIK3R5	PIK3C2A,PIK3C2B,PIK3R5	Biochemical Reaction	HRH2	control	parietal cell	9255069	HRH2,PIK3C2A,PIK3C2B,PIK3R5			
+PIP2	PIP3	Biochemical Reaction	PIK3C2A,PIK3C2B,PIK3R5	catalysis	parietal cell	11395417	PIK3C2A,PIK3C2B,PIK3R5			
+AKAP1,AKAP2	AKAP1,AKAP2	Biochemical Reaction	cAMP	control	parietal cell	2987257	AKAP1,AKAP2			
+PRKCA,PRKCB,PRKCG,PRKCH,PRKCI,PRKCZ,PRKD1	PRKCA,PRKCB,PRKCG,PRKCH,PRKCI,PRKCZ,PRKD1	Biochemical Reaction	PLCB1,PLCB2,PLCB3,PLCB4,PLCD1,PLCD3,PLCD4,PLCE1,PLCG1,PLCG2,PLCH1,PLCH2,PLCL1,PLCL2,PLCZ1	control	parietal cell	17310098	PLCZ1,PRKCA,PRKCZ,PRKCI,PRKCH,PRKCG,PRKCB,PLCL2,PRKD1,PLCL1,PLCE1,PLCB3,PLCB4,PLCG1,PLCH2,PLCH1,PLCG2,PLCD3,PLCD4,PLCD1,PLCB1,PLCB2			
+PLCB1,PLCB2,PLCB3,PLCB4,PLCD1,PLCD3,PLCD4,PLCE1,PLCG1,PLCG2,PLCH1,PLCH2,PLCL1,PLCL2,PLCZ1	PLCB1,PLCB2,PLCB3,PLCB4,PLCD1,PLCD3,PLCD4,PLCE1,PLCG1,PLCG2,PLCH1,PLCH2,PLCL1,PLCL2,PLCZ1	Biochemical Reaction	CASR	control	parietal cell	17310098	PLCZ1,CASR,PLCL2,PLCL1,PLCB3,PLCE1,PLCB4,PLCG1,PLCH2,PLCG2,PLCH1,PLCD3,PLCD4,PLCD1,PLCB1,PLCB2			
+Proton pump inhibitors	Proton pump inhibitors - H+	Biochemical Reaction			parietal cell	10963283		Proton pump inhibitors		
+SSTR2	SSTR2	Biochemical Reaction	Somatostatin	control	parietal cell	7523214	SSTR2			
+H+	H+	Transport	Complex: ATP4A/B(ATP4A, ATP4B)	catalysis	parietal cell	6317787	ATP4A,ATP4B			
+potassium	potassium	Transport	Complex: ATP4A/B(ATP4A, ATP4B)	catalysis	parietal cell	6317787,4127917	ATP4A,ATP4B			

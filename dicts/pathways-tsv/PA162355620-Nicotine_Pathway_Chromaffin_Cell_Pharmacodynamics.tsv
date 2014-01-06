@@ -1,0 +1,7 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+CACNA1C,CACNA1G	CACNA1C,CACNA1G	Biochemical Reaction		control	chromaffin cell	18005395	CACNA1G,CACNA1C			
+nicotine	Complex: CHRNA3-CHRNB4(CHRNA3, CHRNB4)	Complex Assembly			chromaffin cell	18005395,12098588,11602335	CHRNB4,CHRNA3	nicotine		
+Ca++	Ca++	Transport	CACNA1C,CACNA1G	catalysis	chromaffin cell	18021322	CACNA1G,CACNA1C			
+epinephrine	epinephrine	Transport	Ca++	catalysis	blood cell,chromaffin cell	18021322				
+K+	K+	Transport	Complex: CHRNA3-CHRNB4(CHRNA3, CHRNB4)	catalysis	chromaffin cell		CHRNB4,CHRNA3			
+Na+	Na+	Transport	Complex: CHRNA3-CHRNB4(CHRNA3, CHRNB4)	catalysis	chromaffin cell		CHRNB4,CHRNA3			

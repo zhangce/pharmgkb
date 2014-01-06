@@ -1,0 +1,8 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+metformin	metformin	Transport	SLC22A1	catalysis	enterocyte		SLC22A1	metformin		
+metformin	metformin	Transport	SLC22A1	catalysis	cell		SLC22A1	metformin		
+metformin	metformin	Transport	SLC22A3,SLC29A4	catalysis	enterocyte		SLC29A4,SLC22A3	metformin		
+metformin	metformin	Transport	SLC22A1,SLC22A3	catalysis	hepatocyte	21241070,18384255	SLC22A3,SLC22A1	metformin		
+metformin	metformin	Transport	SLC27A1,SLC27A2	catalysis	cell	19332510,19164462,18674516,17509534	SLC27A1,SLC27A2	metformin		
+metformin	metformin	Transport	cimetidine,SLC22A2	catalysis,control	cell,hepatocyte		SLC22A2	cimetidine,metformin		
+metformin	metformin	Transport	SLC47A1	catalysis	hepatocyte		SLC47A1	metformin		

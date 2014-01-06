@@ -1,0 +1,22 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ATP1A1	ATP1A1	Biochemical Reaction	ADD1,ADRBK1,ADRBK2,ARRB2,ATP,eplerenone,MAPK1,MAPK3,NEDD4L,PPP2CA,PRKAA2,PRKCE,ZEB1	control	cell	22433860,22162761,22242112,17544362,12639909,11007967	MAPK1,ARRB2,PPP2CA,MAPK3,ADRBK2,ADRBK1,ATP1A1,ZEB1,PRKAA2,NEDD4L,PRKCE,ADD1	eplerenone		
+CLCNKA	CLCNKA	Biochemical Reaction	BSND	control	cell	21503667	BSND,CLCNKA			
+CLCNKB	CLCNKB	Biochemical Reaction	BSND	control	cell	21503667	BSND,CLCNKB			
+FXYD2	FXYD2	Biochemical Reaction	ARNT	control	cell	21130072	FXYD2,ARNT			
+KCNJ1	KCNJ1	Biochemical Reaction	WNK1,WNK4	control	cell	22405999	WNK4,WNK1,KCNJ1			
+NEDD4L	NEDD4L	Biochemical Reaction	SGK1	control	cell	21852580	SGK1,NEDD4L			
+OXSR1	OXSR1	Biochemical Reaction	STK39	control	cell	21907141	STK39,OXSR1			
+SCNN1A,SCNN1B,SCNN1G	SCNN1A,SCNN1B,SCNN1G	Biochemical Reaction	amiloride,NEDD4L,triamterene,WNK1,WNK4	control	cell	22573384,22405999,21852580	WNK4,WNK1,NEDD4L,SCNN1G,SCNN1B,SCNN1A	triamterene,amiloride		
+SGK1	SGK1	Biochemical Reaction	aldosterone	control	cell	21852580	SGK1			
+SLC12A1	SLC12A1	Biochemical Reaction	ADRBK1,OXSR1,sulfonamides, plain	control	cell	21503667,21972418,17544362	SLC12A1,ADRBK1,OXSR1	sulfonamides, plain		
+SLC12A3	SLC12A3	Biochemical Reaction	NEDD4L,STK39,Thiazides, plain,WNK3,WNK4	control	cell	22405999,21907141,21610494,21852580,12590198,10653443,9167652	SLC12A3,WNK4,WNK3,STK39,NEDD4L	Thiazides, plain		
+STK39	STK39	Biochemical Reaction	WNK1,WNK3,WNK4	control	cell	22820370,21907141,21610494	WNK4,WNK1,WNK3,STK39			
+WNK3	WNK3	Biochemical Reaction	WNK1	control	cell	22405999	WNK1,WNK3			
+WNK4	WNK4	Biochemical Reaction	angiotensin II,WNK1	control	cell	22820370	WNK4,WNK1			
+Cl-	Cl-	Transport	CLCNKA,CLCNKB	catalysis	cell	21503667	CLCNKA,CLCNKB			
+Cl-	Cl-	Transport	SLC12A1,SLC12A3	catalysis	cell	15044637,10653443	SLC12A1,SLC12A3			
+K2+	K2+	Transport	KCNJ1	catalysis	cell	15044637	KCNJ1			
+K2+	K2+	Transport	ATP1A1	catalysis	cell		ATP1A1			
+K2+	K2+	Transport	SLC12A1	catalysis	cell	15044637	SLC12A1			
+Na+	Na+	Transport	ATP1A1	catalysis	cell	1328175	ATP1A1			
+Na+	Na+	Transport	SCNN1A,SCNN1B,SCNN1G,SLC12A1,SLC12A3	catalysis	cell	15044637,10653443	SLC12A1,SLC12A3,SCNN1G,SCNN1B,SCNN1A			

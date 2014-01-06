@@ -1,0 +1,2280 @@
+Use of uninitialized value $version in concatenation (.) or string at ./chtcinnerwrapper line 103, <MA> line 171.
+What do we have for version? <>
+--version should be used for Matlab, R and Python
+Controls: <do.sh>
+Use of uninitialized value $tarball in concatenation (.) or string at ./chtcinnerwrapper line 280.
+Use of uninitialized value $installfrom in concatenation (.) or string at ./chtcinnerwrapper line 280.
+Running: <Other   sh 18252223 do.sh>
+Running here: opt-a004.discovery.wisc.edu
+_CONDOR_ANCESTOR_6115=11540:1387413344:4083250487
+_CONDOR_ANCESTOR_11540=77253:1388953727:1751678213
+_CONDOR_ANCESTOR_77253=77260:1388953728:1616077016
+_CONDOR_ANCESTOR_19579=19583:1388864352:1088271059
+_CONDOR_ANCESTOR_19583=30554:1388952470:200403617
+PATH=/usr/local/bin:/usr/kerberos/bin:/usr/bin:/bin
+_CONDOR_DAGMAN_LOG=/scratch/czhang/journal_wrapper/ChtcRun/RS_pharm.13/mydag.dag.dagman.out
+MAIL=/var/spool/mail/czhang
+LD_LIBRARY_PATH=:/progs/czhang/sigmod_repeat/Elementary0.3/Elementary0.3/lib/urcu/lib/:/progs/czhang/software/gcc/lib64/:/progs/czhang/software/gcc/lib/:/scratch/shriram/0.3/Elementary0.3/lib/urcu/lib/:/raid/czhang/software/mysql/lib/
+CVS_RSH=ssh
+LANG=en_US.UTF-8
+_CONDOR_SLOT=slot14
+SSH_CONNECTION=2607:f388:108e:1201::1018 50108 2607:f388:108e:1201::1032 22
+PERL5OPT=-I/mnt/ws/home/czhang/perl/lib/perl5 -I/mnt/ws/home/czhang/perl/share/perl5
+_CONDOR_SCHEDD_ADDRESS_FILE=/var/lib/condor/spool/.schedd_address
+TMPDIR=/var/lib/condor/execute/dir_77253
+_CONDOR_SCRATCH_DIR=/var/lib/condor/execute/dir_77253
+_CONDOR_JOB_IWD=/var/lib/condor/execute/dir_77253
+TEMP=/var/lib/condor/execute/dir_77253
+QTINC=/usr/lib64/qt-3.3/include
+_CONDOR_SCHEDD_DAEMON_AD_FILE=/var/lib/condor/spool/.schedd_classad
+SSH_CLIENT=2607:f388:108e:1201::1018 50108 22
+SHELL=/bin/bash
+_CONDOR_JOB_PIDS=
+PWD=/raid/czhang/journal_wrapper/ChtcRun/RS_pharm.13
+_=/usr/bin/condor_submit_dag
+QTDIR=/usr/lib64/qt-3.3
+SSH_TTY=/dev/pts/0
+_CONDOR_DAGMAN_CONFIG_FILE=/scratch/czhang/journal_wrapper/ChtcRun/RS_pharm.13/dagman_config
+QTLIB=/usr/lib64/qt-3.3/lib
+MASTER_DATA_DIRECTORY=/scratch/shriram/greenplum-data/master/gp-1
+USER=czhang
+HISTSIZE=1000
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+TMP=/var/lib/condor/execute/dir_77253
+_CONDOR_MAX_DAGMAN_LOG=0
+HISTCONTROL=ignoredups
+CONDOR_ID=1048872.0
+_CONDOR_JOB_AD=/var/lib/condor/execute/dir_77253/.job.ad
+KRB5CCNAME=FILE:/tmp/krb5cc_694684599_yITmg29250
+SHLVL=1
+CONDOR_PARENT_ID=opt-a012:30554:1388952470
+HOSTNAME=opt-a012.discovery.wisc.edu
+HOME=/mnt/ws/home/czhang
+TERM=xterm-256color
+CHTCUTILS=/usr/share/chtc-utils
+OLDPWD=/raid/czhang/journal_wrapper/ChtcRun
+_CONDOR_MACHINE_AD=/var/lib/condor/execute/dir_77253/.machine.ad
+LOGNAME=czhang
+
+
+ ******** My Verison = <<<<1.08>>>> 
+
+Starting to run <sh> <18252223> <do.sh>
+Use of uninitialized value $tarball in concatenation (.) or string at ./chtcinnerwrapper line 306.
+Use of uninitialized value $installfrom in concatenation (.) or string at ./chtcinnerwrapper line 306.
+Using <Other> <> <>
+Filesystem     1K-blocks   Used Available Use% Mounted on
+/dev/sda2      516061624 287680 489559544   1% /var/lib/condor
+/var/lib/condor/execute/dir_77253
+URL: <<http://proxy.chtc.wisc.edu/SQUID/>>
+Curl attempt:<curl -H "Pragma:" --fail -o SLIBS1.tar.gz http://proxy.chtc.wisc.edu/SQUID/SLIBS1.tar.gz>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 4593k  100 4593k    0     0  89.8M      0 --:--:-- --:--:-- --:--:-- 93.4M
+Curl result <0>
+TYPE = Other, checking for operating system dependent bin for<sl6>
+In HandleSl5Sl6Bins for OS <sl6> ******************************************
+/var/lib/condor/execute/dir_77253
+AuditLog.18252223
+chtcinnerwrapper
+ChtcWrapper18252223.out
+condor_exec.exe
+_condor_stderr
+_condor_stdout
+CURLTIME_77260
+do.sh
+input.pdf
+SLIBS1.tar.gz
+SS
+URLS
+looking to untar <sl6bin.tar.gz> ********************************************
+looking for bin <sl6bin> ********************************************
+HASHBIN has value ZERO ???????????????? *************************
+version not defined. No runtime needed. Moving on.
+SANDBOX SPACE:
+20M	.
+Tar file to extract is <18252223.tar.gz>
+URL fetch requested for </czhang/k2pdfopt>
+URL: <<http://proxy.chtc.wisc.edu/SQUID/>>
+Curl attempt:<curl -H "Pragma:" --fail -o k2pdfopt http://proxy.chtc.wisc.edu/SQUID//czhang/k2pdfopt>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 8211k  100 8211k    0     0   101M      0 --:--:-- --:--:-- --:--:--  105M
+Curl result <0>
+NOT Unpacking k2pdfopt
+URL fetch requested for </czhang/cuneiform.zip>
+URL: <<http://proxy.chtc.wisc.edu/SQUID/>>
+Curl attempt:<curl -H "Pragma:" --fail -o cuneiform.zip http://proxy.chtc.wisc.edu/SQUID//czhang/cuneiform.zip>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  5  121M    5 6217k    0     0  71.8M      0  0:00:01 --:--:--  0:00:01 73.1M 94  121M   94  114M    0     0   105M      0  0:00:01  0:00:01 --:--:--  105M100  121M  100  121M    0     0   106M      0  0:00:01  0:00:01 --:--:--  106M
+Curl result <0>
+NOT Unpacking cuneiform.zip
+URL fetch requested for </czhang/ocr2.zip>
+URL: <<http://proxy.chtc.wisc.edu/SQUID/>>
+Curl attempt:<curl -H "Pragma:" --fail -o ocr2.zip http://proxy.chtc.wisc.edu/SQUID//czhang/ocr2.zip>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 90  110M   90 99.9M    0     0   108M      0  0:00:01 --:--:--  0:00:01  108M100  110M  100  110M    0     0   108M      0  0:00:01  0:00:01 --:--:--  108M
+Curl result <0>
+NOT Unpacking ocr2.zip
+URL fetch requested for </czhang/nlp3.jar>
+URL: <<http://proxy.chtc.wisc.edu/SQUID/>>
+Curl attempt:<curl -H "Pragma:" --fail -o nlp3.jar http://proxy.chtc.wisc.edu/SQUID//czhang/nlp3.jar>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 51  182M   51 93.5M    0     0   105M      0  0:00:01 --:--:--  0:00:01  105M 98  182M   98  179M    0     0  94.9M      0  0:00:01  0:00:01 --:--:-- 95.0M100  182M  100  182M    0     0  95.3M      0  0:00:01  0:00:01 --:--:-- 95.4M
+Curl result <0>
+NOT Unpacking nlp3.jar
+Running here: opt-a004.discovery.wisc.edu
+_CONDOR_ANCESTOR_6115=11540:1387413344:4083250487
+_CONDOR_ANCESTOR_11540=77253:1388953727:1751678213
+_CONDOR_ANCESTOR_77253=77260:1388953728:1616077016
+_CONDOR_ANCESTOR_19579=19583:1388864352:1088271059
+_CONDOR_ANCESTOR_19583=30554:1388952470:200403617
+PATH=.:/usr/local/bin:/usr/kerberos/bin:/usr/bin:/bin
+_CONDOR_DAGMAN_LOG=/scratch/czhang/journal_wrapper/ChtcRun/RS_pharm.13/mydag.dag.dagman.out
+MAIL=/var/spool/mail/czhang
+LD_LIBRARY_PATH=/var/lib/condor/execute/dir_77253/SS::/progs/czhang/sigmod_repeat/Elementary0.3/Elementary0.3/lib/urcu/lib/:/progs/czhang/software/gcc/lib64/:/progs/czhang/software/gcc/lib/:/scratch/shriram/0.3/Elementary0.3/lib/urcu/lib/:/raid/czhang/software/mysql/lib/
+CVS_RSH=ssh
+LANG=en_US.UTF-8
+_CONDOR_SLOT=slot14
+SSH_CONNECTION=2607:f388:108e:1201::1018 50108 2607:f388:108e:1201::1032 22
+PERL5OPT=-I/mnt/ws/home/czhang/perl/lib/perl5 -I/mnt/ws/home/czhang/perl/share/perl5
+_CONDOR_SCHEDD_ADDRESS_FILE=/var/lib/condor/spool/.schedd_address
+TMPDIR=/var/lib/condor/execute/dir_77253
+_CONDOR_SCRATCH_DIR=/var/lib/condor/execute/dir_77253
+_CONDOR_JOB_IWD=/var/lib/condor/execute/dir_77253
+TEMP=/var/lib/condor/execute/dir_77253
+QTINC=/usr/lib64/qt-3.3/include
+_CONDOR_SCHEDD_DAEMON_AD_FILE=/var/lib/condor/spool/.schedd_classad
+SSH_CLIENT=2607:f388:108e:1201::1018 50108 22
+SHELL=/bin/bash
+_CONDOR_JOB_PIDS=
+PWD=/raid/czhang/journal_wrapper/ChtcRun/RS_pharm.13
+_=/usr/bin/condor_submit_dag
+QTDIR=/usr/lib64/qt-3.3
+SSH_TTY=/dev/pts/0
+_CONDOR_DAGMAN_CONFIG_FILE=/scratch/czhang/journal_wrapper/ChtcRun/RS_pharm.13/dagman_config
+QTLIB=/usr/lib64/qt-3.3/lib
+MASTER_DATA_DIRECTORY=/scratch/shriram/greenplum-data/master/gp-1
+USER=czhang
+HISTSIZE=1000
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+TMP=/var/lib/condor/execute/dir_77253
+_CONDOR_MAX_DAGMAN_LOG=0
+HISTCONTROL=ignoredups
+CONDOR_ID=1048872.0
+_CONDOR_JOB_AD=/var/lib/condor/execute/dir_77253/.job.ad
+KRB5CCNAME=FILE:/tmp/krb5cc_694684599_yITmg29250
+SHLVL=1
+CONDOR_PARENT_ID=opt-a012:30554:1388952470
+HOSTNAME=opt-a012.discovery.wisc.edu
+HOME=/mnt/ws/home/czhang
+TERM=xterm-256color
+CHTCUTILS=/usr/share/chtc-utils
+OLDPWD=/raid/czhang/journal_wrapper/ChtcRun
+_CONDOR_MACHINE_AD=/var/lib/condor/execute/dir_77253/.machine.ad
+LOGNAME=czhang
+SANDBOX SPACE:
+441M	.
+total 437364
+-rw-r--r-- 1 czhang domain^users       592 Jan  5 14:28 AuditLog.18252223
+-rwxr-xr-x 1 czhang domain^users     35251 Jan  5 14:28 chtcinnerwrapper
+-rw-r--r-- 1 czhang domain^users      9176 Jan  5 14:28 ChtcWrapper18252223.out
+-rwxr-xr-x 1 czhang domain^users      5393 Jan  5 14:28 condor_exec.exe
+-rw-r--r-- 1 czhang domain^users       317 Jan  5 14:28 _condor_stderr
+-rw-r--r-- 1 czhang domain^users      2432 Jan  5 14:28 _condor_stdout
+-rw-r--r-- 1 czhang domain^users 127021852 Jan  5 14:28 cuneiform.zip
+-rw-r--r-- 1 czhang domain^users       118 Jan  5 14:28 CURLTIME_77260
+-rw-r--r-- 1 czhang domain^users      2430 Jan  5 14:28 do.sh
+-rw-r--r-- 1 czhang domain^users   1403355 Jan  5 14:28 input.pdf
+-rw-r--r-- 1 czhang domain^users   8409032 Jan  5 14:28 k2pdfopt
+-rw-r--r-- 1 czhang domain^users 190866799 Jan  5 14:28 nlp3.jar
+-rw-r--r-- 1 czhang domain^users 115358272 Jan  5 14:28 ocr2.zip
+-rw-r--r-- 1 czhang domain^users   4703655 Jan  5 14:28 SLIBS1.tar.gz
+drwxr-xr-x 2 czhang domain^users      4096 Oct 25  2011 SS
+-rw-r--r-- 1 czhang domain^users        73 Jan  5 14:28 URLS
+chmod: cannot access `sh': No such file or directory
+/bin/sleep
+about to execute <<sh do.sh>>
+Linux opt-a004.discovery.wisc.edu 2.6.32-358.23.2.el6.x86_64 #1 SMP Sat Sep 14 05:32:37 EDT 2013 x86_64 x86_64 x86_64 GNU/Linux
+Archive:  ocr.zip
+   creating: codes/
+   creating: codes/tesseract/
+  inflating: codes/tesseract/cde.full-environment  
+  inflating: codes/tesseract/cde.log  
+  inflating: codes/tesseract/cde.options  
+ extracting: codes/tesseract/cde.uname  
+   creating: codes/tesseract/cde-root/
+   creating: codes/tesseract/cde-root/bin/
+  inflating: codes/tesseract/cde-root/bin/sh  
+  inflating: codes/tesseract/cde-root/bin/ls  
+  inflating: codes/tesseract/cde-root/bin/dash  
+   creating: codes/tesseract/cde-root/lib/
+   creating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libgcc_s.so.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libbz2.so.1.0.4  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libacl.so.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libz.so.1.2.7  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libpthread-2.15.so  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libc-2.15.so  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libm.so.6  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libdl.so.2  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libpcre.so.3  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libc.so.6  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/librt-2.15.so  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/librt.so.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libpng12.so.0.49.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libattr.so.1.1.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libm-2.15.so  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/ld-2.15.so  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libbz2.so.1.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libz.so.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/liblzma.so.5  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libselinux.so.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libglib-2.0.so.0.3400.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libpcre.so.3.13.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/liblzma.so.5.0.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libattr.so.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libexpat.so.1.6.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libpthread.so.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libdl-2.15.so  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libexpat.so.1  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libacl.so.1.1.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libglib-2.0.so.0  
+  inflating: codes/tesseract/cde-root/lib/x86_64-linux-gnu/libpng12.so.0  
+   creating: codes/tesseract/cde-root/etc/
+  inflating: codes/tesseract/cde-root/etc/ld.so.cache  
+  inflating: codes/tesseract/cde-root/etc/locale.alias  
+   creating: codes/tesseract/cde-root/etc/ImageMagick/
+  inflating: codes/tesseract/cde-root/etc/ImageMagick/policy.xml  
+  inflating: codes/tesseract/cde-root/etc/ImageMagick/coder.xml  
+  inflating: codes/tesseract/cde-root/etc/ImageMagick/magic.xml  
+  inflating: codes/tesseract/cde-root/etc/localtime  
+   creating: codes/tesseract/cde-root/etc/alternatives/
+  inflating: codes/tesseract/cde-root/etc/alternatives/convert  
+   creating: codes/tesseract/cde-root/usr/
+   creating: codes/tesseract/cde-root/usr/share/
+   creating: codes/tesseract/cde-root/usr/share/locale/
+  inflating: codes/tesseract/cde-root/usr/share/locale/locale.alias  
+   creating: codes/tesseract/cde-root/usr/share/ImageMagick-6.7.7/
+  inflating: codes/tesseract/cde-root/usr/share/ImageMagick-6.7.7/english.xml  
+  inflating: codes/tesseract/cde-root/usr/share/ImageMagick-6.7.7/locale.xml  
+   creating: codes/tesseract/cde-root/usr/share/tesseract-ocr/
+   creating: codes/tesseract/cde-root/usr/share/tesseract-ocr/tessdata/
+  inflating: codes/tesseract/cde-root/usr/share/tesseract-ocr/tessdata/eng.traineddata  
+   creating: codes/tesseract/cde-root/usr/share/tesseract-ocr/tessdata/configs/
+ extracting: codes/tesseract/cde-root/usr/share/tesseract-ocr/tessdata/configs/hocr  
+   creating: codes/tesseract/cde-root/usr/bin/
+  inflating: codes/tesseract/cde-root/usr/bin/tesseract  
+  inflating: codes/tesseract/cde-root/usr/bin/convert  
+  inflating: codes/tesseract/cde-root/usr/bin/convert.im6  
+   creating: codes/tesseract/cde-root/usr/lib/
+  inflating: codes/tesseract/cde-root/usr/lib/liblept.so.3.0.0  
+   creating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libMagickCore.so.5.0.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libX11.so.6  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libMagickWand.so.5  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libjpeg.so.8.0.2  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libjpeg.so.8  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libXext.so.6  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/liblqr-1.so.0.3.1  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libMagickWand.so.5.0.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libstdc++.so.6  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libfontconfig.so.1  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libXau.so.6  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libtiff.so.5.1.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libgif.so.4  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libltdl.so.7  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.2  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libMagickCore.so.5  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libwebp.so.2  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libfftw3.so.3  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libjbig.so.0.0.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/liblqr-1.so.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libwebp.so.2.0.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libjbig.so.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libltdl.so.7.3.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libfftw3.so.3.3.2  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libgomp.so.1  
+   creating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/ImageMagick-6.7.7/
+   creating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/ImageMagick-6.7.7/modules-Q16/
+   creating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/ImageMagick-6.7.7/modules-Q16/coders/
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/ImageMagick-6.7.7/modules-Q16/coders/tiff.so  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/ImageMagick-6.7.7/modules-Q16/coders/pnm.la  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/ImageMagick-6.7.7/modules-Q16/coders/pnm.so  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/ImageMagick-6.7.7/modules-Q16/coders/tiff.la  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libtiff.so.5  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/liblcms2.so.2  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libxcb.so.1  
+   creating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/gconv/
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libXdmcp.so.6  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libgif.so.4.1.6  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libfreetype.so.6  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.6.2  
+  inflating: codes/tesseract/cde-root/usr/lib/x86_64-linux-gnu/libfreetype.so.6.9.0  
+  inflating: codes/tesseract/cde-root/usr/lib/libtesseract.so.3  
+  inflating: codes/tesseract/cde-root/usr/lib/libtesseract.so.3.0.2  
+   creating: codes/tesseract/cde-root/usr/lib/locale/
+  inflating: codes/tesseract/cde-root/usr/lib/locale/locale-archive  
+  inflating: codes/tesseract/cde-root/usr/lib/liblept.so.3  
+   creating: codes/tesseract/cde-root/home/
+   creating: codes/tesseract/cde-root/home/ubuntu/
+  inflating: codes/tesseract/cde-root/home/ubuntu/ocr.sh  
+  inflating: codes/tesseract/cde-root/home/ubuntu/parallel_do.py  
+  inflating: codes/tesseract/cde-root/home/ubuntu/nohup.out  
+  inflating: codes/tesseract/cde-root/home/ubuntu/ocr.sh~  
+  inflating: codes/tesseract/cde-root/home/ubuntu/for.cde  
+  inflating: codes/tesseract/cde-root/home/ubuntu/ocr.sh.cde  
+  inflating: codes/tesseract/cde-root/home/ubuntu/ls.cde  
+   creating: codes/tesseract/cde-root/lib64/
+  inflating: codes/tesseract/cde-root/lib64/ld-linux-x86-64.so.2  
+  inflating: codes/tesseract/cde-exec  
+  inflating: codes/tesseract/for.cde  
+  inflating: codes/tesseract/ls.cde  
+   creating: codes/convert/
+  inflating: codes/convert/cde.full-environment  
+  inflating: codes/convert/cde.log   
+  inflating: codes/convert/cde.options  
+  inflating: codes/convert/cde.uname  
+   creating: codes/convert/cde-root/
+   creating: codes/convert/cde-root/u/
+   creating: codes/convert/cde-root/bin/
+  inflating: codes/convert/cde-root/bin/bash  
+  inflating: codes/convert/cde-root/bin/sh  
+   creating: codes/convert/cde-root/var/
+   creating: codes/convert/cde-root/var/home/
+   creating: codes/convert/cde-root/unsup/
+   creating: codes/convert/cde-root/unsup/std/
+   creating: codes/convert/cde-root/unsup/std/bin/
+   creating: codes/convert/cde-root/unsup/std/@sys/
+   creating: codes/convert/cde-root/unsup/std/@sys/bin/
+   creating: codes/convert/cde-root/common/
+   creating: codes/convert/cde-root/etc/
+  inflating: codes/convert/cde-root/etc/ld.so.cache  
+   creating: codes/convert/cde-root/etc/ghostscript/
+   creating: codes/convert/cde-root/etc/ghostscript/8.70/
+ extracting: codes/convert/cde-root/etc/ghostscript/8.70/cidfmap.local  
+ extracting: codes/convert/cde-root/etc/ghostscript/8.70/Fontmap.local  
+   creating: codes/convert/cde-root/etc/fonts/
+   creating: codes/convert/cde-root/etc/fonts/conf.d/
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-0-khmeros-base.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/60-latin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/67-paktype-naqsh.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-kannada.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/80-delicious.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/51-local.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/49-sansserif.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/44-wqy-zenhei.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-1-vlgothic-gothic.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/25-ttf-arphic-uming-render.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/57-dejavu-sans-mono.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-0-madan.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/90-smc-meera.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/25-no-bitmap-fedora.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/57-dejavu-sans.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-wqy-zenhei.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/40-nonlatin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-0-un-core-dotum.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/61-stix.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-gujarati.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/90-ttf-arphic-uming-embolden.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/67-paktype-tehreer.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/90-synthetic.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/35-ttf-arphic-uming-aliases.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/30-urw-aliases.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-oriya.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/25-unhint-nonlatin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/20-fix-globaladvance.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-0-lohit-assamese.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/20-unhint-small-vera.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-tamil.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-telugu.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-fonts-persian.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-punjabi.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-sil-padauk.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/45-latin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/69-unifont.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-lklug.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/30-metric-aliases.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-bengali.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-0-smc-meera.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/50-user.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/41-ttf-arphic-uming.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/57-dejavu-serif.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-nonlatin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/66-lohit-devanagari.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/65-kurdit-unikurd-web.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.d/64-ttf-arphic-uming.conf  
+   creating: codes/convert/cde-root/etc/fonts/conf.avail/
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/60-latin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/80-delicious.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/51-local.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/49-sansserif.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/40-nonlatin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/90-synthetic.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/30-urw-aliases.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/25-unhint-nonlatin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/20-fix-globaladvance.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/20-unhint-small-vera.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/65-fonts-persian.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/45-latin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/69-unifont.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/30-metric-aliases.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/50-user.conf  
+  inflating: codes/convert/cde-root/etc/fonts/conf.avail/65-nonlatin.conf  
+  inflating: codes/convert/cde-root/etc/fonts/fonts.conf  
+  inflating: codes/convert/cde-root/etc/localtime  
+   creating: codes/convert/cde-root/s/
+   creating: codes/convert/cde-root/s/std-14/
+   creating: codes/convert/cde-root/s/std-14/bin/
+   creating: codes/convert/cde-root/s/std-14/@sys/
+   creating: codes/convert/cde-root/s/std-14/@sys/bin/
+   creating: codes/convert/cde-root/s/std/
+   creating: codes/convert/cde-root/s/std/bin/
+   creating: codes/convert/cde-root/s/std/@sys/
+   creating: codes/convert/cde-root/s/std/@sys/bin/
+   creating: codes/convert/cde-root/usr/
+   creating: codes/convert/cde-root/usr/share/
+   creating: codes/convert/cde-root/usr/share/X11/
+   creating: codes/convert/cde-root/usr/share/X11/fonts/
+   creating: codes/convert/cde-root/usr/share/X11/fonts/Type1/
+   creating: codes/convert/cde-root/usr/share/ghostscript/
+   creating: codes/convert/cde-root/usr/share/ghostscript/8.70/
+   creating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/
+   creating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_font.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cff.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dps1.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_main.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/cidfmap  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_agl.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_res.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_ops.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_fonts.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_typ32.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_ttf.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cmap.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_mgl_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_statd.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_pdfwr.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_sym_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dbt_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidtt.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dps2.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_btokn.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_typ42.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidfn.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_pdf_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_base.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_ll3.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_fntem.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_frsd.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_type1.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/cidfmap.GS  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_fapi.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_mex_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_mro_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidfm.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_setpd.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_rbld.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/xlatmap  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidcm.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/Fontmap.GS  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_l2img.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dps.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_css_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_std_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dpnxt.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_img.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cspace.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_ciddc.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_il1_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_wan_e.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_lev2.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_draw.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/Fontmap  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_icc.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_sec.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_resmp.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_epsf.ps  
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_init.ps  
+   creating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Encoding/
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/Encoding/Wingdings  
+   creating: codes/convert/cde-root/usr/share/ImageMagick-6.5.4/
+   creating: codes/convert/cde-root/usr/share/ImageMagick-6.5.4/config/
+  inflating: codes/convert/cde-root/usr/share/ImageMagick-6.5.4/config/coder.xml  
+  inflating: codes/convert/cde-root/usr/share/ImageMagick-6.5.4/config/magic.xml  
+   creating: codes/convert/cde-root/usr/share/fonts/
+   creating: codes/convert/cde-root/usr/share/fonts/stix/
+  inflating: codes/convert/cde-root/usr/share/fonts/stix/STIXGeneralBolIta.otf  
+  inflating: codes/convert/cde-root/usr/share/fonts/stix/STIXGeneralItalic.otf  
+  inflating: codes/convert/cde-root/usr/share/fonts/stix/STIXGeneralBol.otf  
+  inflating: codes/convert/cde-root/usr/share/fonts/stix/STIXGeneral.otf  
+   creating: codes/convert/cde-root/usr/share/fonts/madan/
+  inflating: codes/convert/cde-root/usr/share/fonts/madan/madan.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-telugu/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-telugu/Lohit-Telugu.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/tibetan-machine-uni/
+  inflating: codes/convert/cde-root/usr/share/fonts/tibetan-machine-uni/TibMachUni-1.901b.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/abyssinica/
+  inflating: codes/convert/cde-root/usr/share/fonts/abyssinica/Abyssinica_SIL.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/opensymbol/
+  inflating: codes/convert/cde-root/usr/share/fonts/opensymbol/opens___.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/sil-padauk/
+  inflating: codes/convert/cde-root/usr/share/fonts/sil-padauk/Padauk-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/sil-padauk/Padauk.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/wqy-zenhei/
+  inflating: codes/convert/cde-root/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc  
+   creating: codes/convert/cde-root/usr/share/fonts/dejavu/
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSans-Oblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansMono.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerif-Italic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerif-BoldItalic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSans.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed-BoldItalic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed-Italic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerif.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansMono-BoldOblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed-Oblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSans-BoldOblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSans-ExtraLight.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed-BoldOblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerif-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSansMono-Oblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed-Bold.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-punjabi/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-punjabi/Lohit-Punjabi.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/un-core/
+  inflating: codes/convert/cde-root/usr/share/fonts/un-core/UnDotum.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/un-core/UnDotumBold.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-gujarati/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-gujarati/Lohit-Gujarati.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/paktype/
+  inflating: codes/convert/cde-root/usr/share/fonts/paktype/PakTypeNaqsh.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/paktype/PakTypeTehreer.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/liberation/
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationMono-BoldItalic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSerif-Regular.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSerif-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSerif-Italic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationMono-Regular.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSans-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSerif-BoldItalic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationMono-Italic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSans-BoldItalic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSans-Italic.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationMono-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/liberation/LiberationSans-Regular.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lklug/
+  inflating: codes/convert/cde-root/usr/share/fonts/lklug/lklug.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/khmeros/
+  inflating: codes/convert/cde-root/usr/share/fonts/khmeros/KhmerOS_content.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/khmeros/KhmerOS_sys.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/khmeros/KhmerOS.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/smc/
+  inflating: codes/convert/cde-root/usr/share/fonts/smc/Meera.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/vlgothic/
+  inflating: codes/convert/cde-root/usr/share/fonts/vlgothic/VL-Gothic-Regular.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-kannada/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-kannada/Lohit-Kannada.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/cjkuni-uming/
+  inflating: codes/convert/cde-root/usr/share/fonts/cjkuni-uming/uming.ttc  
+   creating: codes/convert/cde-root/usr/share/fonts/jomolhari/
+  inflating: codes/convert/cde-root/usr/share/fonts/jomolhari/Jomolhari-alpha3c-0605331.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/default/
+   creating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrpld.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/putri.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/bchri.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrpldi.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/bchr.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/putb.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/bchb.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/putr.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hritr.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrger.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/bchbi.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrscs.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrscc.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrplt.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrplti.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/putbi.pfa  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/ghostscript/hrgrr.pfa  
+   creating: codes/convert/cde-root/usr/share/fonts/default/Type1/
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n021004l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/p052023l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n022003l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n021003l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n022023l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/b018012l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n022004l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/a010035l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/b018015l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/p052024l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/b018035l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/z003034l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/c059013l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019024l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/a010033l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/a010015l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n022024l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/c059016l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/s050000l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/d050000l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019004l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019003l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019043l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/b018032l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019063l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n021023l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/c059033l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/c059036l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019064l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n021024l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019023l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/p052003l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/n019044l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/a010013l.pfb  
+  inflating: codes/convert/cde-root/usr/share/fonts/default/Type1/p052004l.pfb  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-oriya/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-oriya/Lohit-Oriya.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-devanagari/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-devanagari/Lohit-Devanagari.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/kurdit-unikurd-web/
+  inflating: codes/convert/cde-root/usr/share/fonts/kurdit-unikurd-web/Unikuweb.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-bengali/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-bengali/Lohit-Bengali.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-tamil/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-tamil/Lohit-Tamil.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/thai-scalable/
+  inflating: codes/convert/cde-root/usr/share/fonts/thai-scalable/Waree-Bold.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/thai-scalable/Waree-Oblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/thai-scalable/Waree-BoldOblique.ttf  
+  inflating: codes/convert/cde-root/usr/share/fonts/thai-scalable/Waree.ttf  
+   creating: codes/convert/cde-root/usr/share/fonts/lohit-assamese/
+  inflating: codes/convert/cde-root/usr/share/fonts/lohit-assamese/Lohit-Assamese.ttf  
+   creating: codes/convert/cde-root/usr/share/locale/
+  inflating: codes/convert/cde-root/usr/share/locale/locale.alias  
+   creating: codes/convert/cde-root/usr/share/fontconfig/
+   creating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-0-khmeros-base.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/67-paktype-naqsh.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-kannada.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-sans.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/44-wqy-zenhei.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-1-vlgothic-gothic.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/25-ttf-arphic-uming-render.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/57-dejavu-sans-mono.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-0-madan.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/90-smc-meera.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/57-dejavu-sans.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-wqy-zenhei.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-0-un-core-dotum.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/61-stix.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-gujarati.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/90-ttf-arphic-uming-embolden.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/67-paktype-tehreer.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/35-ttf-arphic-uming-aliases.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-oriya.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-0-lohit-assamese.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-tamil.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-telugu.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-punjabi.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-sil-padauk.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-lklug.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-bengali.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-0-smc-meera.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/41-ttf-arphic-uming.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/57-dejavu-serif.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-serif.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-sans-mono.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/66-lohit-devanagari.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/65-kurdit-unikurd-web.conf  
+  inflating: codes/convert/cde-root/usr/share/fontconfig/conf.avail/64-ttf-arphic-uming.conf  
+   creating: codes/convert/cde-root/usr/bin/
+  inflating: codes/convert/cde-root/usr/bin/convert  
+  inflating: codes/convert/cde-root/usr/bin/gs  
+   creating: codes/convert/cde-root/usr/lib/
+   creating: codes/convert/cde-root/usr/lib/locale/
+  inflating: codes/convert/cde-root/usr/lib/locale/locale-archive  
+   creating: codes/convert/cde-root/usr/lib64/
+  inflating: codes/convert/cde-root/usr/lib64/libX11.so.6  
+  inflating: codes/convert/cde-root/usr/lib64/libtiff.so.3  
+  inflating: codes/convert/cde-root/usr/lib64/libpixman-1.so.0  
+  inflating: codes/convert/cde-root/usr/lib64/libX11.so.6.3.0  
+   creating: codes/convert/cde-root/usr/lib64/ghostscript/
+   creating: codes/convert/cde-root/usr/lib64/ghostscript/8.70/
+  inflating: codes/convert/cde-root/usr/lib64/ghostscript/8.70/X11.so  
+  inflating: codes/convert/cde-root/usr/lib64/libXext.so.6  
+  inflating: codes/convert/cde-root/usr/lib64/libfreetype.so.6.3.22  
+  inflating: codes/convert/cde-root/usr/lib64/liblcms.so.1  
+  inflating: codes/convert/cde-root/usr/lib64/libjpeg.so.62  
+  inflating: codes/convert/cde-root/usr/lib64/libtiff.so.3.9.4  
+  inflating: codes/convert/cde-root/usr/lib64/libgomp.so.1.0.0  
+  inflating: codes/convert/cde-root/usr/lib64/libstdc++.so.6  
+  inflating: codes/convert/cde-root/usr/lib64/libltdl.so.7.2.1  
+  inflating: codes/convert/cde-root/usr/lib64/libXrender.so.1  
+  inflating: codes/convert/cde-root/usr/lib64/libfontconfig.so.1  
+  inflating: codes/convert/cde-root/usr/lib64/libXau.so.6  
+  inflating: codes/convert/cde-root/usr/lib64/libavahi-common.so.3  
+  inflating: codes/convert/cde-root/usr/lib64/libMagickWand.so.2  
+  inflating: codes/convert/cde-root/usr/lib64/libpixman-1.so.0.26.2  
+  inflating: codes/convert/cde-root/usr/lib64/libcups.so.2  
+  inflating: codes/convert/cde-root/usr/lib64/libltdl.so.7  
+  inflating: codes/convert/cde-root/usr/lib64/libtasn1.so.3.1.6  
+   creating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/
+   creating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/config/
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/config/policy.xml  
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/config/delegates.xml  
+   creating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/
+   creating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/png.la  
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/pdf.la  
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/pnm.la  
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/png.so  
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/pnm.so  
+  inflating: codes/convert/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/pdf.so  
+  inflating: codes/convert/cde-root/usr/lib64/libXrender.so.1.3.0  
+  inflating: codes/convert/cde-root/usr/lib64/libXt.so.6.0.0  
+  inflating: codes/convert/cde-root/usr/lib64/libSM.so.6.0.1  
+  inflating: codes/convert/cde-root/usr/lib64/libtasn1.so.3  
+  inflating: codes/convert/cde-root/usr/lib64/libXext.so.6.4.0  
+  inflating: codes/convert/cde-root/usr/lib64/libavahi-common.so.3.5.1  
+  inflating: codes/convert/cde-root/usr/lib64/libgnutls.so.26.14.12  
+  inflating: codes/convert/cde-root/usr/lib64/libICE.so.6.3.0  
+  inflating: codes/convert/cde-root/usr/lib64/libxcb.so.1.1.0  
+  inflating: codes/convert/cde-root/usr/lib64/libgs.so.8.70  
+  inflating: codes/convert/cde-root/usr/lib64/libfontconfig.so.1.4.4  
+  inflating: codes/convert/cde-root/usr/lib64/libavahi-client.so.3.2.5  
+  inflating: codes/convert/cde-root/usr/lib64/libXt.so.6  
+  inflating: codes/convert/cde-root/usr/lib64/libMagickCore.so.2  
+  inflating: codes/convert/cde-root/usr/lib64/libjasper.so.1  
+  inflating: codes/convert/cde-root/usr/lib64/libpng12.so.0.49.0  
+  inflating: codes/convert/cde-root/usr/lib64/libICE.so.6  
+  inflating: codes/convert/cde-root/usr/lib64/libMagickWand.so.2.0.0  
+  inflating: codes/convert/cde-root/usr/lib64/libavahi-client.so.3  
+  inflating: codes/convert/cde-root/usr/lib64/libstdc++.so.6.0.13  
+  inflating: codes/convert/cde-root/usr/lib64/libjpeg.so.62.0.0  
+  inflating: codes/convert/cde-root/usr/lib64/libgomp.so.1  
+  inflating: codes/convert/cde-root/usr/lib64/libgs.so.8  
+  inflating: codes/convert/cde-root/usr/lib64/libgnutls.so.26  
+  inflating: codes/convert/cde-root/usr/lib64/libxcb.so.1  
+  inflating: codes/convert/cde-root/usr/lib64/libcairo.so.2  
+  inflating: codes/convert/cde-root/usr/lib64/libSM.so.6  
+   creating: codes/convert/cde-root/usr/lib64/gconv/
+  inflating: codes/convert/cde-root/usr/lib64/gconv/gconv-modules.cache  
+  inflating: codes/convert/cde-root/usr/lib64/libMagickCore.so.2.0.0  
+  inflating: codes/convert/cde-root/usr/lib64/libXau.so.6.0.0  
+  inflating: codes/convert/cde-root/usr/lib64/liblcms.so.1.0.19  
+  inflating: codes/convert/cde-root/usr/lib64/libcairo.so.2.10800.8  
+  inflating: codes/convert/cde-root/usr/lib64/libjasper.so.1.0.0  
+  inflating: codes/convert/cde-root/usr/lib64/libfreetype.so.6  
+  inflating: codes/convert/cde-root/usr/lib64/libpng12.so.0  
+  inflating: codes/convert/cde-root/usr/lib64/libcupsimage.so.2  
+   creating: codes/convert/cde-root/scratch.1/
+   creating: codes/convert/cde-root/scratch.1/kba/
+   creating: codes/convert/cde-root/scratch.1/kba/cld/
+   creating: codes/convert/cde-root/scratch.1/kba/cld/lib/
+   creating: codes/convert/cde-root/scratch.1/paleocondor/
+  inflating: codes/convert/cde-root/scratch.1/paleocondor/convert.cde  
+   creating: codes/convert/cde-root/home/
+   creating: codes/convert/cde-root/p/
+   creating: codes/convert/cde-root/lib64/
+  inflating: codes/convert/cde-root/lib64/libcrypt-2.12.so  
+  inflating: codes/convert/cde-root/lib64/libgcc_s.so.1  
+  inflating: codes/convert/cde-root/lib64/libkeyutils.so.1  
+  inflating: codes/convert/cde-root/lib64/libgssapi_krb5.so.2.2  
+  inflating: codes/convert/cde-root/lib64/libgcc_s-4.4.7-20120601.so.1  
+  inflating: codes/convert/cde-root/lib64/libm-2.12.so  
+  inflating: codes/convert/cde-root/lib64/libgcrypt.so.11.5.3  
+  inflating: codes/convert/cde-root/lib64/libk5crypto.so.3.1  
+  inflating: codes/convert/cde-root/lib64/libbz2.so.1.0.4  
+  inflating: codes/convert/cde-root/lib64/libkrb5support.so.0  
+  inflating: codes/convert/cde-root/lib64/libcrypt.so.1  
+  inflating: codes/convert/cde-root/lib64/libkeyutils.so.1.3  
+  inflating: codes/convert/cde-root/lib64/libc-2.12.so  
+  inflating: codes/convert/cde-root/lib64/libresolv-2.12.so  
+  inflating: codes/convert/cde-root/lib64/libtinfo.so.5  
+  inflating: codes/convert/cde-root/lib64/libgpg-error.so.0  
+  inflating: codes/convert/cde-root/lib64/libuuid.so.1.3.0  
+  inflating: codes/convert/cde-root/lib64/libdbus-1.so.3.4.0  
+  inflating: codes/convert/cde-root/lib64/libfreebl3.so  
+  inflating: codes/convert/cde-root/lib64/libtinfo.so.5.7  
+  inflating: codes/convert/cde-root/lib64/libdbus-1.so.3  
+  inflating: codes/convert/cde-root/lib64/libm.so.6  
+  inflating: codes/convert/cde-root/lib64/libkrb5.so.3  
+  inflating: codes/convert/cde-root/lib64/libdl.so.2  
+  inflating: codes/convert/cde-root/lib64/libkrb5support.so.0.1  
+  inflating: codes/convert/cde-root/lib64/libc.so.6  
+  inflating: codes/convert/cde-root/lib64/libcom_err.so.2  
+  inflating: codes/convert/cde-root/lib64/libk5crypto.so.3  
+  inflating: codes/convert/cde-root/lib64/libpthread-2.12.so  
+  inflating: codes/convert/cde-root/lib64/librt.so.1  
+  inflating: codes/convert/cde-root/lib64/libresolv.so.2  
+  inflating: codes/convert/cde-root/lib64/libgcrypt.so.11  
+  inflating: codes/convert/cde-root/lib64/ld-linux-x86-64.so.2  
+  inflating: codes/convert/cde-root/lib64/libz.so.1  
+  inflating: codes/convert/cde-root/lib64/libgssapi_krb5.so.2  
+  inflating: codes/convert/cde-root/lib64/libselinux.so.1  
+  inflating: codes/convert/cde-root/lib64/libkrb5.so.3.3  
+  inflating: codes/convert/cde-root/lib64/libcom_err.so.2.1  
+  inflating: codes/convert/cde-root/lib64/libbz2.so.1  
+  inflating: codes/convert/cde-root/lib64/libuuid.so.1  
+  inflating: codes/convert/cde-root/lib64/libpthread.so.0  
+  inflating: codes/convert/cde-root/lib64/libdl-2.12.so  
+  inflating: codes/convert/cde-root/lib64/ld-2.12.so  
+  inflating: codes/convert/cde-root/lib64/libgpg-error.so.0.5.0  
+  inflating: codes/convert/cde-root/lib64/libexpat.so.1.5.2  
+  inflating: codes/convert/cde-root/lib64/libexpat.so.1  
+  inflating: codes/convert/cde-root/lib64/librt-2.12.so  
+  inflating: codes/convert/cde-root/lib64/libz.so.1.2.3  
+   creating: codes/convert/cde-root/afs/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/u/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/unsup/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/unsup/std/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/unsup/std/bin/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/unsup/std/@sys/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/unsup/std/@sys/bin/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/common/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std-14/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std-14/bin/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std-14/@sys/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std-14/@sys/bin/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std/bin/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std/@sys/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/s/std/@sys/bin/
+   creating: codes/convert/cde-root/afs/cs.wisc.edu/p/
+  inflating: codes/convert/cde-exec  
+  inflating: codes/convert/convert.cde  
+  inflating: codes/tesseract_config  
+  inflating: codes/convert/gs.cde    
+   creating: codes/convert/cde-package/
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0633bt_.pfb  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0648bt_.pfb  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/UTBI____.pfa  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0419bt_.pfb  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0582bt_.pfb  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0632bt_.pfb  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/UTB_____.pfa  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/UTI_____.pfa  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/UTRG____.pfa  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/cursor.pfa  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0583bt_.pfb  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0649bt_.pfb  
+  inflating: codes/convert/cde-root/usr/share/X11/fonts/Type1/c0611bt_.pfb  
+   creating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/CMap/
+  inflating: codes/convert/cde-root/usr/share/ghostscript/8.70/Resource/CMap/Identity-H  
+   creating: codes/convert/cde-root/scratch.1/paleocondor/tmp/
+  inflating: codes/convert/cde-root/scratch.1/paleocondor/4094965.pdf  
+  inflating: codes/convert/cde-root/scratch.1/paleocondor/gs.cde  
+Archive:  cuneiform.zip
+   creating: cde-package/
+  inflating: cde-package/cde.log     
+  inflating: cde-package/cde.options  
+  inflating: cde-package/cde.uname   
+   creating: cde-package/cde-root/
+   creating: cde-package/cde-root/u/
+   creating: cde-package/cde-root/u/c/
+   creating: cde-package/cde-root/u/c/z/
+   creating: cde-package/cde-root/u/c/z/czhang/
+   creating: cde-package/cde-root/u/c/z/czhang/.fontconfig/
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/900402270e15d763a6e008bb2d4c7686-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/b966c23d19cce9e9a98d55765cf2a0c7-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/beeeeb3dfe132a8a0633a017c99ce0c0-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/df893b4576ad6107f9397134092c4059-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/5c755b2f27115486aa6359c84dd3cbda-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/1248881498ac025e45c3042f6afe9284-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/c46020d7221988a13df853d2b46304fc-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/2e1514a9fdd499050989183bb65136db-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/928306c3ad40271d946e41014a49fc28-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/211368abcb0ff835c229ff05c9ec01dc-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/0b1bcc92b4d25cc154d77dafe3bceaa0-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/0251a5afa6ac727a1e32b7d4d4aa7cf0-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/860639f272b8b4b3094f9e399e41bccd-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/b79f3aaa7d385a141ab53ec885cc22a8-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/12b26b760a24f8b4feb03ad48a333a72-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/46d51d90fe9d963f6f4186edb936a931-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/87f5e051180a7a75f16eb6fe7dbd3749-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/b4d0b56f766d89640448751fcd18ec1e-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/d3379abda271c4acd2ad0c01f565d0b0-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/6fcb01a03a016cc71057b587cdea6709-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/991510d2da7f7b2bf8468002aae90060-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/6cfc7d49b27ba7d3eb71ab86e04def2c-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/b67b32625a2bb51b023d3814a918f351-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/ac68f755438cc3dc5a526084839fc7ca-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/e61abf8156cc476151baa07d67337cae-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/81a173283b451552b599cfaafd6236bd-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/3c3fb04d32a5211b073874b125d29701-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/830f035fa84a65ce80e050178dbb630d-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/2881ed3fd21ca306ddad6f9b0dd3189f-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/3f821257dd33660ba7bbb45c32deb84c-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/47f48679023f44a4d1e44699a69464f6-le64.cache-3  
+  inflating: cde-package/cde-root/u/c/z/czhang/.fontconfig/b887eea8f1b96e1d899b44ed6681fc27-le64.cache-3  
+   creating: cde-package/cde-root/bin/
+  inflating: cde-package/cde-root/bin/bash  
+  inflating: cde-package/cde-root/bin/sh  
+  inflating: cde-package/cde-root/bin/ls  
+  inflating: cde-package/cde-root/bin/mkdir  
+   creating: cde-package/cde-root/var/
+   creating: cde-package/cde-root/var/home/
+   creating: cde-package/cde-root/unsup/
+   creating: cde-package/cde-root/unsup/std/
+   creating: cde-package/cde-root/unsup/std/bin/
+   creating: cde-package/cde-root/unsup/std/@sys/
+   creating: cde-package/cde-root/unsup/std/@sys/bin/
+   creating: cde-package/cde-root/common/
+   creating: cde-package/cde-root/etc/
+  inflating: cde-package/cde-root/etc/ld.so.cache  
+  inflating: cde-package/cde-root/etc/localtime  
+   creating: cde-package/cde-root/etc/ghostscript/
+   creating: cde-package/cde-root/etc/ghostscript/8.70/
+ extracting: cde-package/cde-root/etc/ghostscript/8.70/cidfmap.local  
+ extracting: cde-package/cde-root/etc/ghostscript/8.70/Fontmap.local  
+   creating: cde-package/cde-root/etc/fonts/
+   creating: cde-package/cde-root/etc/fonts/conf.d/
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-0-khmeros-base.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/60-latin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/67-paktype-naqsh.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-kannada.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/80-delicious.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/51-local.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/49-sansserif.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/44-wqy-zenhei.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-1-vlgothic-gothic.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/25-ttf-arphic-uming-render.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/57-dejavu-sans-mono.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-0-madan.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/90-smc-meera.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/25-no-bitmap-fedora.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/57-dejavu-sans.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-wqy-zenhei.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/40-nonlatin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-0-un-core-dotum.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/61-stix.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-gujarati.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/90-ttf-arphic-uming-embolden.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/67-paktype-tehreer.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/90-synthetic.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/35-ttf-arphic-uming-aliases.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/30-urw-aliases.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-oriya.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/25-unhint-nonlatin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/20-fix-globaladvance.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-0-lohit-assamese.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/20-unhint-small-vera.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-tamil.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-telugu.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-fonts-persian.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-punjabi.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-sil-padauk.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/45-latin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/69-unifont.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-lklug.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/30-metric-aliases.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-bengali.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-0-smc-meera.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/50-user.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/41-ttf-arphic-uming.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/57-dejavu-serif.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-nonlatin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/66-lohit-devanagari.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/65-kurdit-unikurd-web.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.d/64-ttf-arphic-uming.conf  
+   creating: cde-package/cde-root/etc/fonts/conf.avail/
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/60-latin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/80-delicious.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/51-local.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/49-sansserif.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/40-nonlatin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/90-synthetic.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/30-urw-aliases.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/25-unhint-nonlatin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/20-fix-globaladvance.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/20-unhint-small-vera.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/65-fonts-persian.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/45-latin.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/69-unifont.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/30-metric-aliases.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/50-user.conf  
+  inflating: cde-package/cde-root/etc/fonts/conf.avail/65-nonlatin.conf  
+  inflating: cde-package/cde-root/etc/fonts/fonts.conf  
+   creating: cde-package/cde-root/s/
+   creating: cde-package/cde-root/s/std-14/
+   creating: cde-package/cde-root/s/std-14/bin/
+   creating: cde-package/cde-root/s/std-14/@sys/
+   creating: cde-package/cde-root/s/std-14/@sys/bin/
+   creating: cde-package/cde-root/s/std/
+   creating: cde-package/cde-root/s/std/bin/
+   creating: cde-package/cde-root/s/std/@sys/
+   creating: cde-package/cde-root/s/std/@sys/bin/
+   creating: cde-package/cde-root/usr/
+   creating: cde-package/cde-root/usr/lib/
+   creating: cde-package/cde-root/usr/lib/locale/
+  inflating: cde-package/cde-root/usr/lib/locale/locale-archive  
+   creating: cde-package/cde-root/usr/lib64/
+  inflating: cde-package/cde-root/usr/lib64/libcrypto.so.1.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libssl.so.1.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libcrypto.so.10  
+  inflating: cde-package/cde-root/usr/lib64/libssl.so.10  
+   creating: cde-package/cde-root/usr/lib64/gconv/
+  inflating: cde-package/cde-root/usr/lib64/gconv/gconv-modules.cache  
+  inflating: cde-package/cde-root/usr/lib64/libX11.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libtiff.so.3  
+  inflating: cde-package/cde-root/usr/lib64/libpixman-1.so.0  
+  inflating: cde-package/cde-root/usr/lib64/libX11.so.6.3.0  
+   creating: cde-package/cde-root/usr/lib64/ghostscript/
+   creating: cde-package/cde-root/usr/lib64/ghostscript/8.70/
+  inflating: cde-package/cde-root/usr/lib64/ghostscript/8.70/X11.so  
+  inflating: cde-package/cde-root/usr/lib64/libXext.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libfreetype.so.6.3.22  
+  inflating: cde-package/cde-root/usr/lib64/liblcms.so.1  
+  inflating: cde-package/cde-root/usr/lib64/libjpeg.so.62  
+  inflating: cde-package/cde-root/usr/lib64/libtiff.so.3.9.4  
+  inflating: cde-package/cde-root/usr/lib64/libgomp.so.1.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libstdc++.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libltdl.so.7.2.1  
+  inflating: cde-package/cde-root/usr/lib64/libXrender.so.1  
+  inflating: cde-package/cde-root/usr/lib64/libfontconfig.so.1  
+  inflating: cde-package/cde-root/usr/lib64/libXau.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libavahi-common.so.3  
+  inflating: cde-package/cde-root/usr/lib64/libMagickWand.so.2  
+  inflating: cde-package/cde-root/usr/lib64/libcups.so.2  
+  inflating: cde-package/cde-root/usr/lib64/libltdl.so.7  
+  inflating: cde-package/cde-root/usr/lib64/libtasn1.so.3.1.6  
+   creating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/
+   creating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/config/
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/config/policy.xml  
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/config/english.xml  
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/config/locale.xml  
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/config/delegates.xml  
+   creating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/
+   creating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/tiff.so  
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/bmp.so  
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/bmp.la  
+  inflating: cde-package/cde-root/usr/lib64/ImageMagick-6.5.4/modules-Q16/coders/tiff.la  
+  inflating: cde-package/cde-root/usr/lib64/libXrender.so.1.3.0  
+  inflating: cde-package/cde-root/usr/lib64/libXt.so.6.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libtasn1.so.3  
+  inflating: cde-package/cde-root/usr/lib64/libXext.so.6.4.0  
+  inflating: cde-package/cde-root/usr/lib64/libavahi-common.so.3.5.1  
+  inflating: cde-package/cde-root/usr/lib64/libgnutls.so.26.14.12  
+  inflating: cde-package/cde-root/usr/lib64/libICE.so.6.3.0  
+  inflating: cde-package/cde-root/usr/lib64/libxcb.so.1.1.0  
+  inflating: cde-package/cde-root/usr/lib64/libgs.so.8.70  
+  inflating: cde-package/cde-root/usr/lib64/libfontconfig.so.1.4.4  
+  inflating: cde-package/cde-root/usr/lib64/libavahi-client.so.3.2.5  
+  inflating: cde-package/cde-root/usr/lib64/libXt.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libMagickCore.so.2  
+  inflating: cde-package/cde-root/usr/lib64/libjasper.so.1  
+  inflating: cde-package/cde-root/usr/lib64/libpng12.so.0.49.0  
+  inflating: cde-package/cde-root/usr/lib64/libICE.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libMagickWand.so.2.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libavahi-client.so.3  
+   creating: cde-package/cde-root/usr/lib64/tls/
+  inflating: cde-package/cde-root/usr/lib64/libstdc++.so.6.0.13  
+  inflating: cde-package/cde-root/usr/lib64/libjpeg.so.62.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libgomp.so.1  
+  inflating: cde-package/cde-root/usr/lib64/libgs.so.8  
+  inflating: cde-package/cde-root/usr/lib64/libSM.so.6.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libgnutls.so.26  
+  inflating: cde-package/cde-root/usr/lib64/libxcb.so.1  
+  inflating: cde-package/cde-root/usr/lib64/libcairo.so.2  
+  inflating: cde-package/cde-root/usr/lib64/libSM.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libMagickCore.so.2.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libXau.so.6.0.0  
+  inflating: cde-package/cde-root/usr/lib64/liblcms.so.1.0.19  
+  inflating: cde-package/cde-root/usr/lib64/libcairo.so.2.10800.8  
+  inflating: cde-package/cde-root/usr/lib64/libjasper.so.1.0.0  
+  inflating: cde-package/cde-root/usr/lib64/libfreetype.so.6  
+  inflating: cde-package/cde-root/usr/lib64/libpixman-1.so.0.18.4  
+  inflating: cde-package/cde-root/usr/lib64/libpng12.so.0  
+  inflating: cde-package/cde-root/usr/lib64/libcupsimage.so.2  
+   creating: cde-package/cde-root/usr/share/
+   creating: cde-package/cde-root/usr/share/X11/
+   creating: cde-package/cde-root/usr/share/X11/fonts/
+   creating: cde-package/cde-root/usr/share/X11/fonts/Type1/
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0633bt_.pfb  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0648bt_.pfb  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/UTBI____.pfa  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0419bt_.pfb  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0582bt_.pfb  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0632bt_.pfb  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/UTB_____.pfa  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/UTI_____.pfa  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/UTRG____.pfa  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/cursor.pfa  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0583bt_.pfb  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0649bt_.pfb  
+  inflating: cde-package/cde-root/usr/share/X11/fonts/Type1/c0611bt_.pfb  
+   creating: cde-package/cde-root/usr/share/ghostscript/
+   creating: cde-package/cde-root/usr/share/ghostscript/8.70/
+   creating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/
+   creating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_font.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cff.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dps1.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_main.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/cidfmap  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_agl.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_res.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_ops.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_fonts.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_typ32.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_ttf.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cmap.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_mgl_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_statd.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_pdfwr.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_sym_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dbt_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidtt.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dps2.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_btokn.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_typ42.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidfn.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_pdf_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_base.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_ll3.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_fntem.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_frsd.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_type1.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/cidfmap.GS  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_fapi.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_mex_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_mro_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidfm.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_setpd.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_rbld.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/xlatmap  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cidcm.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/Fontmap.GS  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_l2img.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dps.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_css_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_std_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_dpnxt.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_img.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_cspace.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_ciddc.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_il1_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_wan_e.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_lev2.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_draw.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/Fontmap  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_icc.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/pdf_sec.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_resmp.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_epsf.ps  
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Init/gs_init.ps  
+   creating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Encoding/
+  inflating: cde-package/cde-root/usr/share/ghostscript/8.70/Resource/Encoding/Wingdings  
+   creating: cde-package/cde-root/usr/share/ImageMagick-6.5.4/
+   creating: cde-package/cde-root/usr/share/ImageMagick-6.5.4/config/
+  inflating: cde-package/cde-root/usr/share/ImageMagick-6.5.4/config/coder.xml  
+  inflating: cde-package/cde-root/usr/share/ImageMagick-6.5.4/config/magic.xml  
+   creating: cde-package/cde-root/usr/share/fonts/
+   creating: cde-package/cde-root/usr/share/fonts/stix/
+  inflating: cde-package/cde-root/usr/share/fonts/stix/STIXGeneralBolIta.otf  
+  inflating: cde-package/cde-root/usr/share/fonts/stix/STIXGeneralItalic.otf  
+  inflating: cde-package/cde-root/usr/share/fonts/stix/STIXGeneralBol.otf  
+  inflating: cde-package/cde-root/usr/share/fonts/stix/STIXGeneral.otf  
+   creating: cde-package/cde-root/usr/share/fonts/madan/
+  inflating: cde-package/cde-root/usr/share/fonts/madan/madan.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-telugu/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-telugu/Lohit-Telugu.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/tibetan-machine-uni/
+  inflating: cde-package/cde-root/usr/share/fonts/tibetan-machine-uni/TibMachUni-1.901b.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/abyssinica/
+  inflating: cde-package/cde-root/usr/share/fonts/abyssinica/Abyssinica_SIL.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/opensymbol/
+  inflating: cde-package/cde-root/usr/share/fonts/opensymbol/opens___.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/sil-padauk/
+  inflating: cde-package/cde-root/usr/share/fonts/sil-padauk/Padauk-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/sil-padauk/Padauk.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/wqy-zenhei/
+  inflating: cde-package/cde-root/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc  
+   creating: cde-package/cde-root/usr/share/fonts/dejavu/
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSans-Oblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansMono.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerif-Italic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerif-BoldItalic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSans.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed-BoldItalic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed-Italic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerif.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansMono-BoldOblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed-Oblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSans-BoldOblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSans-ExtraLight.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansCondensed-BoldOblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerif-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSansMono-Oblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/dejavu/DejaVuSerifCondensed-Bold.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-punjabi/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-punjabi/Lohit-Punjabi.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/un-core/
+  inflating: cde-package/cde-root/usr/share/fonts/un-core/UnDotum.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/un-core/UnDotumBold.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-gujarati/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-gujarati/Lohit-Gujarati.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/paktype/
+  inflating: cde-package/cde-root/usr/share/fonts/paktype/PakTypeNaqsh.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/paktype/PakTypeTehreer.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/liberation/
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationMono-BoldItalic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSerif-Regular.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSerif-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSerif-Italic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationMono-Regular.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSans-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSerif-BoldItalic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationMono-Italic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSans-BoldItalic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSans-Italic.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationMono-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/LiberationSans-Regular.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/fonts.scale  
+  inflating: cde-package/cde-root/usr/share/fonts/liberation/fonts.dir  
+   creating: cde-package/cde-root/usr/share/fonts/lklug/
+  inflating: cde-package/cde-root/usr/share/fonts/lklug/lklug.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/khmeros/
+  inflating: cde-package/cde-root/usr/share/fonts/khmeros/KhmerOS_content.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/khmeros/KhmerOS_sys.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/khmeros/KhmerOS.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/smc/
+  inflating: cde-package/cde-root/usr/share/fonts/smc/Meera.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/vlgothic/
+  inflating: cde-package/cde-root/usr/share/fonts/vlgothic/VL-Gothic-Regular.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-kannada/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-kannada/Lohit-Kannada.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/cjkuni-uming/
+  inflating: cde-package/cde-root/usr/share/fonts/cjkuni-uming/uming.ttc  
+  inflating: cde-package/cde-root/usr/share/fonts/cjkuni-uming/fonts.scale  
+  inflating: cde-package/cde-root/usr/share/fonts/cjkuni-uming/fonts.dir  
+   creating: cde-package/cde-root/usr/share/fonts/jomolhari/
+  inflating: cde-package/cde-root/usr/share/fonts/jomolhari/Jomolhari-alpha3c-0605331.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/default/
+   creating: cde-package/cde-root/usr/share/fonts/default/ghostscript/
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrpld.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/putri.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchri.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrpldi.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchr.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/putb.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchb.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/putr.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hritr.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrger.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchbi.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrscs.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrscc.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplt.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplti.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/putbi.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgrr.pfa  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/u004006t.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fcyri.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplsbo.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fcyr.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/u003043t.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrpltbi.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchri.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrpldb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgkc.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgks.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrsyr.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrscco.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgero.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fhirw.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgerd.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgrrb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrpldbi.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrscsb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrsccb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrpltb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplso.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fcyri.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgrro.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchb.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hritrb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fkarw.pfm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fkarw.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrpls.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/u003043t.pfm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrgerb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hritro.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplr.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchbi.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/bchr.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/u003043t.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplrbo.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplro.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/u004006t.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fhirw.pfm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrscso.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fonts.scale  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplsb.gsf  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/u004006t.pfm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fcyr.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/fonts.dir  
+  inflating: cde-package/cde-root/usr/share/fonts/default/ghostscript/hrplrb.gsf  
+   creating: cde-package/cde-root/usr/share/fonts/default/Type1/
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021004l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052023l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022003l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021003l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022023l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018012l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022004l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010035l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018015l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052024l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018035l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/z003034l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059013l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019024l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010033l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010015l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022024l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059016l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/s050000l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/d050000l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019004l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019003l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019043l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018032l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019063l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021023l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059033l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059036l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019064l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021024l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019023l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052003l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019044l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010013l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052004l.pfb  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021003l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059016l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022024l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019003l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022003l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052003l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059036l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019043l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021024l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022023l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052024l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019063l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018015l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/s050000l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019004l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018032l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n022004l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010035l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059033l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018012l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019024l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/c059013l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010033l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021023l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052023l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010013l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/d050000l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/p052004l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019044l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/b018035l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/a010015l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/z003034l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/fonts.scale  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n021004l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019023l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/n019064l.afm  
+  inflating: cde-package/cde-root/usr/share/fonts/default/Type1/fonts.dir  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-oriya/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-oriya/Lohit-Oriya.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-devanagari/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-devanagari/Lohit-Devanagari.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/kurdit-unikurd-web/
+  inflating: cde-package/cde-root/usr/share/fonts/kurdit-unikurd-web/Unikuweb.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-bengali/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-bengali/Lohit-Bengali.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-tamil/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-tamil/Lohit-Tamil.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/thai-scalable/
+  inflating: cde-package/cde-root/usr/share/fonts/thai-scalable/Waree-Bold.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/thai-scalable/Waree-Oblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/thai-scalable/Waree-BoldOblique.ttf  
+  inflating: cde-package/cde-root/usr/share/fonts/thai-scalable/Waree.ttf  
+   creating: cde-package/cde-root/usr/share/fonts/lohit-assamese/
+  inflating: cde-package/cde-root/usr/share/fonts/lohit-assamese/Lohit-Assamese.ttf  
+   creating: cde-package/cde-root/usr/share/locale/
+  inflating: cde-package/cde-root/usr/share/locale/locale.alias  
+   creating: cde-package/cde-root/usr/share/fontconfig/
+   creating: cde-package/cde-root/usr/share/fontconfig/conf.avail/
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-0-khmeros-base.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/67-paktype-naqsh.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-kannada.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-sans.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/44-wqy-zenhei.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-1-vlgothic-gothic.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/25-ttf-arphic-uming-render.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/57-dejavu-sans-mono.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-0-madan.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/90-smc-meera.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/57-dejavu-sans.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-wqy-zenhei.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-0-un-core-dotum.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/61-stix.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-gujarati.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/90-ttf-arphic-uming-embolden.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/67-paktype-tehreer.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/35-ttf-arphic-uming-aliases.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-oriya.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-0-lohit-assamese.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-tamil.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-telugu.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-punjabi.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-sil-padauk.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-lklug.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-bengali.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-0-smc-meera.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/41-ttf-arphic-uming.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/57-dejavu-serif.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-serif.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-sans-mono.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/66-lohit-devanagari.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/65-kurdit-unikurd-web.conf  
+  inflating: cde-package/cde-root/usr/share/fontconfig/conf.avail/64-ttf-arphic-uming.conf  
+   creating: cde-package/cde-root/usr/bin/
+  inflating: cde-package/cde-root/usr/bin/convert  
+  inflating: cde-package/cde-root/usr/bin/gs  
+   creating: cde-package/cde-root/scratch.1/
+   creating: cde-package/cde-root/scratch.1/kba/
+   creating: cde-package/cde-root/scratch.1/kba/cld/
+   creating: cde-package/cde-root/scratch.1/kba/cld/lib/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/do.sh  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/parsepdf.py  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/bin/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/bin/python2  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/bin/python2.7  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/bin/python  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/collections.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/os.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/_weakrefset.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/stat.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/weakref.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/struct.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/abc.py  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/encodings/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/encodings/aliases.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/encodings/utf_8.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/encodings/utf_8.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/encodings/__init__.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/encodings/aliases.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/encodings/__init__.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/heapq.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/functools.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/io.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/StringIO.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/weakref.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/bisect.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/difflib.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/copy_reg.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/re.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/gzip.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/keyword.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/codecs.pyc  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/main.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/case.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/util.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/result.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/case.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/signals.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/util.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/__init__.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/runner.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/suite.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/loader.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/suite.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/result.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/loader.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/__init__.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/main.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/signals.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/unittest/runner.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/types.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/UserDict.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/linecache.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/_abcoll.py  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-tk/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sysconfig.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/warnings.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/warnings.pyc  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/plat-linux2/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sre_parse.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/pprint.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/_abcoll.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/functools.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/posixpath.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sre_compile.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/StringIO.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/UserDict.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sysconfig.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/genericpath.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/difflib.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/gzip.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/collections.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/os.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/abc.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sre_parse.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/traceback.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/stat.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/codecs.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sre_constants.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sre_constants.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/_weakrefset.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/hashlib.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/posixpath.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/copy_reg.py  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/config/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/config/Makefile  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/pprint.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/types.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/sre_compile.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/struct.pyc  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/ascii85.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/converter.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/arcfour.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfinterp.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/encodingdb.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/psparser.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/glyphlist.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/layout.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/lzw.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfcolor.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/ccitt.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/ccitt.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfdevice.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/cmapdb.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfdevice.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdftypes.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/utils.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/__init__.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/encodingdb.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/ascii85.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/runlength.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdffont.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfinterp.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfparser.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/utils.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/cmapdb.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/fontmetrics.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/arcfour.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdffont.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfparser.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/fontmetrics.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/runlength.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdfcolor.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/__init__.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/latin_enc.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/latin_enc.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/psparser.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/lzw.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/glyphlist.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/pdftypes.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/layout.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/site-packages/pdfminer/converter.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/linecache.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/genericpath.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/heapq.pyc  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/itertools.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/_io.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/array.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/binascii.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/time.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/_functools.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/_heapq.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/_hashlib.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/operator.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/_bisect.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/_collections.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/cPickle.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/_struct.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/cStringIO.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/lib-dynload/zlib.so  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/hashlib.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/traceback.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/fnmatch.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/re.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/keyword.pyc  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/fnmatch.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/io.py  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/lib/python2.7/bisect.pyc  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/include/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/python/include/python2.7/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/python/include/python2.7/pyconfig.h  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/do.sh.cde  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/pdfminer/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/output/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/
+   creating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6bul.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6all.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6spa.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6cze.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6ukr.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec3.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6dut.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6est.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6rom.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6slo.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6lit.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6hun.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6rus.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec4mtr.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6por.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec2.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6pol.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6tur.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec4cour.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6frn.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6dan.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6grm.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6swe.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec1.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec3r&e.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6lat.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6cro.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6ita.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec4r&e.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec4inc.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec6ser.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8lit.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9dan.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/pln_hpd.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc0203.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8slo.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec2r&e.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7frn.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc1204.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7ser.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7cze.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9cze.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc0205.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec1blt.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7ita.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9ser.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc2201.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/cube16pd.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8frn.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec3blt.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8tur.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec2blt.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9rus.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8pol.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8bul.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7dut.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec1n.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec2n.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7por.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/pln_prc.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc_agr.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8grm.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9grm.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8swe.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9ukr.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7lat.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8cze.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7pol.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec3tur.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8dut.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9bul.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9spa.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9lat.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8ita.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7swe.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9hun.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7rom.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec1rus.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8dan.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8por.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/cube16pt.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7rus.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9tur.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8rom.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8rus.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7spa.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7slo.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8ukr.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc1201.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8ser.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9cro.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7ukr.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/cube16ps.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc0202.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7hun.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc1203.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9por.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec3n.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec1tur.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7est.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9swe.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9rom.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/vital.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7bul.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7cro.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9slo.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec2cen.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9ita.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7lit.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9lit.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7dan.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9est.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8spa.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc2203.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc_etrd.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc010101.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8hun.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/cubeabde.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec2rus.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc0206.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8est.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec3rus.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7grm.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8cro.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec1r&e.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc_rtrd.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec7tur.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc0204.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9frn.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec3cen.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec8lat.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/cube16pr.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/cube16pl.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec2tur.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc2204.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9pol.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/viteng.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec1cen.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/rec9dut.dat  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/share/cuneiform/dc0201.dat  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/bin/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/bin/cuneiform  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librmarker.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librshelllines.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librlings.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librlings.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librpic.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librpstr.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libloc32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libccom.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librbal.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libr3532.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libleo32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libmsk32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/liblns32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libleo32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librmarker.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libevn32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librfrmt.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librcorrkegl.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librling.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcimage.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcstr.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libstd32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libsmetric.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libctb32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libr3532.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcpage.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libccom.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libexc.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librstuff.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librselstr.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librblock.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcline.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libloc32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librcutp.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librreccom.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librout.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libfon32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcstr.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libmsk32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librsadd.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcuneiform.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librimage.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libced.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librdib.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcimage.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libdif32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librstr.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libced.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librstuff.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librcorrkegl.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/liblns32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librline.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librneg.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librdib.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librselstr.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libevn32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librverline.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libsmetric.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librpic.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcfio.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libexc.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libpass2.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcpu32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librout.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libdif32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcpu32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcline.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librreccom.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libpass2.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librblock.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libctb32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librline.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libstd32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librshelllines.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libmmx32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librling.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librsadd.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librpstr.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librimage.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcfio.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librbal.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcuneiform.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcpage.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librstr.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librcutp.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libmmx32.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librverline.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcfcompat.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libcfcompat.so.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/libfon32.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librneg.so.1.1.0  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/cuneiform/lib64/librfrmt.so.0  
+   creating: cde-package/cde-root/scratch.1/pdf2xml/test/
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/test/test.pdf  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/ocrpdf.sh.cde  
+  inflating: cde-package/cde-root/scratch.1/pdf2xml/ocrpdf.sh  
+   creating: cde-package/cde-root/home/
+   creating: cde-package/cde-root/p/
+   creating: cde-package/cde-root/lib64/
+  inflating: cde-package/cde-root/lib64/libkeyutils.so.1  
+  inflating: cde-package/cde-root/lib64/libgssapi_krb5.so.2.2  
+  inflating: cde-package/cde-root/lib64/libm-2.12.so  
+  inflating: cde-package/cde-root/lib64/libk5crypto.so.3.1  
+  inflating: cde-package/cde-root/lib64/libkrb5support.so.0  
+  inflating: cde-package/cde-root/lib64/libkeyutils.so.1.3  
+  inflating: cde-package/cde-root/lib64/libc-2.12.so  
+  inflating: cde-package/cde-root/lib64/libresolv-2.12.so  
+  inflating: cde-package/cde-root/lib64/libtinfo.so.5  
+  inflating: cde-package/cde-root/lib64/libutil.so.1  
+  inflating: cde-package/cde-root/lib64/libtinfo.so.5.7  
+  inflating: cde-package/cde-root/lib64/libutil-2.12.so  
+  inflating: cde-package/cde-root/lib64/libm.so.6  
+  inflating: cde-package/cde-root/lib64/libkrb5.so.3  
+  inflating: cde-package/cde-root/lib64/libdl.so.2  
+  inflating: cde-package/cde-root/lib64/libkrb5support.so.0.1  
+  inflating: cde-package/cde-root/lib64/libc.so.6  
+  inflating: cde-package/cde-root/lib64/libcom_err.so.2  
+  inflating: cde-package/cde-root/lib64/libk5crypto.so.3  
+  inflating: cde-package/cde-root/lib64/libpthread-2.12.so  
+  inflating: cde-package/cde-root/lib64/libresolv.so.2  
+  inflating: cde-package/cde-root/lib64/ld-linux-x86-64.so.2  
+  inflating: cde-package/cde-root/lib64/libz.so.1  
+  inflating: cde-package/cde-root/lib64/libgssapi_krb5.so.2  
+  inflating: cde-package/cde-root/lib64/libselinux.so.1  
+  inflating: cde-package/cde-root/lib64/libkrb5.so.3.3  
+  inflating: cde-package/cde-root/lib64/libcom_err.so.2.1  
+  inflating: cde-package/cde-root/lib64/libpthread.so.0  
+  inflating: cde-package/cde-root/lib64/libdl-2.12.so  
+  inflating: cde-package/cde-root/lib64/ld-2.12.so  
+  inflating: cde-package/cde-root/lib64/libz.so.1.2.3  
+  inflating: cde-package/cde-root/lib64/libcrypt-2.12.so  
+  inflating: cde-package/cde-root/lib64/libgcc_s.so.1  
+  inflating: cde-package/cde-root/lib64/libgcrypt.so.11.5.3  
+  inflating: cde-package/cde-root/lib64/libbz2.so.1.0.4  
+  inflating: cde-package/cde-root/lib64/libacl.so.1  
+  inflating: cde-package/cde-root/lib64/libcrypt.so.1  
+  inflating: cde-package/cde-root/lib64/libgpg-error.so.0  
+  inflating: cde-package/cde-root/lib64/libuuid.so.1.3.0  
+  inflating: cde-package/cde-root/lib64/libdbus-1.so.3.4.0  
+  inflating: cde-package/cde-root/lib64/libfreebl3.so  
+  inflating: cde-package/cde-root/lib64/libdbus-1.so.3  
+  inflating: cde-package/cde-root/lib64/librt.so.1  
+  inflating: cde-package/cde-root/lib64/libgcc_s-4.4.6-20120305.so.1  
+  inflating: cde-package/cde-root/lib64/libattr.so.1.1.0  
+  inflating: cde-package/cde-root/lib64/libgcrypt.so.11  
+   creating: cde-package/cde-root/lib64/tls/
+  inflating: cde-package/cde-root/lib64/libcap.so.2  
+  inflating: cde-package/cde-root/lib64/libattr.so.1  
+  inflating: cde-package/cde-root/lib64/libbz2.so.1  
+  inflating: cde-package/cde-root/lib64/libuuid.so.1  
+  inflating: cde-package/cde-root/lib64/libgpg-error.so.0.5.0  
+  inflating: cde-package/cde-root/lib64/libexpat.so.1.5.2  
+  inflating: cde-package/cde-root/lib64/libexpat.so.1  
+  inflating: cde-package/cde-root/lib64/libacl.so.1.1.0  
+  inflating: cde-package/cde-root/lib64/librt-2.12.so  
+  inflating: cde-package/cde-root/lib64/libcap.so.2.16  
+   creating: cde-package/cde-root/afs/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/u/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/unsup/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/unsup/std/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/unsup/std/bin/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/unsup/std/@sys/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/unsup/std/@sys/bin/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/common/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std-14/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std-14/bin/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std-14/@sys/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std-14/@sys/bin/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std/bin/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std/@sys/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/s/std/@sys/bin/
+   creating: cde-package/cde-root/afs/cs.wisc.edu/p/
+   creating: cde-package/cde-root/tmp/
+   creating: cde-package/cde-root/tmp/cuneiform-X8dYw7E/
+   creating: cde-package/cde-root/tmp/cuneiform-X0ZrjwB/
+   creating: cde-package/cde-root/tmp/cuneiform-X2PKFAW/
+   creating: cde-package/cde-root/tmp/cuneiform-XipX54T/
+   creating: cde-package/cde-root/tmp/cuneiform-XHifDfJ/
+   creating: cde-package/cde-root/tmp/cuneiform-X4aslTr/
+   creating: cde-package/cde-root/tmp/cuneiform-X1gufBF/
+   creating: cde-package/cde-root/tmp/cuneiform-XypFXRl/
+   creating: cde-package/cde-root/tmp/cuneiform-X9pqwq0/
+   creating: cde-package/cde-root/tmp/cuneiform-Xr6ONaN/
+   creating: cde-package/cde-root/tmp/cuneiform-XITaJaI/
+   creating: cde-package/cde-root/tmp/cuneiform-XhaLMgw/
+   creating: cde-package/cde-root/tmp/cuneiform-XKkvm7s/
+   creating: cde-package/cde-root/tmp/cuneiform-XMxT0Lc/
+   creating: cde-package/cde-root/tmp/cuneiform-XMtkU1A/
+   creating: cde-package/cde-root/tmp/cuneiform-XtWrDQM/
+   creating: cde-package/cde-root/tmp/cuneiform-XnZngVk/
+   creating: cde-package/cde-root/tmp/cuneiform-Xfg1WIy/
+   creating: cde-package/cde-root/tmp/cuneiform-XbLILpH/
+   creating: cde-package/cde-root/tmp/cuneiform-XZzC96W/
+   creating: cde-package/cde-root/tmp/cuneiform-XkBQJt6/
+   creating: cde-package/cde-root/tmp/cuneiform-XjS3xqS/
+   creating: cde-package/cde-root/tmp/cuneiform-XQ9LQQM/
+   creating: cde-package/cde-root/tmp/cuneiform-XG3NS2d/
+   creating: cde-package/cde-root/tmp/cuneiform-XZVuh5X/
+   creating: cde-package/cde-root/tmp/cuneiform-XjQV62M/
+   creating: cde-package/cde-root/tmp/cuneiform-X4JYx6z/
+   creating: cde-package/cde-root/tmp/cuneiform-Xu88xUB/
+   creating: cde-package/cde-root/tmp/cuneiform-Xwz38Xs/
+   creating: cde-package/cde-root/tmp/cuneiform-XuM0kFp/
+   creating: cde-package/cde-root/tmp/cuneiform-Xm0MEz7/
+   creating: cde-package/cde-root/tmp/cuneiform-Xso8O6E/
+   creating: cde-package/cde-root/tmp/cuneiform-XnbXN5T/
+  inflating: cde-package/cde-exec    
+  inflating: cde-package/cde.full-environment~  
+  inflating: cde-package/cde.full-environment  
+AuditLog.18252223
+cde-package
+chtcinnerwrapper
+ChtcWrapper18252223.out
+codes
+condor_exec.exe
+_condor_stderr
+_condor_stdout
+cuneiform.zip
+CURLTIME_77260
+do.sh
+input.pdf
+k2pdfopt
+nlp.jar
+ocr.zip
+SLIBS1.tar.gz
+SS
+URLS
+[0m[36mk2pdfopt v2.01[0m (w/MuPDF,DjVuLibre,OCR) (c) 2013, GPLv3, http://willus.com
+    Compiled Sep  4 2013 with Gnu C v4.7.2 for Linux on x64.
+
+Reading 12 pages from [0m[33minput.pdf[0m ...
+
+Detecting document orientation ... No rotation necessary.
+
+[0m[36mSOURCE PAGE 1 of 12[0m (8.4 x 10.9 in) ... 1 new pages saved.
+
+[0m[36mSOURCE PAGE 2 of 12[0m (8.4 x 10.9 in) ... 3 new pages saved.
+
+[0m[36mSOURCE PAGE 3 of 12[0m (8.4 x 10.9 in) ... 4 new pages saved.
+
+[0m[36mSOURCE PAGE 4 of 12[0m (8.4 x 10.9 in) ... 2 new pages saved.
+
+[0m[36mSOURCE PAGE 5 of 12[0m (8.4 x 10.9 in) ... 3 new pages saved.
+
+[0m[36mSOURCE PAGE 6 of 12[0m (8.4 x 10.9 in) ... 2 new pages saved.
+
+[0m[36mSOURCE PAGE 7 of 12[0m (8.4 x 10.9 in) ... 3 new pages saved.
+
+[0m[36mSOURCE PAGE 8 of 12[0m (8.4 x 10.9 in) ... 3 new pages saved.
+
+[0m[36mSOURCE PAGE 9 of 12[0m (8.4 x 10.9 in) ... 3 new pages saved.
+
+[0m[36mSOURCE PAGE 10 of 12[0m (8.4 x 10.9 in) ... 4 new pages saved.
+
+[0m[36mSOURCE PAGE 11 of 12[0m (8.4 x 10.9 in) ... 3 new pages saved.
+
+[0m[36mSOURCE PAGE 12 of 12[0m (8.4 x 10.9 in) ... 0 new pages saved.
+
+[0m[34m32 pages[0m (7908 words) written to [0m[35minput_k2opt.pdf[0m (13.0 MB).
+
+[0m[33mPress <ENTER> to exit.[0mGPL Ghostscript 8.70 (2009-07-31)
+Copyright (C) 2009 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 32.
+Page 1
+Can't find (or can't open) font file /usr/share/ghostscript/8.70/Resource/Font/NimbusSanL-Regu.
+Can't find (or can't open) font file NimbusSanL-Regu.
+Can't find (or can't open) font file /usr/share/ghostscript/8.70/Resource/Font/NimbusSanL-Regu.
+Can't find (or can't open) font file NimbusSanL-Regu.
+Querying operating system for font files...
+Loading NimbusSanL-Regu font from /usr/share/fonts/default/Type1/n019003l.pfb... 3007120 1674528 13272824 11698976 3 done.
+Page 2
+Page 3
+Page 4
+Page 5
+Page 6
+Page 7
+Page 8
+Page 9
+Page 10
+Page 11
+Page 12
+Page 13
+Page 14
+Page 15
+Page 16
+Page 17
+Page 18
+Page 19
+Page 20
+Page 21
+Page 22
+Page 23
+Page 24
+Page 25
+Page 26
+Page 27
+Page 28
+Page 29
+Page 30
+Page 31
+Page 32
+GPL Ghostscript 8.70 (2009-07-31)
+Copyright (C) 2009 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 32.
+Page 1
+Can't find (or can't open) font file /usr/share/ghostscript/8.70/Resource/Font/NimbusSanL-Regu.
+Can't find (or can't open) font file NimbusSanL-Regu.
+Can't find (or can't open) font file /usr/share/ghostscript/8.70/Resource/Font/NimbusSanL-Regu.
+Can't find (or can't open) font file NimbusSanL-Regu.
+Querying operating system for font files...
+Loading NimbusSanL-Regu font from /usr/share/fonts/default/Type1/n019003l.pfb... 3007120 1674349 5922744 4340777 3 done.
+Page 2
+Page 3
+Page 4
+Page 5
+Page 6
+Page 7
+Page 8
+Page 9
+Page 10
+Page 11
+Page 12
+Page 13
+Page 14
+Page 15
+Page 16
+Page 17
+Page 18
+Page 19
+Page 20
+Page 21
+Page 22
+Page 23
+Page 24
+Page 25
+Page 26
+Page 27
+Page 28
+Page 29
+Page 30
+Page 31
+Page 32
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+Tesseract Open Source OCR Engine v3.02 with Leptonica
+REMOVE 1:
+REMOVE 2: 28.
+REMOVE 2: 40.
+REMOVE 2: 30.
+REMOVE 2: @"\ {'33
+REMOVE 2: 
+REMOVE 2: 29.
+REMOVE 2: 31.
+REMOVE 2:  
+REMOVE 2: 16.
+REMOVE 2: >
+REMOVE 2: 14.
+REMOVE 2: 34.
+REMOVE 2: 15.
+REMOVE 2: 35.
+REMOVE 2: 12.
+REMOVE 2: 32.
+REMOVE 2: 53.6 53.8
+REMOVE 2: 13.
+REMOVE 2: 27.
+REMOVE 2: 33.
+REMOVE 2: 39.
+REMOVE 2: 11.
+REMOVE 2: 38.
+REMOVE 2: ®‘\
+REMOVE 2: 10.
+REMOVE 2: 37.
+REMOVE 2: 36.
+REMOVE 2: 1|
+Adding annotator tokenize
+Adding annotator cleanxml
+Adding annotator ssplit
+Adding annotator pos
+Loading default properties from tagger edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [1.3 sec].
+Adding annotator lemma
+Adding annotator ner
+Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [9.6 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [5.9 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [3.9 sec].
+Initialization JollyDayHoliday for sutime
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.sutime.txt
+Jan 05, 2014 2:41:31 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+INFO: Ignoring inactive rule: temporal-composite-8:ranges
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [2.3 sec].
+Jan 05, 2014 2:41:34 PM edu.stanford.nlp.process.PTBLexer next
+WARNING: Untokenizable: � (U+FFFD, decimal: 65533)
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+Cuneiform for Linux 1.1.0
+do.sh: line 105: syntax error near unexpected token `fi'
+do.sh: line 105: `fi'
+Ececution of <sh do.sh> failed
+SANDBOX SPACE:
+188M	.
+Done Running 18252223 /var/lib/condor/execute/dir_77253 Result was <512>
+Non-zero job status so exit(8)....

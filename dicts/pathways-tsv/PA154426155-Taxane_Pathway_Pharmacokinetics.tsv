@@ -1,0 +1,12 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ABCB1,ABCC1,ABCC2,ABCG2	ABCB1,ABCC1,ABCC2,ABCG2	Biochemical Reaction	NR1I2	control	cell	11329060	NR1I2,ABCC1,ABCB1,ABCC2,ABCG2			
+CYP2C8	CYP2C8	Biochemical Reaction	NR1I2	control	cell	15933212	NR1I2,CYP2C8			
+CYP3A4	CYP3A4	Biochemical Reaction	NR1I2	control	cell	18839173	CYP3A4,NR1I2			
+docetaxel	metabolite	Biochemical Reaction	CYP1B1,CYP3A4,CYP3A5	catalysis	cell		CYP3A4,CYP3A5,CYP1B1	docetaxel		
+NR1I2	NR1I2	Biochemical Reaction	paclitaxel	control	cell	18839173,11329060	NR1I2	paclitaxel		
+paclitaxel	metabolite	Biochemical Reaction	CYP2C8,CYP3A4	catalysis	cell		CYP3A4,CYP2C8	paclitaxel		
+paclitaxel	metabolite	Biochemical Reaction	CYP1B1	catalysis	cell		CYP1B1	paclitaxel		
+docetaxel	docetaxel	Transport	ABCB1,ABCC1,ABCC2,ABCG2	catalysis	cell		ABCC1,ABCB1,ABCC2,ABCG2	docetaxel		
+docetaxel	docetaxel	Transport	SLCO1B3	catalysis	cell		SLCO1B3	docetaxel		
+paclitaxel	paclitaxel	Transport	ABCB1,ABCC1,ABCC2,ABCG2	catalysis	cell		ABCC1,ABCB1,ABCC2,ABCG2	paclitaxel		
+paclitaxel	paclitaxel	Transport	SLCO1B3	catalysis	cell		SLCO1B3	paclitaxel		

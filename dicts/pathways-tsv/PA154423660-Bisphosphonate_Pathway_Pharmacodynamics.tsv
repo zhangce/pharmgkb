@@ -1,0 +1,11 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+acetoacetyl-CoA,acetyl-CoA	HMG-CoA	Biochemical Reaction	HMGCS1	catalysis	cell		HMGCS1			
+farnesyl pyrophosphate	geranyl-geranyl pyrophosphate	Biochemical Reaction			cell					
+farnesyl pyrophosphate	squalene	Biochemical Reaction	FDFT1	catalysis	cell		FDFT1			
+FDFT1	FDFT1	Biochemical Reaction		control	cell	9125274,1464749	FDFT1			
+FDPS	FDPS	Biochemical Reaction		control	cell	18687167,16684881,11160603,9797474,9556058	FDPS			
+geranyl pyrophosphate	farnesyl pyrophosphate	Biochemical Reaction	FDPS	catalysis	cell		FDPS			
+HMG-CoA	mevalonate	Biochemical Reaction	HMGCR	catalysis	cell		HMGCR			
+mevalonate	geranyl pyrophosphate	Biochemical Reaction			cell					
+CDC42,HRAS,KRAS,MRAS,NRAS,RAB1A,RAC1,RAC2,RAC3,RAP1A,RHOA,RRAS	CDC42,HRAS,KRAS,MRAS,NRAS,RAB1A,RAC1,RAC2,RAC3,RAP1A,RHOA,RRAS	Biochemical Reaction	geranyl-geranyl pyrophosphate	control	cell	11160603,9797474,9556058	NRAS,CDC42,HRAS,KRAS,RAC2,RAC3,MRAS,RAC1,RHOA,RRAS,RAP1A,RAB1A			
+squalene	cholesterol	Biochemical Reaction	SQLE	catalysis	cell		SQLE			

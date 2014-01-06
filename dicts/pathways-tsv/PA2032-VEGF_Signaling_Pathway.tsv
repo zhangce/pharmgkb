@@ -1,0 +1,21 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+AKT1,AKT2,AKT3	AKT1,AKT2,AKT3	Biochemical Reaction	PIK3C2A,PIK3C2B	control	cell	10787417	AKT1,PIK3C2A,PIK3C2B,AKT3,AKT2			
+IP3	IP3	Biochemical Reaction	PLCG1,PLCG2	control	cell	7896817	PLCG1,PLCG2			
+NO	NO	Biochemical Reaction	NOS3	control	cell	8368362	NOS3			
+PIK3C2A,PIK3C2B	PIK3C2A,PIK3C2B	Biochemical Reaction	FGFR1,IP3	control	cell	10652257,9950855	FGFR1,PIK3C2A,PIK3C2B			
+PLCG1,PLCG2	PLCG1,PLCG2	Biochemical Reaction	KDR	control	cell	10671553	PLCG1,PLCG2,KDR			
+PRKCA,PRKCB,PRKCD,PRKCE,PRKCG,PRKCH,PRKCI,PRKCQ,PRKCZ	PRKCA,PRKCB,PRKCD,PRKCE,PRKCG,PRKCH,PRKCI,PRKCQ,PRKCZ	Biochemical Reaction	PLCG1,PLCG2	control	cell	10327068	PRKCA,PRKCZ,PRKCQ,PLCG1,PLCG2,PRKCI,PRKCH,PRKCG,PRKCE,PRKCD,PRKCB			
+HRAS,KRAS,NRAS	HRAS,KRAS,NRAS	Biochemical Reaction	CRK	control	cell	10362356	NRAS,HRAS,KRAS,CRK			
+CRK	CRK	Biochemical Reaction	FGFR1	control	cell	10464310	FGFR1,CRK			
+CSK	CSK	Biochemical Reaction	Complex: Integrin(Complex component of Integrin (), Complex component of Integrin (), Complex component of Integrin ()),KDR	control	cell	12952943,12509223	CSK,KDR			
+FGFR1	FGFR1	Biochemical Reaction	brivanib,FGF2	control	cell	10464310	FGFR1,FGF2	brivanib		
+FLT1	FLT1	Biochemical Reaction	axitinib,sunitinib,VEGFA,VEGFB,VEGFC	control	cell	9751730	VEGFB,VEGFC,FLT1,VEGFA	sunitinib,axitinib		
+Complex: Integrin(Complex component of Integrin (), Complex component of Integrin (), Complex component of Integrin ())	Complex: Integrin(Complex component of Integrin (), Complex component of Integrin (), Complex component of Integrin ())	Biochemical Reaction	cilengitide	control	cell			cilengitide		
+KDR	KDR	Biochemical Reaction	axitinib,brivanib,NRP1,sorafenib,sunitinib,TIMP3,VEGFA,VEGFB,VEGFC	control	cell	15466206,12652295,9529250,1417831	VEGFB,VEGFC,NRP1,VEGFA,TIMP3,KDR	sunitinib,brivanib,axitinib,sorafenib		
+MAP2K1,MAP2K2,MAP2K3,MAP2K4,MAP2K5,MAP2K6,MAP2K7	MAP2K1,MAP2K2,MAP2K3,MAP2K4,MAP2K5,MAP2K6,MAP2K7	Biochemical Reaction	RAF1	control	cell	12843393	MAP2K1,MAP2K2,MAP2K3,MAP2K4,RAF1,MAP2K7,MAP2K6,MAP2K5			
+MAPK1,MAPK10,MAPK11,MAPK12,MAPK13,MAPK14,MAPK3,MAPK4,MAPK6,MAPK7,MAPK8,MAPK9	MAPK1,MAPK10,MAPK11,MAPK12,MAPK13,MAPK14,MAPK3,MAPK4,MAPK6,MAPK7,MAPK8,MAPK9	Biochemical Reaction	MAP2K1,MAP2K2,MAP2K3,MAP2K4,MAP2K5,MAP2K6,MAP2K7,sorafenib	control	cell	15466206,9405464	MAP2K1,MAP2K2,MAP2K3,MAP2K4,MAPK11,MAPK10,MAPK1,MAPK12,MAPK6,MAPK13,MAPK14,MAPK4,MAPK3,MAPK9,MAPK8,MAPK7,MAP2K7,MAP2K6,MAP2K5	sorafenib		
+NOS3	NOS3	Biochemical Reaction	AKT1,AKT2,AKT3,Ca2+	control	cell	10376603,9399960	AKT1,NOS3,AKT3,AKT2			
+NRP1	NRP1	Biochemical Reaction	VEGFA,VEGFB,VEGFC	control	cell	9529250	VEGFB,VEGFC,NRP1,VEGFA			
+PIGF	FLT1	Biochemical Reaction			cell	12091877,7929268	FLT1,PIGF			
+RAF1	RAF1	Biochemical Reaction	CSK,PRKCA,PRKCB,PRKCD,PRKCE,PRKCG,PRKCH,PRKCI,PRKCQ,PRKCZ,HRAS,KRAS,NRAS,sorafenib	control	cell	15466206,12843393,10327068	PRKCA,PRKCZ,HRAS,PRKCI,RAF1,PRKCH,PRKCG,PRKCE,PRKCD,PRKCB,NRAS,PRKCQ,KRAS,CSK	sorafenib		
+VEGFA,VEGFB,VEGFC	VEGFA,VEGFB,VEGFC	Biochemical Reaction	bevacizumab,FLT1	control		9377574,8248162	VEGFB,VEGFC,FLT1,VEGFA	bevacizumab		

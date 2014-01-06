@@ -1,0 +1,9 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+BGLAP,MGP	BGLAP,MGP	Biochemical Reaction	GGCX	control	hepatocyte	16493479,16270630	GGCX,BGLAP,MGP			
+GAS6	GAS6	Biochemical Reaction	GGCX	control	hepatocyte	16493479,16270630	GGCX,GAS6			
+GGCX	GGCX	Biochemical Reaction	CALU	control	hepatocyte	16493479,15075329	GGCX,CALU			
+NADH	NAD+	Biochemical Reaction	EPHX1,VKORC1	catalysis	hepatocyte		VKORC1,EPHX1			
+Vitamin K (epoxidized)	Vitamin K (reduced)	Biochemical Reaction	EPHX1,VKORC1	catalysis	hepatocyte	15358623,14765194	VKORC1,EPHX1			
+Vitamin K (reduced)	Vitamin K (epoxidized)	Biochemical Reaction	GGCX	catalysis	hepatocyte	16493479,16270630	GGCX			
+VKORC1	VKORC1	Biochemical Reaction	warfarin	control	hepatocyte	16493479,16270630,15358623	VKORC1	warfarin		
+F10,F2,F7,F9,PROC,PROS1,PROZ	F10,F2,F7,F9,PROC,PROS1,PROZ	conversion	GGCX	catalysis	hepatocyte	16270630	GGCX,F10,PROZ,F2,F9,F7,PROS1,PROC			

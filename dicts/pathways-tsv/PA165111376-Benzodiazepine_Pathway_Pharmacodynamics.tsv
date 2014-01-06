@@ -1,0 +1,6 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+Complex: Peripheral BDZ receptor(ACBD3, BZRAP1, DBI, SLC25A4, TSPO, VDAC1)	Complex: Peripheral BDZ receptor(ACBD3, BZRAP1, DBI, SLC25A4, TSPO, VDAC1)	Biochemical Reaction	benzodiazepine derivatives	control	cell		ACBD3,TSPO,SLC25A4,BZRAP1,DBI,VDAC1	benzodiazepine derivatives		
+Complex: GABAa receptor inactive(GABRA1, GABRB2, GABRG2)	Complex: GABAa receptor active(GABRA1, GABRB2, GABRG2)	conversion	benzodiazepine derivatives,GABA	control	neuron		GABRG2,GABRA1,GABRB2	benzodiazepine derivatives		
+Cl-	Cl-	Transport	Complex: GABAa receptor active(GABRA1, GABRB2, GABRG2)	catalysis	neuron		GABRG2,GABRA1,GABRB2			
+GABA	GABA	Transport	SLC32A1	catalysis	neuron		SLC32A1			
+GABA	GABA	Transport	SLC6A1,SLC6A11,SLC6A12,SLC6A13	catalysis	neuron	15829583,9798903	SLC6A1,SLC6A11,SLC6A12,SLC6A13			

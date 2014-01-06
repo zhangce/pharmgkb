@@ -1,0 +1,7 @@
+Sun Jan  5 14:28:48 2014 CURL result=<0> signal=<0> time=<0> url=<http://proxy.chtc.wisc.edu/SQUID/SLIBS1.tar.gz> 
+Sun Jan  5 14:28:49 2014 CURL result=<0> signal=<0> time=<0> url=<http://proxy.chtc.wisc.edu/SQUID//czhang/k2pdfopt> 
+Sun Jan  5 14:28:50 2014 CURL result=<0> signal=<0> time=<1> url=<http://proxy.chtc.wisc.edu/SQUID//czhang/cuneiform.zip> 
+Sun Jan  5 14:28:51 2014 CURL result=<0> signal=<0> time=<1> url=<http://proxy.chtc.wisc.edu/SQUID//czhang/ocr2.zip> 
+Sun Jan  5 14:28:53 2014 CURL result=<0> signal=<0> time=<2> url=<http://proxy.chtc.wisc.edu/SQUID//czhang/nlp3.jar> 
+Sun Jan  5 14:47:56 2014 JOBTIME duration=<1143> result=<2> signal=<2> type=<sh do.sh> 
+Sun Jan  5 14:47:56 2014 RUNTIME duration=<1148> type=<Other> 

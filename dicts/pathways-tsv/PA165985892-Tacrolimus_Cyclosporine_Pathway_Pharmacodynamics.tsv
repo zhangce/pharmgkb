@@ -1,0 +1,32 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ATF2,ATF3,BATF,FOS,FOSB,FOSL1,FOSL2,JDP2,JUN,JUNB,JUND,MAF,MAFA,MAFB,MAFF,MAFG,MAFK,NRL	ATF2,ATF3,BATF,FOS,FOSB,FOSL1,FOSL2,JDP2,JUN,JUNB,JUND,MAF,MAFA,MAFB,MAFF,MAFG,MAFK,NRL	Biochemical Reaction	MAPK14,MAPK8	control	lymphocyte	11258483,7622446	MAFG,MAF,MAFF,JDP2,FOSL2,MAFB,FOSB,MAFK,JUNB,ATF2,BATF,FOS,ATF3,NRL,MAPK14,JUN,JUND,MAPK8,MAFA,FOSL1			
+PPP3CA,PPP3CB,PPP3CC,PPP3R1,PPP3R2	PPP3CA,PPP3CB,PPP3CC,PPP3R1,PPP3R2	Biochemical Reaction	Complex: Cyclosporine-PPIA,Complex: Tacrolimus-FKBP1A	control	lymphocyte	7529175,7523407	PPP3R1,PPP3CB,PPP3R2,PPP3CC,PPP3CA			
+cyclosporine	TGFB1	Biochemical Reaction			lymphocyte	12427154,9484745	TGFB1	cyclosporine		
+		Biochemical Reaction	TGFB1	control	lymphocyte	18209044,10071036	TGFB1			
+MAP2K3	MAP2K3	Biochemical Reaction	MAP3K11,MAP3K7	control	lymphocyte	9003778,8663074	MAP3K7,MAP2K3,MAP3K11			
+MAP2K4	MAP2K4	Biochemical Reaction	MAP3K1	control	lymphocyte	11451947,10878286,9808624	MAP3K1,MAP2K4			
+MAP2K6	MAP2K6	Biochemical Reaction	MAP3K11,MAP3K7	control	lymphocyte	9003778,8663074	MAP3K7,MAP2K6,MAP3K11			
+MAP2K7	MAP2K7	Biochemical Reaction	MAP3K1	control	lymphocyte	11451947,10878286	MAP3K1,MAP2K7			
+MAP3K1	MAP3K1	Biochemical Reaction		control	lymphocyte	19740675,17906693,17473844	MAP3K1			
+MAP3K11	MAP3K11	Biochemical Reaction		control	lymphocyte	19740675,17906693,17473844	MAP3K11			
+MAP3K7	MAP3K7	Biochemical Reaction		control	lymphocyte	19740675,17473844,11104763	MAP3K7			
+MAPK14	MAPK14	Biochemical Reaction	MAP2K3,MAP2K6	control	lymphocyte	9575191,9003778	MAP2K3,MAPK14,MAP2K6			
+MAPK8	MAPK8	Biochemical Reaction	MAP2K4,MAP2K7	control	lymphocyte	11451947,9575191	MAP2K4,MAPK8,MAP2K7			
+NFATC1,NFATC2,NFATC4	NFATC1,NFATC2,NFATC4	Biochemical Reaction	PPP3CA,PPP3CB,PPP3CC,PPP3R1,PPP3R2	catalysis	lymphocyte		PPP3R1,PPP3CB,PPP3R2,PPP3CC,NFATC4,PPP3CA,NFATC2,NFATC1			
+NFKB1,NFKB2,REL,RELA,RELB	NFKB1,NFKB2,REL,RELA,RELB	Biochemical Reaction	PPP3CA,PPP3CB,PPP3CC,PPP3R1,PPP3R2	control	lymphocyte	21199863	REL,RELA,RELB,PPP3R1,PPP3CB,PPP3R2,PPP3CC,NFKB1,PPP3CA,NFKB2			
+		Biochemical Reaction		control		19740675				
+tacrolimus	TGFB1	Biochemical Reaction			lymphocyte	12427154,10071036	TGFB1	tacrolimus		
+		Biochemical Reaction	Complex: Cyclosporine-PPIA,Complex: Tacrolimus-FKBP1A	control	lymphocyte	19740675,17473844,11258483				
+		Biochemical Reaction	Complex: Cyclosporine-PPIA,Complex: Tacrolimus-FKBP1A	control	lymphocyte	19740675,17473844,11258483				
+		Biochemical Reaction	Complex: Cyclosporine-PPIA,Complex: Tacrolimus-FKBP1A	control	lymphocyte	19740675,17473844,11258483				
+ATF2,ATF3,BATF,FOS,FOSB,FOSL1,FOSL2,JDP2,JUN,JUNB,JUND,MAF,MAFA,MAFB,MAFF,MAFG,MAFK,NRL		Complex Assembly			lymphocyte	10970869	MAFG,MAF,MAFF,JDP2,FOSL2,MAFB,FOSB,MAFK,JUNB,ATF2,BATF,FOS,ATF3,NRL,JUN,JUND,MAFA,FOSL1			
+cyclosporine	Complex: Cyclosporine-PPIA	Complex Assembly			lymphocyte	7529175,7523407		cyclosporine		
+FKBP1A	Complex: Tacrolimus-FKBP1A	Complex Assembly			lymphocyte	7529175,7523407	FKBP1A			
+NFATC1,NFATC2,NFATC4		Complex Assembly			lymphocyte	10022916	NFATC4,NFATC2,NFATC1			
+NFKB1,NFKB2,REL,RELA,RELB		Complex Assembly			lymphocyte	7546397,2497518	REL,RELA,RELB,NFKB1,NFKB2			
+PPIA	Complex: Cyclosporine-PPIA	Complex Assembly			lymphocyte	7529175,7523407	PPIA			
+tacrolimus	Complex: Tacrolimus-FKBP1A	Complex Assembly			lymphocyte	7529175,7523407		tacrolimus		
+	IL2	conversion			lymphocyte		IL2			
+MAPK14	MAPK14	Transport			lymphocyte	12077368	MAPK14			
+MAPK8	MAPK8	Transport			lymphocyte	12077368	MAPK8			
+NFATC1,NFATC2,NFATC4	NFATC1,NFATC2,NFATC4	Transport			lymphocyte	7479966	NFATC4,NFATC2,NFATC1			

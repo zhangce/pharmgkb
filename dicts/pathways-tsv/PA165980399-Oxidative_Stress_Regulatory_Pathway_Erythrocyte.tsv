@@ -1,0 +1,22 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+compound II	compound II	Biochemical Reaction	NADPH	control	erythrocyte	17158050,8704218,3805001				
+GSH	GSSG	Biochemical Reaction	GPX1	catalysis	erythrocyte	21376665,18177777,17611006,16204390,2633878	GPX1			
+GSR	GSR	Biochemical Reaction	NADPH	control	erythrocyte	21376665,18177777,17611006,16204390,15862084	GSR			
+GSSG	GSH	Biochemical Reaction	GSR	catalysis	erythrocyte	21376665,18177777,17611006,16204390,15862084	GSR			
+H2O	H2O2	Biochemical Reaction	SOD1	catalysis	erythrocyte		SOD1			
+H2O2	H2O	Biochemical Reaction	compound I,GPX1,PRDX2,vitamin c	catalysis	erythrocyte	21376665,18177777,16204390,2633878	GPX1,PRDX2	vitamin c		
+H2O2	H2O2	Biochemical Reaction	methylene blue,rasburicase	control	erythrocyte			rasburicase,methylene blue		
+H2O2	O2	Biochemical Reaction	compound I,GPX1,PRDX2,vitamin c	catalysis	erythrocyte		GPX1,PRDX2	vitamin c		
+NADPH	NADP	Biochemical Reaction			erythrocyte					
+NADPH	NADP	Biochemical Reaction			erythrocyte					
+	H2O2	Biochemical Reaction	SOD1	catalysis	erythrocyte	20350285,2633878	SOD1			
+		Biochemical Reaction	methylene blue,rasburicase,vitamin c	control	erythrocyte	22024786,12569111		rasburicase,vitamin c,methylene blue		
+TXN	TXN	Biochemical Reaction	PRDX2	catalysis	erythrocyte	18479207,17611006,10657232	TXN,PRDX2			
+TXN	TXN	Biochemical Reaction	TXNRD1	catalysis	erythrocyte	18479207,17611006,10657232	TXN,TXNRD1			
+TXNRD1	TXNRD1	Biochemical Reaction	NADPH	control	erythrocyte	18479207,17611006,10657232	TXNRD1			
+vitamin c	vitamin c	Biochemical Reaction	GSH,TXNRD1	control	erythrocyte	11687303,10657232,9667500,9405334	TXNRD1	vitamin c		
+vitamin c	vitamin c	Biochemical Reaction	GSH,TXNRD1	control	erythrocyte	11687303,10657232,9667500,9405334	TXNRD1	vitamin c		
+CAT	compound I	conversion	H2O2	catalysis	erythrocyte	22516655,17158050	CAT			
+compound I	CAT	conversion			erythrocyte	22516655,17158050	CAT			
+compound I	compound II	conversion			erythrocyte	22516655,17158050				
+compound II	CAT	conversion			erythrocyte	22516655,17158050	CAT			

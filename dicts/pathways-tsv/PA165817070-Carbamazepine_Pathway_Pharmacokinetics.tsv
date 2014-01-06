@@ -1,0 +1,21 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+2-hydroxycarbamazepine	2-hydroxyiminostilbene	Biochemical Reaction	CYP3A4	catalysis	hepatocyte	18463198,16135660	CYP3A4			
+2-hydroxycarbamazepine	carbamazepine catechol	Biochemical Reaction			hepatocyte	18463198				
+2-hydroxyiminostilbene	iminoquinone	Biochemical Reaction			hepatocyte	18463198,16135660				
+3-hydroxycarbamazepine	3-hydroxycarbamazepine free radical,reactive oxygen species	Biochemical Reaction	MPO	catalysis	hepatocyte	18463198,18463199	MPO			
+3-hydroxycarbamazepine	carbamazepine catechol	Biochemical Reaction	CYP1A2,CYP2C19,CYP3A4,CYP3A5,CYP3A7	catalysis	hepatocyte	18463198	CYP3A4,CYP3A5,CYP3A7,CYP2C19,CYP1A2			
+carbamazepine 10,11-epoxide	carbamazepine diol	Biochemical Reaction	EPHX1	catalysis	hepatocyte	18463198,15692831	EPHX1			
+carbamazepine 10,11-epoxide	carbamazepine epoxide glucuronide	Biochemical Reaction	UGT2B7	catalysis	hepatocyte	17495417,15915352,15292462	UGT2B7			
+carbamazepine 2,3-epoxide	2-hydroxycarbamazepine	Biochemical Reaction	CYP1A2,CYP2A6,CYP2B6,CYP2E1,CYP3A4	catalysis	hepatocyte	18463198,12386121	CYP3A4,CYP2B6,CYP2A6,CYP2E1,CYP1A2			
+carbamazepine 2,3-epoxide	3-hydroxycarbamazepine	Biochemical Reaction			hepatocyte					
+carbamazepine catechol	carbamazepine o-quinone	Biochemical Reaction			hepatocyte	18463198				
+carbamazepine	3-hydroxycarbamazepine	Biochemical Reaction	CYP2B6,CYP3A4	catalysis	hepatocyte	18463198	CYP3A4,CYP2B6	carbamazepine		
+carbamazepine	carbamazepine 10,11-epoxide	Biochemical Reaction	CYP2C8,CYP3A4,CYP3A5	catalysis	hepatocyte	19255940,18463198	CYP3A4,CYP3A5,CYP2C8	carbamazepine		
+carbamazepine	carbamazepine 2,3-epoxide	Biochemical Reaction			hepatocyte	18463198		carbamazepine		
+carbamazepine	carbamazepine glucuronide	Biochemical Reaction	UGT2B7	catalysis	hepatocyte	17495417,15915352,15292462	UGT2B7	carbamazepine		
+CYP2B6	CYP2B6	Biochemical Reaction	NR1I2,NR1I3	control	hepatocyte	19702527,17112801	NR1I3,NR1I2,CYP2B6			
+CYP3A4	CYP3A4	Biochemical Reaction	3-hydroxycarbamazepine free radical,NR1I2,NR1I3	control	hepatocyte	18096676,17112801,10668858,3319544	CYP3A4,NR1I3,NR1I2			
+CYP3A4	CYP3A4	Biochemical Reaction	NR1I2,NR1I3	control	hepatocyte		CYP3A4,NR1I3,NR1I2			
+NR1I2	NR1I2	Biochemical Reaction	carbamazepine	control	hepatocyte	19702527,17112801,3319544	NR1I2	carbamazepine		
+NR1I3	NR1I3	Biochemical Reaction	carbamazepine	control	hepatocyte	19702527,17112801,3319544	NR1I3	carbamazepine		
+carbamazepine	carbamazepine	Transport	ABCC2,RALBP1	catalysis	hepatocyte		RALBP1,ABCC2	carbamazepine		

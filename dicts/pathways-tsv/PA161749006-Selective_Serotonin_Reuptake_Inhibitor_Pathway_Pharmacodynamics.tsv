@@ -1,0 +1,19 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ADCY1,ADCY2	ADCY1,ADCY2	Biochemical Reaction	GNAI1,GNAI2,GNAI3,GNAS	control	neuron	16896947,15034221,11916537	ADCY1,GNAI3,ADCY2,GNAI2,GNAI1,GNAS			
+ATP	cyclic AMP	Biochemical Reaction	ADCY1,ADCY2	catalysis	neuron	12726882	ADCY1,ADCY2			
+GNAI1,GNAI2,GNAI3	GNAI1,GNAI2,GNAI3	Biochemical Reaction	HTR1A,HTR1B,HTR1D,HTR1E,HTR1F	control	neuron	12726882,11590474,11916537	HTR1B,HTR1A,GNAI3,GNAI2,GNAI1,HTR1D,HTR1F,HTR1E			
+GNAQ	GNAQ	Biochemical Reaction	HTR2A,HTR2C	control	neuron	12726882,11590474,11916537	GNAQ,HTR2C,HTR2A			
+GNAS	GNAS	Biochemical Reaction	HTR4,HTR6,HTR7	control	neuron	12726882,11590474,11916537	HTR7,HTR6,HTR4,GNAS			
+HTR3A	HTR3A	Biochemical Reaction	serotonin	control	neuron	12726882,11590474,11916537	HTR3A			
+PLCB1,PLCB2,PLCB3,PLCB4	PLCB1,PLCB2,PLCB3,PLCB4	Biochemical Reaction	GNAQ	control	neuron	16896947,15034221,11916537	PLCB3,PLCB4,GNAQ,PLCB1,PLCB2			
+serotonin	5-hydroxyindoleacetic acid	Biochemical Reaction	MAOA	catalysis	neuron	14697877,10591056	MAOA			
+SLC6A4	SLC6A4	Biochemical Reaction	Selective serotonin reuptake inhibitors	control	neuron	14642278,10674711,8221701	SLC6A4	Selective serotonin reuptake inhibitors		
+tryptophan	serotonin	Biochemical Reaction	DDC,TPH1,TPH2	catalysis	neuron	16581041,12511643,10889538,8897471	DDC,TPH1,TPH2			
+HTR1A,HTR1B,HTR1D	HTR1A,HTR1B,HTR1D	conversion	serotonin	control	neuron		HTR1B,HTR1A,HTR1D			
+HTR1A,HTR1B,HTR1D,HTR1E,HTR1F	HTR1A,HTR1B,HTR1D,HTR1E,HTR1F	conversion	serotonin	control	neuron		HTR1B,HTR1A,HTR1D,HTR1F,HTR1E			
+HTR2A,HTR2C	HTR2A,HTR2C	conversion	serotonin	control	neuron		HTR2C,HTR2A			
+HTR4	HTR4	conversion	serotonin	control	neuron		HTR4			
+HTR6	HTR6	conversion	serotonin	control	neuron		HTR6			
+HTR7	HTR7	conversion	serotonin	control	neuron		HTR7			
+serotonin	serotonin	Transport	SLC6A4	catalysis	neuron	14642278,12769604,8125921	SLC6A4			
+serotonin	serotonin	Transport	SLC18A2	catalysis	neuron	9665836,1438304	SLC18A2			

@@ -1,0 +1,16 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+acetaminophen	acetaminophen-glucuronide	Biochemical Reaction	UGT1A1,UGT1A6,UGT1A9,UGT2B15	catalysis	hepatocyte	21666065,18232020,17164591,15180166,11714888,11215692,8494539	UGT1A6,UGT1A9,UGT2B15,UGT1A1	acetaminophen		
+acetaminophen	acetaminophen-sulfate	Biochemical Reaction	SULT1A1,SULT1A3,SULT1A4,SULT1E1,SULT2A1	catalysis	hepatocyte	18232020	SULT2A1,SULT1A1,SULT1A3,SULT1E1,SULT1A4	acetaminophen		
+acetaminophen	NAPQI	Biochemical Reaction	CYP1A2,CYP2A6,CYP2D6,CYP2E1,CYP3A4	catalysis	hepatocyte	19219744,11866476	CYP3A4,CYP2D6,CYP2A6,CYP2E1,CYP1A2	acetaminophen		
+acetaminophen	NAPSQI	Biochemical Reaction	PTGS1,PTGS2	catalysis	cell	16413237	PTGS2,PTGS1	acetaminophen		
+acetaminophen-cysteine	acetaminophen-NAC	Biochemical Reaction	NAT2	catalysis	cell	11215692	NAT2			
+acetaminophen-NAC	acetaminophen-cysteine	Biochemical Reaction			cell	11215692				
+NAPQI	acetaminophen-cysteine	Biochemical Reaction	GSTP1	catalysis	hepatocyte	22175791,22022436	GSTP1			
+NAPSQI	NAPQI	Biochemical Reaction			cell	11215692				
+NAT2	NAT2	Biochemical Reaction	acetaminophen	control	cell	9918139	NAT2	acetaminophen		
+phenacetin	acetaminophen	Biochemical Reaction	CYP1A1,CYP1A2	catalysis	hepatocyte	22949628	CYP1A1,CYP1A2	acetaminophen,phenacetin		
+		Biochemical Reaction	NAPQI	control	hepatocyte	11866476,11215692				
+acetaminophen-cysteine	acetaminophen-cysteine	Transport	ABCC1,ABCC4,ABCC5	catalysis	hepatocyte	17627974,11215692	ABCC4,ABCC1,ABCC5			
+acetaminophen-cysteine	acetaminophen-cysteine	Transport			cell	11215692				
+acetaminophen-glucuronide	acetaminophen-glucuronide	Transport	ABCB1,ABCG2	catalysis	hepatocyte	21241071,17627974	ABCB1,ABCG2			
+acetaminophen-sulfate	acetaminophen-sulfate	Transport	ABCB1,ABCG2	catalysis	hepatocyte	21241071,17627974	ABCB1,ABCG2			

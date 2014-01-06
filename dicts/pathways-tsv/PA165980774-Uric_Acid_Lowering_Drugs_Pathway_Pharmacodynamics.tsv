@@ -1,0 +1,12 @@
+From	To	Reaction Type	Controller	Control Type	Cell Type	PubMed Id	Genes	Drugs	Diseases	
+ABCC2	ABCC2	Biochemical Reaction	probenecid	control		11477083	ABCC2	probenecid		
+allopurinol	Oxypurinol	Biochemical Reaction	XDH	catalysis	cell	20562597	XDH	allopurinol		
+Hypoxanthine	Xanthine	Biochemical Reaction	XDH	catalysis	cell	16597166,12646938	XDH			
+SLC22A12	SLC22A12	Biochemical Reaction	benzbromarone,losartan,probenecid	control		22359229	SLC22A12	probenecid,losartan,benzbromarone		
+SLC2A9	SLC2A9	Biochemical Reaction	losartan	control		22359229	SLC2A9	losartan		
+Uric Acid	5-hydroxyisourate	Biochemical Reaction	pegloticase,rasburicase	catalysis	cell	20562597,16597166,12646938		rasburicase,pegloticase		
+Xanthine	Uric Acid	Biochemical Reaction	XDH	catalysis	cell	22665944,20562597,16597166,12646938,11934348	XDH			
+XDH	XDH	Biochemical Reaction	allopurinol,febuxostat,Oxypurinol	control	cell	22665944,20401506,20562597,19247302,16597166,12646938	XDH	febuxostat,allopurinol		
+5-hydroxyisourate	Allantoin	conversion			cell	16597166,12646938				
+5-hydroxyisourate	Hydrogen Peroxide	conversion			cell	16597166,12646938				
+Hydrogen Peroxide	hydrogen peroxide	Transport			cell,erythrocyte					
