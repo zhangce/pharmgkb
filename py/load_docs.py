@@ -46,9 +46,11 @@ def process(task):
 
 	relation_drug_gene.extract(doc)
 
+	fo = open(BASE_FOLDER + "/tmp/" + DOCID + ".json", 'w')
+	doc.dump(fo)
+	fo.close()
 
-	doc.dump()
-
+	
 
 log("START LOADING DOCUMENTS!")
 
@@ -61,17 +63,17 @@ def do():
 		task.docid = docid
 		tasks.append(task)
 
-	ct = 0
-	for task in tasks:
-		ct = ct + 1
-		process(task)
+	#ct = 0
+	#for task in tasks:
+	#	ct = ct + 1
+	#	process(task)
+	#
+	#	log(ct)
+	#	if ct > 100:
+	#		break
 
-		log(ct)
-		if ct > 100:
-			break
-
-	#pool = Pool(4)
-	#pool.map(process, tasks)
+	pool = Pool(8)
+	pool.map(process, tasks)
 
 do()
 

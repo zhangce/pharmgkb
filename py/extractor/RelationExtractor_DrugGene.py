@@ -51,7 +51,7 @@ class RelationExtractor_DrugGene(Extractor):
 
 
 				for drug_mention2 in doc.candidate_drug_mentions[sentid]:
-					if drug_mention2 != drug_mention and NEG_QUOTA > 0:
+					if drug_mention2 != drug_mention and NEG_QUOTA > 50:
 
 						NEG_QUOTA = NEG_QUOTA - 1
 
@@ -61,6 +61,7 @@ class RelationExtractor_DrugGene(Extractor):
 						doc.add_candidate_relation_mentions(sentid, rel)
 
 		for sentid in doc.candidate_gene_mentions:
+			sent = doc.sents[sentid]
 			for drug_mention in doc.candidate_gene_mentions[sentid]:
 				for drug_mention2 in doc.candidate_gene_mentions[sentid]:
 					if drug_mention2 != drug_mention and NEG_QUOTA > 0:

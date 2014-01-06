@@ -139,7 +139,7 @@ class Document(object):
             self.candidate_relation_mentions[sentid] = []
         self.candidate_relation_mentions[sentid].append(mention)
 
-    def dump(self):
+    def dump(self, fo):
 
         mid2id = {}
         for dicts in [self.candidate_gene_mentions, self.candidate_drug_mentions, self.candidate_motabolite_mentions]:
@@ -155,7 +155,7 @@ class Document(object):
         rs["candidate_motabolite_mentions"] = serialize(self.candidate_motabolite_mentions)
         rs["candidate_relation_mentions"] = serialize(self.candidate_relation_mentions)
         rs["dependencies"] = serialize(self.dependencies)
-        print json.dumps(rs)
+        fo.write(json.dumps(rs))
 
 
 
