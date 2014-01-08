@@ -45,4 +45,4 @@ class RelationExtractor_DrugGene(RelationExtractor):
 			if gene in self.dict_drug_gene[drug]:
 				rel.is_correct = True
 
-		rel.dumps()
+		print rel.dumps()

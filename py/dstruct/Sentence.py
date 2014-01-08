@@ -3,6 +3,7 @@
 class Sentence(object):
 
     sentid = None
+
     words = None
 
     def __init__(self):
@@ -98,18 +99,12 @@ class Sentence(object):
             except:
                 break
 
-        #print first_word_to_parent
-        #print second_word_to_parent
-
         return "-".join(first_word_to_parent) + "@" + "-".join(second_word_to_parent)
 
     def get_prev_wordobject(self, mention):
         begin = mention.prov_words[0].insent_id
-        a = begin - 1
-        if a < 0:
-            return None
-        else:
-            return self.words[a]
+        if begin - 1 < 0: return None
+        else: return self.words[begin - 1]
 
     def get_dependency_rightside(self, mention):
         begin = mention.prov_words[0].insent_id
@@ -193,12 +188,6 @@ class Sentence(object):
                     final_path = "NULL ## " + path
                     paths.append(final_path)
 
-        #path = ""
-        #ll = 100000000
-        #for p in paths:
-        #    if len(p) < ll:
-        #        path = p
-        #        ll = len(p)
         return paths
 
     def dep_path(self, entity1, entity2):
@@ -220,50 +209,5 @@ class Sentence(object):
                 path = p
                 ll = len(p)
         return path
-
-
-    def wordseq_feature(self, entity1, entity2):
-        
-        begin1 = entity1.words[0].insent_id
-        end1 = entity1.words[-1].insent_id
-        begin2 = entity2.words[0].insent_id
-        end2 = entity2.words[-1].insent_id
-
-        start = end1 + 1
-        finish = begin2 - 1
-        prefix = ""
-
-        if end2 <= begin1:
-            start = end2 + 1
-            finish = begin1 - 1
-            prefix = "INV:"
-        
-        ss = []
-        for w in range(start, finish + 1):
-            ss.append(self.words[w].get_feature())
-
-        return prefix + "_".join(ss)
-
-    def wordseq_feature2(self, begin1, end1, begin2, end2):
-        
-        start = end1 + 1
-        finish = begin2 - 1
-        prefix = ""
-
-        if end2 <= begin1:
-            start = end2 + 1
-            finish = begin1 - 1
-            prefix = "INV:"
-        
-        ss = []
-        for w in range(start, finish + 1):
-            ss.append(self.words[w].get_feature())
-
-        return prefix + "_".join(ss)
-
-
-
-
-
 
 

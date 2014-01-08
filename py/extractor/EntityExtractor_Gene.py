@@ -43,19 +43,4 @@ class EntityExtractor_Gene(MentionExtractor):
 
 
 
-		"""
-
-		for sentid in doc.candidate_gene_mentions:
-			for mention in doc.candidate_gene_mentions[sentid]:
-				if mention.symbol in negative_symbols:
-					mention.is_correct = False
-		"""		
-
-
-
-
-
-
-
-
 

@@ -5,9 +5,11 @@ from helper.easierlife import *
 class RelationMention(object):
 
 	id = None	
+
 	type = None
 
 	m1 = None
+	
 	m2 = None
 
 	features = None
@@ -25,7 +27,7 @@ class RelationMention(object):
 		self.m2 = _m2
 
 	def dumps(self):
-		print json.dumps({"type":self.type, "mid1":self.m1.id, "mid2":self.m2.id, "is_correct":self.is_correct, "features":self.features})
+		return json.dumps({"type":self.type, "mid1":self.m1.id, "mid2":self.m2.id, "is_correct":self.is_correct, "features":self.features})
 
 	def __repr__(self):
 		return "[" + self.type + " : " + self.m1.__repr__() + " | " + self.m2.__repr__() + "]"
