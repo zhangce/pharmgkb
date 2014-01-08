@@ -10,7 +10,7 @@ from dstruct.BinaryDependency import *
 
 from dstruct.Relation import *
 
-class RelationExtractor_DrugGene(Extractor):
+class RelationExtractor_DrugGene(RelationExtractor):
 
 	dict_drug_gene = None
 
@@ -33,72 +33,17 @@ class RelationExtractor_DrugGene(Extractor):
 								self.dict_drug_gene[line[0].lower()] = {}
 							self.dict_drug_gene[line[0].lower()][w] = 1
 
-	def extract(self, doc):
+	def extract(self, sent, mention1, mention2):
 
-		NEG_QUOTA = 100
-
-		for sentid in doc.candidate_drug_mentions:
-			if sentid not in doc.candidate_gene_mentions: continue
-			sent = doc.sents[sentid]
-
-			for drug_mention in doc.candidate_drug_mentions[sentid]:
-				for gene_mention in doc.candidate_gene_mentions[sentid]:
-
-					rel = RelationMention("DrugGene", drug_mention, gene_mention)
-					rel.add_features([sent.dep_path(drug_mention, gene_mention),])
-
-					doc.add_candidate_relation_mentions(sentid, rel)
+		rel = RelationMention("DrugGene", mention1, mention2)
+		rel.add_features([sent.dep_path(mention1, mention2),])
 
 
-				for drug_mention2 in doc.candidate_drug_mentions[sentid]:
-					if drug_mention2 != drug_mention and NEG_QUOTA > 50:
+		drug = mention1.name.lower()
+		gene = mention2.symbol
 
-						NEG_QUOTA = NEG_QUOTA - 1
+		if drug in self.dict_drug_gene:
+			if gene in self.dict_drug_gene[drug]:
+				rel.is_correct = True
 
-						rel = RelationMention("DrugGene", drug_mention, drug_mention2)
-						rel.add_features([sent.dep_path(drug_mention, drug_mention2),])
-
-						doc.add_candidate_relation_mentions(sentid, rel)
-
-		for sentid in doc.candidate_gene_mentions:
-			sent = doc.sents[sentid]
-			for drug_mention in doc.candidate_gene_mentions[sentid]:
-				for drug_mention2 in doc.candidate_gene_mentions[sentid]:
-					if drug_mention2 != drug_mention and NEG_QUOTA > 0:
-
-						NEG_QUOTA = NEG_QUOTA - 1
-						rel = RelationMention("DrugGene", drug_mention, drug_mention2)
-						rel.add_features([sent.dep_path(drug_mention, drug_mention2),])
-
-						doc.add_candidate_relation_mentions(sentid, rel)
-
-
-		for sentid in doc.candidate_relation_mentions:
-			for relation in doc.candidate_relation_mentions[sentid]:
-
-				if relation.m2.type == 'GENE' and relation.m1.type == 'DRUG':
-
-					drug = relation.m1.name.lower()
-					gene = relation.m2.symbol
-
-					if drug in self.dict_drug_gene:
-						if gene in self.dict_drug_gene[drug]:
-							#log("++++")
-							relation.is_correct = True
-
-				else:
-					#log("----")
-					relation.is_correct = False
-
-
-
-
-
-
-
-
-
-
-
-
-
+		rel.dumps()

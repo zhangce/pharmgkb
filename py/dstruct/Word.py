@@ -19,7 +19,7 @@ class Word(object):
     def __init__(self, _insent_id, _word, _pos, _ner, _lemma, _deppath, _deppar, _sentid, _box):
         self.insent_id = int(_insent_id) - 1
         (self.word, self.pos, self.ner, self.lemma, self.deppath) = (_word, _pos, _ner, _lemma, _deppath)
-        self.ner = {self.ner: [None,]}
+        self.ner = self.ner
         self.deppar = int(_deppar) - 1
         self.sentid = int(_sentid.split('_')[-1]) - 1
         self.box = _box
@@ -33,10 +33,10 @@ class Word(object):
         return self.word
 
     def get_feature(self):
-    	if len(self.ner) == 1:
-    		if 'O' in self.ner:
-    			return "O(" + self.lemma + ")"
-    		else:
-    			return self.ner.keys()[0]
-    	else:
-    		return "+".join(self.ner.keys())
+        if self.ner == 'O':
+            if self.lemma == '"': 
+                return "''"
+            else: 
+                return self.lemma
+        else:
+            return self.ner

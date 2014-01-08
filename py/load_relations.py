@@ -5,25 +5,19 @@ from multiprocessing import *
 
 from helper.easierlife import *
 
+from extractor.RelationExtractor_DrugGene import *
+
+relation_drug_gene = RelationExtractor_DrugGene()
+relation_drug_gene.loadDict()
+
 """
-psql -U $DB_USER -c "CREATE TABLE relations (id   bigserial primary key, \
-											type             text,
-											gene_id          text,                  \
-											drug_id          text,                \
-											is_correct       boolean);"					$DB_NAME
+input: "SELECT t0.docid, t0.document, array_agg(t1.object) from documents t0, 
+mentions t1 WHERE t0.docid=t1.docid GROUP BY t0.docid, t0.document;"
 """
+for row in get_inputs():
 
-for doc in get_inputs():
+	mention1 = deserialize(row["mentions.m1"])
+	mention2 = deserialize(row["mentions.m2"])
+	sentence = deserialize(row["sentences.sentence"])
 
-	candidate_gene_mentions = deserialize(doc["documents.candidate_gene_mentions"])
-	candidate_drug_mentions = deserialize(doc["documents.candidate_drug_mentions"])
-	candidate_motabolite_mentions = deserialize(doc["documents.candidate_motabolite_mentions"])
-	candidate_relation_mentions = deserialize(doc["documents.candidate_relation_mentions"])
-	dependencies = deserialize(doc["documents.dependencies"])
-
-	dicts = [candidate_relation_mentions,]
-	for d in dicts:
-		for sentid in d:
-			for m in d[sentid]:
-				print json.dumps({"drug_id":m.m1.id, "type":m.type, "gene_id":m.m2.id, "is_correct":m.is_correct})
-				
+	relation_drug_gene.extract(sentence, mention1, mention2)

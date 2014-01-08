@@ -15,46 +15,38 @@ BASE_DIR=`pwd`
 psql -U $DB_USER -c "drop schema if exists public cascade; create schema public;" $DB_NAME
 
 
+psql -U $DB_USER -c "CREATE TABLE docids (id bigserial primary key, \
+										  docid text,               \
+										  folder text);"     $DB_NAME
+
 psql -U $DB_USER -c "CREATE TABLE documents (id   bigserial primary key, \
 											docid  text,                  \
-											candidate_gene_mentions   text,                   \
-											candidate_drug_mentions   text,                   \
-											candidate_motabolite_mentions   text,                   \
-											candidate_relation_mentions   text,                   \
-											dependencies              text);"                $DB_NAME
+											document   text);"                $DB_NAME
 
+psql -U $DB_USER -c "CREATE TABLE sentences (id   bigserial primary key, \
+											docid  text,                  \
+											sentid text,                   \
+											sentence   text);"                $DB_NAME
 
 psql -U $DB_USER -c "CREATE TABLE mentions (id   bigserial primary key, \
+											docid        text,           \
+											sentid       text,
 											mid          text,                  \
+											start_wid    int,
+											end_wid      int,
 											type         text,                   \
 											is_correct   boolean,                   \
-											repr         text);"					$DB_NAME
-
-
-psql -U $DB_USER -c "CREATE TABLE dependencies (id   bigserial primary key, \
-											mid1          text,                  \
-											mid2         text,                   \
-											feature   text);"					$DB_NAME
-
-
-psql -U $DB_USER -c "CREATE TABLE mention_features (id   bigserial primary key, \
-											mid          text,                  \
-											feature      text);"					$DB_NAME
+											repr         text,					\
+											features     text[],                \
+											object       text);"					$DB_NAME
 
 
 psql -U $DB_USER -c "CREATE TABLE relations (id   bigserial primary key, \
 											type             text,
-											gene_id          text,                  \
-											drug_id          text,                \
-											is_correct       boolean);"					$DB_NAME
-
-
-psql -U $DB_USER -c "CREATE TABLE relation_features (id   bigserial primary key, \
-											type             text,
-											gene_id          text,                  \
-											drug_id          text,
-											feature          text);"					$DB_NAME
-
+											mid1          text,                  \
+											mid2          text,                \
+											is_correct       boolean,            \
+											features       text[]);"					$DB_NAME
 
 
 

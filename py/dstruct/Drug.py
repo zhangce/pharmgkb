@@ -5,7 +5,7 @@ from dstruct.Entity import *
 class DrugMention(Mention):
 	name = None
 
-	def __init__(self, _name, _words):
+	def __init__(self, _docid, _name, _words):
 
-		super(DrugMention, self).__init__("DRUG", _words)
+		super(DrugMention, self).__init__(_docid, "DRUG", _words)
 		self.name = _name

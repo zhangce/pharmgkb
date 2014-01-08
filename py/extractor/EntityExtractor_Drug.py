@@ -8,7 +8,7 @@ from extractor.Extractor import *
 from dstruct.Drug import *
 from dstruct.BinaryDependency import *
 
-class EntityExtractor_Drug(Extractor):
+class EntityExtractor_Drug(MentionExtractor):
 
 	dict_drug_names = None
 	dict_english    = None
@@ -43,48 +43,26 @@ class EntityExtractor_Drug(Extractor):
 			self.dict_english[l.rstrip().lower()] = 1
 
 
+	def supervise(self, doc, mention):
+		if mention.name in self.dict_drug_names and mention.name not in self.dict_english:
+			mention.is_correct = True
+		if mention.name in self.dict_drug_names and mention.name in self.dict_english:
+			mention.is_correct = False
+
 	def extract(self, doc):
 
 		for sent in doc.sents:
 			for (start, end) in get_all_phrases_in_sentence(sent, 5):
-				#print start, end
 
 				phrase = myjoin(" ", sent.words[start:end], lambda (w) : w.word)
-				ner = myjoin(" ", sent.words[start:end], lambda (w) : "+".join(w.ner))
+				ner = myjoin(" ", sent.words[start:end], lambda (w) : w.ner)
 				lemma = myjoin(" ", sent.words[start:end], lambda (w) : w.lemma)
 
 				if lemma.lower() in self.dict_drug_names:
-					mention = DrugMention(lemma.lower(), sent.words[start:end])
-					doc.add_candidate_drug_mentions(sent.sentid, mention)
-
-		for sentid in doc.candidate_drug_mentions:
-			sent = doc.sents[sentid]
-			for mention in doc.candidate_drug_mentions[sentid]:
-
-				mention.add_features(sent.dep_parent(mention))
-
-				for dep in sent.get_dependency_rightside(mention):
-					doc.add_dependencies(BinaryDependency(dep[0], dep[1], dep[2]))
-
-				for dep in sent.get_dependency_leftside(mention):
-					doc.add_dependencies(BinaryDependency(dep[0], dep[1], dep[2]))
-
-
-		negative_symbols = {}
-		for sentid in doc.candidate_drug_mentions:
-			sent = doc.sents[sentid]
-			for mention in doc.candidate_drug_mentions[sentid]:
-				if mention.name in self.dict_drug_names and mention.name not in self.dict_english:
-					mention.is_correct = True
-				if mention.name in self.dict_drug_names and mention.name in self.dict_english:
-					mention.is_correct = False
-					negative_symbols[mention.name] = 1
-
-
-		for sentid in doc.candidate_drug_mentions:
-			for mention in doc.candidate_drug_mentions[sentid]:
-				if mention.name in negative_symbols:
-					mention.is_correct = False
+					mention = DrugMention(doc.docid, lemma.lower(), sent.words[start:end])
+					mention.add_features(sent.dep_parent(mention))
+					self.supervise(doc, mention)
+					print mention.dumps()
 
 
 
