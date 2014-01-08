@@ -9,7 +9,6 @@ class Box(object):
     top = None
     bottom = None
     page = None
-
     strform = ""
 
     def __init__(self, str):

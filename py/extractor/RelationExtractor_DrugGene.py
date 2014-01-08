@@ -9,6 +9,9 @@ from dstruct.Gene import *
 
 from dstruct.Relation import *
 
+DICT_PATHWAY="/dicts/pathways-tsv/"
+DICT_DIALECT="excel-tab"
+
 class RelationExtractor_DrugGene(RelationExtractor):
 
 	dict_drug_gene = None
@@ -19,10 +22,10 @@ class RelationExtractor_DrugGene(RelationExtractor):
 	def loadDict(self):
 
 		import os
-		for f in os.listdir(BASE_FOLDER + "/dicts/pathways-tsv"):
+		for f in os.listdir(BASE_FOLDER + DICT_PATHWAY):
 			if f == '.DS_Store': continue
-			with open(BASE_FOLDER + "/dicts/pathways-tsv/" + f) as tsv:
-				r = csv.reader(tsv, dialect="excel-tab")
+			with open(BASE_FOLDER + DICT_PATHWAY + f) as tsv:
+				r = csv.reader(tsv, dialect=DICT_DIALECT)
 				headers = r.next()
 				for line in r:
 					for w in line[7].split(','):

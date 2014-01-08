@@ -1,11 +1,15 @@
 #! /usr/bin/env python
 
+import random
 import sys
 import csv
 csv.field_size_limit(sys.maxsize)
 
 from extractor.Extractor import *
 from dstruct.Drug import *
+
+DRUG_DICT = "/dicts/drugs.tsv"
+DICT_DIALECT = "excel-tab"
 
 class EntityExtractor_Drug(MentionExtractor):
 
@@ -18,11 +22,10 @@ class EntityExtractor_Drug(MentionExtractor):
 
 	def loadDict(self):
 
-		with open(BASE_FOLDER + "/dicts/drugs.tsv") as tsv:
-			r = csv.reader(tsv, dialect="excel-tab")
+		with open(BASE_FOLDER + DRUG_DICT) as tsv:
+			r = csv.reader(tsv, dialect=DICT_DIALECT)
 			headers = r.next()
 			for line in r:
-				#print line[1]
 				self.dict_drug_names[line[1].lower()] = line[1]
 				for w in line[2].split(","):
 					if len(w) > 5:
@@ -45,23 +48,35 @@ class EntityExtractor_Drug(MentionExtractor):
 	def supervise(self, doc, mention):
 		if mention.name in self.dict_drug_names and mention.name not in self.dict_english:
 			mention.is_correct = True
-		if mention.name in self.dict_drug_names and mention.name in self.dict_english:
-			mention.is_correct = False
+		#if mention.name in self.dict_drug_names and mention.name in self.dict_english:
+		#	mention.is_correct = False
 
 	def extract(self, doc):
+
+		NEG_QUOTA = 100
+		NEG_PROB = 0.01
 
 		for sent in doc.sents:
 			for (start, end) in get_all_phrases_in_sentence(sent, 5):
 
-				phrase = myjoin(" ", sent.words[start:end], lambda (w) : w.word)
-				ner = myjoin(" ", sent.words[start:end], lambda (w) : w.ner)
-				lemma = myjoin(" ", sent.words[start:end], lambda (w) : w.lemma)
+				phrase = " ".join([w.word for w in sent.words[start:end]])
+				ner = " ".join([w.ner for w in sent.words[start:end]])
+				lemma = " ".join([w.lemma for w in sent.words[start:end]])
 
 				if lemma.lower() in self.dict_drug_names:
 					mention = DrugMention(doc.docid, lemma.lower(), sent.words[start:end])
 					mention.add_features(sent.dep_parent(mention))
 					self.supervise(doc, mention)
 					print mention.dumps()
+
+				elif NEG_QUOTA > 0 and random.random() < NEG_PROB:
+					negative_mention = DrugMention(doc.docid, lemma.lower(), sent.words[start:end])
+					negative_mention.add_features(sent.dep_parent(negative_mention))
+					negative_mention.is_correct = False
+					NEG_QUOTA = NEG_QUOTA - 1
+					print negative_mention.dumps()
+
+
 
 
 

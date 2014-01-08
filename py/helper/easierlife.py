@@ -13,27 +13,6 @@ import os
 BASE_FOLDER, throwaway = os.path.split(os.path.realpath(__file__))
 BASE_FOLDER = BASE_FOLDER + "/../../"
 
-def myjoin(d, array, mapfunc):
-	rs = []
-	for a in array:
-		if mapfunc(a) not in ['?']: rs.append(mapfunc(a))
-	return d.join(rs)
-
-def my_par_join(d, array):
-    rss = []
-    for a in array:
-        if a.altword != a.word and a.altword != None:
-            rss.append([a.word, a.altword])
-        else:
-            rss.append([a.word])
-
-    for i in itertools.product(*rss):
-        rs = []
-        for a in i:
-            if a not in ['?', '']:
-                rs.append(a)
-        yield d.join(rs)
-
 
 def get_all_phrases_in_sentence(sent, max_phrase_length):
 	for start in range(0, len(sent.words)):

@@ -1,14 +1,9 @@
 #! /usr/bin/env python
 
-import codecs
-from multiprocessing import *
-
 from helper.easierlife import *
-
 from extractor.EntityExtractor_Gene import *
 
 entity_gene = EntityExtractor_Gene()
-
 entity_gene.loadDict()
 
 for row in get_inputs():

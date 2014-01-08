@@ -28,7 +28,7 @@ psql -U $DB_USER -c "CREATE TABLE sentences (id   bigserial primary key, \
 											sentid text,                   \
 											sentence   text);"                $DB_NAME
 
-psql -U $DB_USER -c "CREATE TABLE mentions (id   bigserial primary key, \
+psql -U $DB_USER -c "CREATE TABLE drug_mentions (id   bigserial primary key, \
 											docid        text,           \
 											sentid       text,
 											mid          text,                  \
@@ -40,6 +40,17 @@ psql -U $DB_USER -c "CREATE TABLE mentions (id   bigserial primary key, \
 											features     text[],                \
 											object       text);"					$DB_NAME
 
+psql -U $DB_USER -c "CREATE TABLE gene_mentions (id   bigserial primary key, \
+											docid        text,           \
+											sentid       text,
+											mid          text,                  \
+											start_wid    int,
+											end_wid      int,
+											type         text,                   \
+											is_correct   boolean,                   \
+											repr         text,					\
+											features     text[],                \
+											object       text);"					$DB_NAME
 
 psql -U $DB_USER -c "CREATE TABLE relations (id   bigserial primary key, \
 											type             text,
