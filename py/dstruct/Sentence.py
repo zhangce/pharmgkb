@@ -25,6 +25,8 @@ class Sentence(object):
             else:
                 return False
 
+    ## Get all words in the dependency tree from word_index to the root
+    #
     def get_path_till_root(self, word_index):
         path = []
         c = word_index
@@ -39,6 +41,8 @@ class Sentence(object):
                 break
         return path
 
+    ## Given two paths returned by get_path_till_root, find the least common ancestor
+    #
     def get_common_ancestor(self, path1, path2):
         parent = None
         for i in range(0, max(len(path1), len(path2))):
@@ -50,6 +54,9 @@ class Sentence(object):
             parent = path1[tovisit]
         return parent
 
+    ## Given two word idx1 and idx2, where idx2 is the parent of idx1, return the
+    # words on the dependency path
+    #
     def get_direct_dependency_path_between_words(self, idx1, idx2):
         words_on_path = []
         c = idx1
@@ -68,7 +75,8 @@ class Sentence(object):
                 break
         return words_on_path
 
-
+    ## Given two word idx1 and idx2, return the dependency path feature between them
+    #
     def get_word_dep_path(self, idx1, idx2):
         path1 = self.get_path_till_root(idx1)
         path2 = self.get_path_till_root(idx2)
@@ -80,6 +88,8 @@ class Sentence(object):
 
         return "-".join(words_from_idx1_to_parents) + "@" + "-".join(words_from_idx2_to_parents)
 
+    ## Given two word idx1 and idx2, return the dependency path feature between them
+    #
     def get_prev_wordobject(self, mention):
         begin = mention.prov_words[0].insent_id
         if begin - 1 < 0: 
@@ -95,7 +105,7 @@ class Sentence(object):
         for i in range(begin, end+1):
             for j in range(0, len(self.words)):
                 if j >= begin and j <= end: continue
-                
+
                 path = self.get_word_dep_path(i, j)
                 paths.append(path)
 
@@ -107,7 +117,7 @@ class Sentence(object):
         end1 = entity1.prov_words[-1].insent_id
         begin2 = entity2.prov_words[0].insent_id
         end2 = entity2.prov_words[-1].insent_id
-    
+        
         paths = []
         for idx1 in range(begin1, end1+1):
             for idx2 in range(begin2, end2+1):

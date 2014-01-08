@@ -30,6 +30,17 @@ class Mention(object):
 		self.end_wid = self.prov_words[-1].insent_id
 
 	def dumps(self):
+		fo = open('/tmp/jsons', 'a')
+		fo.write(json.dumps({"docid":self.docid, "mid":self.id, "type":self.type, 
+			"repr":self.__repr__(), "is_correct":self.is_correct,
+			"features":self.features, "sentid":self.sentid, "start_wid":self.start_wid,
+			"end_wid":self.end_wid, 
+			"mid":"MENTION_%s_%s_SENT%d_%d_%d" % (self.type, self.docid, self.sentid, self.start_wid, self.end_wid),
+			"object":serialize(self)}))
+		fo.write('\n')
+		fo.close()
+
+
 		return json.dumps({"docid":self.docid, "mid":self.id, "type":self.type, 
 			"repr":self.__repr__(), "is_correct":self.is_correct,
 			"features":self.features, "sentid":self.sentid, "start_wid":self.start_wid,
