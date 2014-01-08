@@ -11,10 +11,7 @@ class Sentence(object):
         self.sentid = None
 
     def __repr__(self):
-        _words = []
-        for w in self.words:
-            _words.append(w.word)
-        return " ".join(_words)
+        return " ".join([w.word for w in self.words])
     
     def push_word(self, word):
         if self.sentid== None:
@@ -28,33 +25,21 @@ class Sentence(object):
             else:
                 return False
 
-    def get_word_dep_path(self, idx1, idx2):
-        
-        path1 = []
-        path2 = []
-
-        c = idx1
-        i = len(self.words) + 10
-        while i > 0:
-            i = i -1
+    def get_path_till_root(self, word_index):
+        path = []
+        c = word_index
+        MAXLEN = 1000 # to avoid bad parse tree that have self-recursion
+        while MAXLEN > 0:
+            MAXLEN = MAXLEN -1
             try:
                 if c == -1: break
-                path1.append(c)
+                path.append(c)
                 c = self.words[c].deppar
             except:
                 break
+        return path
 
-        c = idx2
-        i = len(self.words) + 10
-        while i > 0:
-            i = i -1
-            try:
-                if c == -1: break
-                path2.append(c)
-                c = self.words[c].deppar
-            except:
-                break
-
+    def get_common_ancestor(self, path1, path2):
         parent = None
         for i in range(0, max(len(path1), len(path2))):
             tovisit = 0 - i - 1
@@ -63,130 +48,56 @@ class Sentence(object):
             if path1[tovisit] != path2[tovisit]:
                 break
             parent = path1[tovisit]
-        #print parent
+        return parent
 
-        first_word_to_parent = []
-        c = idx1   
-        i = len(self.words) + 10
-        while i > 0:
-            i = i -1
+    def get_direct_dependency_path_between_words(self, idx1, idx2):
+        words_on_path = []
+        c = idx1
+        MAXLEN = 1000
+        while MAXLEN > 0:
+            MAXLEN = MAXLEN - 1
             try:
                 if c == -1: break
-                if c == parent: break
+                if c == idx2: break
                 if c == idx1: 
-                    first_word_to_parent.append(self.words[c].deppath)
+                    words_on_path.append(self.words[c].deppath) # we do not include the word of idx1
                 else:
-                    first_word_to_parent.append(self.words[c].deppath + "|" + self.words[c].get_feature())
-                    
+                    words_on_path.append(self.words[c].deppath + "|" + self.words[c].get_feature())
                 c = self.words[c].deppar
             except:
                 break
+        return words_on_path
 
-        second_word_to_parent = []
-        c = idx2
-        i = len(self.words) + 10
-        while i > 0:
-            i = i -1
-            try:
-                if c == -1: break
-                if c == parent: break
-                if c == idx2:
-                    second_word_to_parent.append(self.words[c].deppath)
-                else:
-                    second_word_to_parent.append(self.words[c].deppath + "|" + self.words[c].get_feature())
-                    
-                c = self.words[c].deppar   
-            except:
-                break
 
-        return "-".join(first_word_to_parent) + "@" + "-".join(second_word_to_parent)
+    def get_word_dep_path(self, idx1, idx2):
+        path1 = self.get_path_till_root(idx1)
+        path2 = self.get_path_till_root(idx2)
+
+        parent = self.get_common_ancestor(path1, path2)
+
+        words_from_idx1_to_parents = self.get_direct_dependency_path_between_words(idx1, parent)
+        words_from_idx2_to_parents = self.get_direct_dependency_path_between_words(idx2, parent)
+
+        return "-".join(words_from_idx1_to_parents) + "@" + "-".join(words_from_idx2_to_parents)
 
     def get_prev_wordobject(self, mention):
         begin = mention.prov_words[0].insent_id
-        if begin - 1 < 0: return None
-        else: return self.words[begin - 1]
-
-    def get_dependency_rightside(self, mention):
-        begin = mention.prov_words[0].insent_id
-        end = mention.prov_words[-1].insent_id
-        
-        paths = []
-        for i in range(begin, end+1):
-            if self.words[i].deppar < begin or self.words[i].deppar > end:
-                par = self.words[i].deppar
-                path = "@ --" + self.words[i].deppath + "-->" + self.words[par].get_feature()
-
-                for k in self.words[par].ner:
-                    for mention2 in self.words[par].ner[k]:
-                        if mention2 != None:
-                            paths.append([mention, mention2, path])
-                            #print mention, mention2, path
-        return paths      
-
-
-    def get_dependency_leftside(self, mention):
-        begin = mention.prov_words[0].insent_id
-        end = mention.prov_words[-1].insent_id
-        
-        paths = []
-        for i in range(begin, end+1):
-            if self.words[i].deppar < begin or self.words[i].deppar > end:
-
-                has_word = False
-                for w in range(0, len(self.words)):
-                    if self.words[w].deppar == i:
-                        final_path = self.words[w].get_feature() + " ~~" + self.words[w].deppath + "~~> " 
-                        
-
-                        for k in self.words[w].ner:
-                            for mention2 in self.words[w].ner[k]:
-                                if mention2 != None:
-                                    #print mention, mention2, final_path
-                                    paths.append([mention, mention2, final_path])
-
-                        has_word = True
-
-                if has_word == False:
-                    for w in range(0, len(self.words)):
-                        if self.words[w].deppar == self.words[i].deppar and w != i:
-                            final_path = self.words[w].get_feature() + " ==" + self.words[w].deppath + "==> " 
-                            
-                            for k in self.words[w].ner:
-                                for mention2 in self.words[w].ner[k]:
-                                    if mention2 != None:
-                                        #print mention, mention2, final_path
-                                        paths.append([mention, mention2, final_path])
-
-        return paths      
+        if begin - 1 < 0: 
+            return None
+        else: 
+            return self.words[begin - 1]
 
     def dep_parent(self, mention):
         begin = mention.prov_words[0].insent_id
         end = mention.prov_words[-1].insent_id
-        
+
         paths = []
         for i in range(begin, end+1):
-            if self.words[i].deppar < begin or self.words[i].deppar > end:
-                par = self.words[i].deppar
-                path = "@ --" + self.words[i].deppath + "-->" + self.words[par].get_feature()
-                #paths.append(path)
-
-                has_word = False
-                for w in range(0, len(self.words)):
-                    if self.words[w].deppar == i:
-                        final_path = self.words[w].get_feature() + " ~~" + self.words[w].deppath + "~~> " + path
-                        paths.append(final_path)
-                        has_word = True
-
-                if has_word == False:
-                    for w in range(0, len(self.words)):
-                        if self.words[w].deppar == self.words[i].deppar and w != i:
-                            final_path = self.words[w].get_feature() + " ==" + self.words[w].deppath + "==> " + path
-                            paths.append(final_path)
-                            has_word = True
-
-                if has_word == False:
-                    final_path = "NULL ## " + path
-                    paths.append(final_path)
+            for j in range(0, len(self.words)):
+                if j >= begin and j <= end: continue
+                
+                path = self.get_word_dep_path(i, j)
+                paths.append(path)
 
         return paths
 
@@ -202,6 +113,7 @@ class Sentence(object):
             for idx2 in range(begin2, end2+1):
                 paths.append(self.get_word_dep_path(idx1, idx2))
 
+        # we pick the one that is shortest
         path = ""
         ll = 100000000
         for p in paths:

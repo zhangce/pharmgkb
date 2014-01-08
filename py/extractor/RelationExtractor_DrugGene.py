@@ -40,7 +40,6 @@ class RelationExtractor_DrugGene(RelationExtractor):
 		rel = RelationMention("DrugGene", mention1, mention2)
 		rel.add_features([sent.dep_path(mention1, mention2),])
 
-
 		drug = mention1.name.lower()
 		gene = mention2.symbol
 
