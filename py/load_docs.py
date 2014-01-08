@@ -8,6 +8,7 @@ from helper.easierlife import *
 from dstruct.Document import *
 
 for row in get_inputs():
+	log(docid)
 	docid = row["docids.docid"]
 	folder = row["docids.folder"]
 	doc = Document(docid)
