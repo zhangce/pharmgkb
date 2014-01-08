@@ -6,7 +6,6 @@ csv.field_size_limit(sys.maxsize)
 
 from extractor.Extractor import *
 from dstruct.Gene import *
-from dstruct.BinaryDependency import *
 
 from dstruct.Relation import *
 

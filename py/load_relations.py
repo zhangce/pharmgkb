@@ -10,10 +10,7 @@ from extractor.RelationExtractor_DrugGene import *
 relation_drug_gene = RelationExtractor_DrugGene()
 relation_drug_gene.loadDict()
 
-"""
-input: "SELECT t0.docid, t0.document, array_agg(t1.object) from documents t0, 
-mentions t1 WHERE t0.docid=t1.docid GROUP BY t0.docid, t0.document;"
-"""
+
 for row in get_inputs():
 
 	mention1 = deserialize(row["mentions.m1"])

@@ -6,7 +6,6 @@ csv.field_size_limit(sys.maxsize)
 
 from extractor.Extractor import *
 from dstruct.Drug import *
-from dstruct.BinaryDependency import *
 
 class EntityExtractor_Drug(MentionExtractor):
 
