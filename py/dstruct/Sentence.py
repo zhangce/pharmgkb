@@ -104,7 +104,7 @@ class Sentence(object):
         path = self.get_word_dep_path(i, j)
         paths.append(path)
 
-    return paths
+    return sorted(paths, key=len)[0:min(5,len(paths))]
 
   def dep_path(self, entity1, entity2):
   
