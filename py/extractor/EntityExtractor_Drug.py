@@ -3,15 +3,17 @@
 import random
 import sys
 import csv
-csv.field_size_limit(sys.maxsize)
-
 from extractor.Extractor import *
-from dstruct.Drug import *
+from dstruct.DrugMention import *
 
+csv.field_size_limit(sys.maxsize)
 DRUG_DICT = "/dicts/drugs.tsv"
 DICT_DIALECT = "excel-tab"
 
 class EntityExtractor_Drug(MentionExtractor):
+
+	NEG_QUOTA = 100
+	NEG_PROB = 0.01
 
 	dict_drug_names = None
 	dict_english    = None
@@ -21,7 +23,6 @@ class EntityExtractor_Drug(MentionExtractor):
 		self.dict_english = {}
 
 	def loadDict(self):
-
 		with open(BASE_FOLDER + DRUG_DICT) as tsv:
 			r = csv.reader(tsv, dialect=DICT_DIALECT)
 			headers = r.next()
@@ -52,10 +53,6 @@ class EntityExtractor_Drug(MentionExtractor):
 		#	mention.is_correct = False
 
 	def extract(self, doc):
-
-		NEG_QUOTA = 100
-		NEG_PROB = 0.01
-
 		for sent in doc.sents:
 			for (start, end) in get_all_phrases_in_sentence(sent, 5):
 
@@ -67,14 +64,13 @@ class EntityExtractor_Drug(MentionExtractor):
 					mention = DrugMention(doc.docid, lemma.lower(), sent.words[start:end])
 					mention.add_features(sent.dep_parent(mention))
 					self.supervise(doc, mention)
-					print mention.dumps()
-
+					return mention
 				elif NEG_QUOTA > 0 and random.random() < NEG_PROB:
 					negative_mention = DrugMention(doc.docid, lemma.lower(), sent.words[start:end])
 					negative_mention.add_features(sent.dep_parent(negative_mention))
 					negative_mention.is_correct = False
 					NEG_QUOTA = NEG_QUOTA - 1
-					print negative_mention.dumps()
+					return negative_mention
 
 
 

@@ -12,15 +12,18 @@ for row in get_inputs():
     doc = Document(docid)
 
     try:
-        for l in open(folder + "/input.text"):
-            ss = l.rstrip().split('\t')
-            if len(ss) < 3: continue
-            (insent_id, word, pos, ner, lemma, deppath, deppar, sentid, box) = ss
-            doc.push_word(Word(insent_id, word, pos, ner, lemma, deppath, deppar, sentid, box))
+      for l in open(folder + "/input.text"):
+        ss = l.rstrip().split('\t')
+        if len(ss) < 3: continue
+        (insent_id, word, pos, ner, lemma, deppath, deppar, sentid, box) = ss
+        doc.push_word(Word(insent_id, word, pos, ner, lemma, deppath, deppar, sentid, box))
     except:
-        continue
+      continue
 
-    print json.dumps({"docid":docid, "document":serialize(doc)})
+    print json.dumps({
+      "docid":docid, 
+      "document":serialize(doc)
+      })
 
 
 

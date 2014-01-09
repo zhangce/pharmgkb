@@ -5,21 +5,13 @@ from helper.easierlife import *
 class Mention(object):
 
 	docid = None
-
 	sentid = None
-
 	id = None	
-
 	type = None
-	
 	prov_words = None
-	
 	features = None
-
 	is_correct = None
-
 	start_wid = None
-	
 	end_wid = None
 
 	def add_features(self, features):

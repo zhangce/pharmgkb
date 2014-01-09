@@ -2,16 +2,7 @@
 
 import codecs
 from multiprocessing import *
-
 from helper.easierlife import *
-
-"""
-psql -U $DB_USER -c "CREATE TABLE relation_features (id   bigserial primary key, \
-											type             text,
-											gene_id          text,                  \
-											drug_id          text,
-											feature          text);"					$DB_NAME
-"""
 
 for doc in get_inputs():
 
@@ -26,5 +17,10 @@ for doc in get_inputs():
 		for sentid in d:
 			for m in d[sentid]:
 				for feature in m.features:
-					print json.dumps({"drug_id":m.m1.id, "type":m.type, "gene_id":m.m2.id, "feature":feature})
+					print json.dumps({
+						"drug_id":m.m1.id, 
+						"type":m.type, 
+						"gene_id":m.m2.id, 
+						"feature":feature
+					})
 				

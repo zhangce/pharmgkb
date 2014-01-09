@@ -2,15 +2,14 @@
 
 import sys
 import csv
-csv.field_size_limit(sys.maxsize)
-
+import os
 from extractor.Extractor import *
-from dstruct.Gene import *
-
+from dstruct.GeneMention import *
 from dstruct.Relation import *
 
 DICT_PATHWAY="/dicts/pathways-tsv/"
 DICT_DIALECT="excel-tab"
+csv.field_size_limit(sys.maxsize)
 
 class RelationExtractor_DrugGene(RelationExtractor):
 
@@ -20,8 +19,6 @@ class RelationExtractor_DrugGene(RelationExtractor):
 		self.dict_drug_gene = {}
 
 	def loadDict(self):
-
-		import os
 		for f in os.listdir(BASE_FOLDER + DICT_PATHWAY):
 			if f == '.DS_Store': continue
 			with open(BASE_FOLDER + DICT_PATHWAY + f) as tsv:
@@ -36,15 +33,13 @@ class RelationExtractor_DrugGene(RelationExtractor):
 							self.dict_drug_gene[line[0].lower()][w] = 1
 
 	def extract(self, sent, mention1, mention2):
-
 		rel = RelationMention("DrugGene", mention1, mention2)
 		rel.add_features([sent.dep_path(mention1, mention2),])
 
 		drug = mention1.name.lower()
 		gene = mention2.symbol
 
-		if drug in self.dict_drug_gene:
-			if gene in self.dict_drug_gene[drug]:
-				rel.is_correct = True
+		if (drug in self.dict_drug_gene) and (gene in self.dict_drug_gene[drug]):
+			rel.is_correct = True
 
-		print rel.dumps()
+		return rel
