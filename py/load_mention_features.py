@@ -1,16 +1,7 @@
 #! /usr/bin/env python
 
 import codecs
-from multiprocessing import *
-
 from helper.easierlife import *
-
-"""
-psql -U $DB_USER -c "CREATE TABLE mentions_features (id   bigserial primary key, \
-											mid          text,                  \
-											feature      text);"					$DB_NAME
-
-"""
 
 for doc in get_inputs():
 
@@ -23,6 +14,9 @@ for doc in get_inputs():
 	dicts = [candidate_gene_mentions, candidate_drug_mentions, candidate_motabolite_mentions]
 	for d in dicts:
 		for sentid in d:
-			for m in d[sentid]:
-				for feature in m.features:
-					print json.dumps({"mid":m.id, "feature":"[F-" + m.type + "] " + feature})
+			for mention in d[sentid]:
+				for feature in mention.features:
+					print json.dumps({
+						"mid":mention.id, 
+						"feature":"[F-" + mention.type + "] " + feature
+					})

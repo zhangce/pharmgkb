@@ -5,15 +5,10 @@ from helper.easierlife import *
 class RelationMention(object):
 
 	id = None	
-
 	type = None
-
 	m1 = None
-	
 	m2 = None
-
 	features = None
-
 	is_correct = None
 
 	def add_features(self, features):

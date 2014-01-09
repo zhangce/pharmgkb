@@ -39,8 +39,6 @@ class Mention(object):
 			"object":serialize(self)}))
 		fo.write('\n')
 		fo.close()
-
-
 		return json.dumps({"docid":self.docid, "mid":self.id, "type":self.type, 
 			"repr":self.__repr__(), "is_correct":self.is_correct,
 			"features":self.features, "sentid":self.sentid, "start_wid":self.start_wid,
