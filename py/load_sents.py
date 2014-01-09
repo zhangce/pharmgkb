@@ -8,6 +8,7 @@ entity_drug.loadDict()
 
 for row in get_inputs():
 	doc = deserialize(row["documents.document"])
+	log(doc.docid)
 	for sent in doc.sents:
 		print json.dumps({"docid":doc.docid, "sentid":sent.sentid, "sentence": serialize(sent)})
 
