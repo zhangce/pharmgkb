@@ -1,8 +1,8 @@
 #! /bin/bash
 
 # Configuration
-DB_NAME=deepdive_pgkb
-DB_USER=dennybritz
+DB_NAME=deepdive_titles
+DB_USER=czhang
 DB_PASSWORD="Password is set via the PGPASSWORD environment variable"
 
 cd `dirname $0`
