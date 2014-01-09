@@ -2,7 +2,7 @@
 
 # Configuration
 DB_NAME=deepdive_titles
-DB_USER=dennybritz
+DB_USER=czhang
 DB_PASSWORD="Password is set via the PGPASSWORD environment variable"
 
 psql -U $DB_USER -c "update gene_mentions t0 SET is_correct=False FROM gene_mentions t1 \

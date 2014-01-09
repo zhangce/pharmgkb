@@ -8,6 +8,6 @@ entity_drug.loadDict()
 
 for row in get_inputs():
 	doc = deserialize(row["documents.document"])
-	drug = entity_drug.extract(doc)
-	if drug != None:
-		print(drug.dumps)
+	for drug in entity_drug.extract(doc):
+		if drug != None:
+			print drug.dumps()

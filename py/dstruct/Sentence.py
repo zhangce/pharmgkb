@@ -2,7 +2,7 @@
 
 class Sentence(object):
 
-  MAXLEN = 1000 # to avoid bad parse tree that have self-recursion
+  _MAXLEN = 1000 # to avoid bad parse tree that have self-recursion
   sentid = None
   words = None
 
@@ -29,6 +29,7 @@ class Sentence(object):
   def get_path_till_root(self, word_index):
     path = []
     c = word_index
+    MAXLEN = self._MAXLEN
     while MAXLEN > 0:
       MAXLEN = MAXLEN -1
       try:
@@ -56,7 +57,7 @@ class Sentence(object):
   def get_direct_dependency_path_between_words(self, idx1, idx2):
     words_on_path = []
     c = idx1
-    MAXLEN = 1000
+    MAXLEN = self._MAXLEN
     while MAXLEN > 0:
       MAXLEN = MAXLEN - 1
       try:
