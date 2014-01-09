@@ -8,8 +8,8 @@ for row in get_inputs():
 	log(doc.docid)
 	for sent in doc.sents:
 		print json.dumps({
-      "docid": doc.docid, 
-      "sentid":sent.sentid, 
-      "sentence": serialize(sent)
+			"docid": doc.docid, 
+			"sentid":sent.sentid, 
+			"sentence": serialize(sent)
     })
 

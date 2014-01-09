@@ -3,11 +3,11 @@
 import random
 import sys
 import csv
-csv.field_size_limit(sys.maxsize)
 
 from extractor.Extractor import *
 from dstruct.GeneMention import *
 
+csv.field_size_limit(sys.maxsize)
 GENE_DICT = "/dicts/genes.tsv"
 DICT_DIALECT = "excel-tab"
 
