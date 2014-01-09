@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env pypy
 
 from helper.easierlife import *
 
@@ -24,6 +24,8 @@ for row in get_inputs():
     "docid":docid, 
     "document":serialize(doc)
   })
+
+
 
 
 

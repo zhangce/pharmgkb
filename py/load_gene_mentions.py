@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env pypy
 
 from helper.easierlife import *
 from extractor.EntityExtractor_Gene import *
